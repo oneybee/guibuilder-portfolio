@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Date",
+    "variant": "default",
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {
+          "style": {
+            "fontSize": "18px",
+            "fontWeight": 300
+          }
+        },
+        "children": [],
+        "text": "2018"
+      }
+    ],
+    "namespace": "PortofolioCard",
+    "props": {
+      "style": {
+        "paddingBottom": "5px"
+      }
+    }
+  }
+]

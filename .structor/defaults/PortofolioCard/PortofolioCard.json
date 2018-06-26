@@ -1,1 +1,40 @@
-[{"type":"PortofolioCard","props":{},"children":[],"namespace":"PortofolioCard"}]
+[
+  {
+    "type": "PortofolioCard",
+    "props": {
+      "style": {
+        "marginBottom": "1%",
+        "height": "600px"
+      }
+    },
+    "children": [
+      {
+        "type": "Title",
+        "variant": "default",
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {
+              "style": {
+                "color": "#f0e0e0",
+                "paddingTop": "66px"
+              }
+            },
+            "children": [],
+            "text": "FishText"
+          }
+        ],
+        "namespace": "PortofolioCard",
+        "props": {
+          "style": {
+            "paddingTop": "66px",
+            "fontSize": "60px"
+          }
+        }
+      }
+    ],
+    "namespace": "PortofolioCard",
+    "variant": "default"
+  }
+]

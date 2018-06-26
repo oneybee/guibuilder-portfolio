@@ -970,10 +970,36 @@
           "type": "PortofolioCard",
           "props": {
             "style": {
-              "backgroundColor": "#974040"
+              "paddingTop": "6%",
+              "paddingBottom": "6%"
             }
           },
           "children": [
+            {
+              "type": "Image",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
+                    "style": {
+                      "width": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ],
+              "namespace": "PortofolioCard",
+              "props": {
+                "style": {
+                  "paddingTop": "4%",
+                  "paddingRight": "4%",
+                  "paddingBottom": "4%"
+                }
+              }
+            },
             {
               "type": "Title",
               "variant": "default",
@@ -983,54 +1009,45 @@
                   "variant": "default",
                   "props": {
                     "style": {
-                      "color": "#f0e0e0",
-                      "paddingTop": "66px"
+                      "fontSize": "22.5px",
+                      "fontWeight": 300
                     }
                   },
                   "children": [],
-                  "text": "FishText"
+                  "text": "Chrome OS System menu"
                 }
               ],
               "namespace": "PortofolioCard",
               "props": {
                 "style": {
-                  "paddingTop": "66px"
+                  "paddingTop": "20px",
+                  "paddingBottom": "20px"
+                }
+              }
+            },
+            {
+              "type": "Text",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {},
+                  "children": [],
+                  "text": "A case study into the design and specs of the latest revamp of the Chrome OS' system menu, the transient, core point of access of the core system features."
+                }
+              ],
+              "namespace": "PortofolioCard",
+              "props": {
+                "style": {
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "marginBottom": "25px"
                 }
               }
             }
           ],
           "namespace": "PortofolioCard"
-        },
-        {
-          "type": "PortofolioCard",
-          "props": {},
-          "children": [
-            {
-              "type": "Title",
-              "variant": "default",
-              "children": [
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "color": "#b82c2c"
-                    }
-                  },
-                  "children": [],
-                  "text": "sdfsdfsdfText"
-                }
-              ],
-              "namespace": "PortofolioCard",
-              "props": {
-                "style": {
-                  "height": "105%"
-                }
-              }
-            }
-          ],
-          "namespace": "PortofolioCard",
-          "variant": "default"
         }
       ]
     }
