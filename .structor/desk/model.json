@@ -1059,7 +1059,8 @@
                       "textAlign": "center",
                       "display": "inline-block",
                       "cursor": "pointer",
-                      "lineHeight": "38px"
+                      "lineHeight": "38px",
+                      "textDecoration": "none"
                     }
                   },
                   "children": [
