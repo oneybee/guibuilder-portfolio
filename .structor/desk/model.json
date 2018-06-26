@@ -883,6 +883,156 @@
           "namespace": "Layout"
         }
       ]
+    },
+    {
+      "pageName": "Page77",
+      "pagePath": "/new-page2",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "padding": "1em"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "children": [
+                {
+                  "type": "h3",
+                  "props": {
+                    "style": {
+                      "padding": "1em",
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Click on me and start creating a new cool component."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page83",
+      "pagePath": "/About",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "padding": "1em"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "children": [
+                {
+                  "type": "h3",
+                  "props": {
+                    "style": {
+                      "padding": "1em",
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "P"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page89",
+      "pagePath": "/Projects",
+      "children": [
+        {
+          "type": "PortofolioCard",
+          "props": {
+            "style": {
+              "backgroundColor": "#974040"
+            }
+          },
+          "children": [
+            {
+              "type": "Title",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#f0e0e0",
+                      "paddingTop": "66px"
+                    }
+                  },
+                  "children": [],
+                  "text": "FishText"
+                }
+              ],
+              "namespace": "PortofolioCard",
+              "props": {
+                "style": {
+                  "paddingTop": "66px"
+                }
+              }
+            }
+          ],
+          "namespace": "PortofolioCard"
+        },
+        {
+          "type": "PortofolioCard",
+          "props": {},
+          "children": [
+            {
+              "type": "Title",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#b82c2c"
+                    }
+                  },
+                  "children": [],
+                  "text": "sdfsdfsdfText"
+                }
+              ],
+              "namespace": "PortofolioCard",
+              "props": {
+                "style": {
+                  "height": "105%"
+                }
+              }
+            }
+          ],
+          "namespace": "PortofolioCard",
+          "variant": "default"
+        }
+      ]
     }
   ]
 }
