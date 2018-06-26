@@ -985,7 +985,7 @@
                   "props": {
                     "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
                     "style": {
-                      "width": "100%"
+                      "width": "400px"
                     }
                   },
                   "children": []
