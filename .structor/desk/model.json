@@ -1021,8 +1021,7 @@
               "props": {
                 "style": {
                   "paddingTop": "20px",
-                  "paddingBottom": "20px",
-                  "height": "38px"
+                  "paddingBottom": "20px"
                 }
               }
             },
@@ -1057,8 +1056,10 @@
                   "props": {
                     "href": "#",
                     "style": {
+                      "textAlign": "center",
                       "display": "inline-block",
-                      "paddingTop": "10px"
+                      "cursor": "pointer",
+                      "lineHeight": "38px"
                     }
                   },
                   "children": [
@@ -1069,8 +1070,6 @@
                         "style": {
                           "fontSize": "12px",
                           "fontWeight": 600,
-                          "height": "38px",
-                          "marginBottom": "10px",
                           "paddingRight": "50px",
                           "paddingLeft": "50px",
                           "color": "#2963ff",
@@ -1089,8 +1088,8 @@
                   "borderColor": "#2963ff",
                   "borderRadius": "4px",
                   "width": "167.7px",
-                  "height": "38px",
-                  "display": "inline-block"
+                  "display": "inline-block",
+                  "height": "38px"
                 }
               }
             }
