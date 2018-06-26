@@ -1,34 +1,32 @@
 [
   {
-    "type": "Title",
+    "type": "Image",
     "variant": "default",
     "children": [],
     "namespace": "PortofolioCard"
   },
   {
-    "type": "Title",
+    "type": "Image",
     "namespace": "PortofolioCard",
     "variant": "card01",
     "props": {
       "style": {
-        "paddingTop": "20px",
-        "paddingBottom": "20px"
+        "paddingTop": "4%",
+        "paddingRight": "4%",
+        "paddingBottom": "4%"
       }
     },
     "children": [
       {
-        "type": "span",
+        "type": "img",
         "variant": "default",
         "props": {
+          "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
           "style": {
-            "fontSize": "22.5px",
-            "fontWeight": 400,
-            "fontFamily": "Roboto Mono",
-            "color": "rgba(0, 0, 0, 0.7)"
+            "width": "400px"
           }
         },
-        "children": [],
-        "text": "Chrome OS System menu"
+        "children": []
       }
     ]
   }

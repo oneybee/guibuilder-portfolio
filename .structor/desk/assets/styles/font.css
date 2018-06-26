@@ -2,6 +2,9 @@
  *  Default Fonts
  */
 
+
+ @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700|Roboto:300,400,500,700');
+ 
  @font-face {
 	font-family: 'NanumSquare';
 	font-style: normal;

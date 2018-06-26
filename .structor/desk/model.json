@@ -1010,7 +1010,9 @@
                   "props": {
                     "style": {
                       "fontSize": "22.5px",
-                      "fontWeight": 300
+                      "fontWeight": 400,
+                      "fontFamily": "Roboto Mono",
+                      "color": "rgba(0, 0, 0, 0.7)"
                     }
                   },
                   "children": [],
@@ -1032,7 +1034,13 @@
                 {
                   "type": "span",
                   "variant": "default",
-                  "props": {},
+                  "props": {
+                    "style": {
+                      "fontFamily": "Roboto",
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "lineHeight": "30px"
+                    }
+                  },
                   "children": [],
                   "text": "A case study into the design and specs of the latest revamp of the Chrome OS' system menu, the transient, core point of access of the core system features."
                 }
@@ -1074,7 +1082,8 @@
                           "paddingRight": "50px",
                           "paddingLeft": "50px",
                           "color": "#2963ff",
-                          "letterSpacing": "1px"
+                          "letterSpacing": "1px",
+                          "fontFamily": "Roboto"
                         }
                       }
                     }

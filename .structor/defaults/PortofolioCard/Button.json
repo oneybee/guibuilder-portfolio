@@ -1,0 +1,57 @@
+[
+  {
+    "type": "Button",
+    "variant": "default",
+    "children": [],
+    "namespace": "PortofolioCard"
+  },
+  {
+    "type": "Button",
+    "namespace": "PortofolioCard",
+    "variant": "card01",
+    "props": {
+      "style": {
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "borderColor": "#2963ff",
+        "borderRadius": "4px",
+        "width": "167.7px",
+        "display": "inline-block",
+        "height": "38px"
+      }
+    },
+    "children": [
+      {
+        "type": "a",
+        "variant": "default",
+        "props": {
+          "href": "#",
+          "style": {
+            "textAlign": "center",
+            "display": "inline-block",
+            "cursor": "pointer",
+            "lineHeight": "38px",
+            "textDecoration": "none"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "SEE MORE",
+            "props": {
+              "style": {
+                "fontSize": "12px",
+                "fontWeight": 600,
+                "paddingRight": "50px",
+                "paddingLeft": "50px",
+                "color": "#2963ff",
+                "letterSpacing": "1px",
+                "fontFamily": "Roboto"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
