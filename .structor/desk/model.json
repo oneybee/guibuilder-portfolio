@@ -1027,7 +1027,8 @@
                           "paddingRight": "20px",
                           "paddingLeft": "20px",
                           "borderRadius": "16px",
-                          "boxShadow": "0 5px 20px rgba(41, 99, 255, 0.30)"
+                          "boxShadow": "0 5px 20px rgba(41, 99, 255, 0.30)",
+                          "cursor": "pointer"
                         }
                       }
                     }
@@ -1055,7 +1056,8 @@
                           "marginRight": "35px",
                           "fontWeight": 500,
                           "textTransform": "uppercase",
-                          "letterSpacing": "2px"
+                          "letterSpacing": "2px",
+                          "cursor": "pointer"
                         }
                       }
                     }
@@ -1083,7 +1085,8 @@
                           "marginRight": "35px",
                           "fontWeight": 500,
                           "textTransform": "uppercase",
-                          "letterSpacing": "2px"
+                          "letterSpacing": "2px",
+                          "cursor": "pointer"
                         }
                       }
                     }
@@ -1111,7 +1114,8 @@
                           "marginRight": "35px",
                           "fontWeight": 500,
                           "textTransform": "uppercase",
-                          "letterSpacing": "2px"
+                          "letterSpacing": "2px",
+                          "cursor": "pointer"
                         }
                       }
                     }
@@ -1139,7 +1143,8 @@
                           "marginRight": "35px",
                           "fontWeight": 500,
                           "textTransform": "uppercase",
-                          "letterSpacing": "2px"
+                          "letterSpacing": "2px",
+                          "cursor": "pointer"
                         }
                       }
                     }
@@ -1449,7 +1454,8 @@
                               "borderRadius": "4px",
                               "width": "109.28px",
                               "display": "inline-block",
-                              "height": "38px"
+                              "height": "38px",
+                              "marginBottom": "10px"
                             }
                           }
                         }
