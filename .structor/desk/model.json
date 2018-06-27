@@ -1152,7 +1152,9 @@
                   "fontFamily": "Roboto",
                   "marginTop": "2%",
                   "marginBottom": "2%",
-                  "color": "#969696"
+                  "color": "#969696",
+                  "lineHeight": "24px",
+                  "textSizeAdjust": "100%"
                 }
               }
             },
