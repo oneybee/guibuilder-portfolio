@@ -1009,151 +1009,149 @@
               "variant": "default",
               "children": [
                 {
-                  "type": "PortofolioCard",
-                  "props": {
-                    "style": {
-                      "paddingTop": "6%",
-                      "paddingBottom": "6px"
-                    }
-                  },
+                  "type": "Column",
+                  "variant": "default",
                   "children": [
                     {
-                      "type": "Image",
-                      "variant": "default",
+                      "type": "PortofolioCard",
+                      "props": {},
                       "children": [
                         {
-                          "type": "img",
+                          "type": "Image",
                           "variant": "default",
-                          "props": {
-                            "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
-                            "style": {
-                              "width": "400px"
+                          "children": [
+                            {
+                              "type": "img",
+                              "variant": "default",
+                              "props": {
+                                "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
+                                "style": {
+                                  "width": "100%"
+                                }
+                              },
+                              "children": []
                             }
-                          },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "paddingTop": "4%",
-                          "paddingRight": "4%",
-                          "paddingBottom": "4%"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Title",
-                      "variant": "default",
-                      "children": [
+                          ],
+                          "namespace": "PortofolioCard",
+                          "props": {
+                            "style": {
+                              "paddingTop": "4%",
+                              "paddingRight": "4%",
+                              "paddingBottom": "4%"
+                            }
+                          }
+                        },
                         {
-                          "type": "span",
+                          "type": "Title",
                           "variant": "default",
-                          "props": {
-                            "style": {
-                              "fontSize": "22.5px",
-                              "fontWeight": 400,
-                              "fontFamily": "Roboto Mono",
-                              "color": "rgba(0, 0, 0, 0.7)"
-                            }
-                          },
-                          "children": [],
-                          "text": "Chrome OS System menu"
-                        }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "paddingTop": "20px",
-                          "paddingBottom": "20px"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Text",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "span",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "fontFamily": "Roboto",
-                              "color": "rgba(0, 0, 0, 0.7)",
-                              "lineHeight": "30px"
-                            }
-                          },
-                          "children": [],
-                          "text": "A case study into the design and specs of the latest revamp of the Chrome OS' system menu, the transient, core point of access of the core system features."
-                        }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "fontSize": "15px",
-                          "fontWeight": 400,
-                          "marginBottom": "25px"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Button",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "a",
-                          "variant": "default",
-                          "props": {
-                            "href": "#",
-                            "style": {
-                              "textAlign": "center",
-                              "display": "inline-block",
-                              "cursor": "pointer",
-                              "lineHeight": "38px",
-                              "textDecoration": "none"
-                            }
-                          },
                           "children": [
                             {
                               "type": "span",
-                              "text": "SEE MORE",
+                              "variant": "default",
                               "props": {
                                 "style": {
-                                  "fontSize": "12px",
-                                  "fontWeight": 600,
-                                  "paddingRight": "50px",
-                                  "paddingLeft": "50px",
-                                  "color": "#2963ff",
-                                  "letterSpacing": "1px",
-                                  "fontFamily": "Roboto"
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
                                 }
-                              }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
                             }
-                          ]
+                          ],
+                          "namespace": "PortofolioCard",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          }
+                        },
+                        {
+                          "type": "Text",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "color": "rgba(0, 0, 0, 0.7)",
+                                  "lineHeight": "30px"
+                                }
+                              },
+                              "children": [],
+                              "text": "A case study into the design and specs of the latest revamp of the Chrome OS' system menu, the transient, core point of access of the core system features."
+                            }
+                          ],
+                          "namespace": "PortofolioCard",
+                          "props": {
+                            "style": {
+                              "fontSize": "15px",
+                              "fontWeight": 400,
+                              "marginBottom": "25px"
+                            }
+                          }
+                        },
+                        {
+                          "type": "Button",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "a",
+                              "variant": "default",
+                              "props": {
+                                "href": "#",
+                                "style": {
+                                  "textAlign": "center",
+                                  "display": "inline-block",
+                                  "cursor": "pointer",
+                                  "lineHeight": "38px",
+                                  "textDecoration": "none"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "SEE MORE",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "12px",
+                                      "fontWeight": 600,
+                                      "paddingRight": "50px",
+                                      "paddingLeft": "50px",
+                                      "color": "#2963ff",
+                                      "letterSpacing": "1px",
+                                      "fontFamily": "Roboto"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "namespace": "PortofolioCard",
+                          "props": {
+                            "style": {
+                              "borderStyle": "solid",
+                              "borderWidth": "1px",
+                              "borderColor": "#2963ff",
+                              "borderRadius": "4px",
+                              "width": "167.7px",
+                              "display": "inline-block",
+                              "height": "38px"
+                            }
+                          }
                         }
                       ],
-                      "namespace": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "borderStyle": "solid",
-                          "borderWidth": "1px",
-                          "borderColor": "#2963ff",
-                          "borderRadius": "4px",
-                          "width": "167.7px",
-                          "display": "inline-block",
-                          "height": "38px"
-                        }
-                      }
+                      "namespace": "PortofolioCard"
                     }
                   ],
-                  "namespace": "PortofolioCard"
-                },
-                {
-                  "type": "Column",
-                  "variant": "default",
-                  "children": [],
                   "namespace": "Layout",
-                  "props": {}
+                  "props": {
+                    "col": "6"
+                  }
                 },
                 {
                   "type": "Column",
@@ -1161,12 +1159,7 @@
                   "children": [
                     {
                       "type": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "paddingTop": "6%",
-                          "paddingBottom": "6px"
-                        }
-                      },
+                      "props": {},
                       "children": [
                         {
                           "type": "Image",
@@ -1178,7 +1171,7 @@
                               "props": {
                                 "src": "http://sebastien-gabriel.com/images/home-feature-chrome-desktop-article-small.png",
                                 "style": {
-                                  "width": "400px"
+                                  "width": "100%"
                                 }
                               },
                               "children": []
@@ -1302,7 +1295,9 @@
                     }
                   ],
                   "namespace": "Layout",
-                  "props": {}
+                  "props": {
+                    "col": "6"
+                  }
                 }
               ],
               "namespace": "Layout",

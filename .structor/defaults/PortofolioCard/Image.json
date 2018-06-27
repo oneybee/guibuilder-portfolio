@@ -23,7 +23,7 @@
         "props": {
           "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
           "style": {
-            "width": "400px"
+            "width": "100%"
           }
         },
         "children": []
