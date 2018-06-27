@@ -1002,11 +1002,22 @@
                 {
                   "type": "li",
                   "variant": "default",
-                  "props": {},
+                  "props": {
+                    "style": {
+                      "width": "100px"
+                    }
+                  },
                   "children": [
                     {
                       "type": "span",
-                      "text": "Home"
+                      "text": "Home",
+                      "props": {
+                        "style": {
+                          "fontFamily": "Roboto",
+                          "fontSize": "11px",
+                          "fontWeight": 500
+                        }
+                      }
                     }
                   ]
                 },

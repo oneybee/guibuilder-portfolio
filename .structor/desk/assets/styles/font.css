@@ -4,6 +4,9 @@
 
 
  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700|Roboto:300,400,500,700');
+ @font-face {font-family:"Roboto Medium";src:url("Roboto-Medium.eot?") format("eot"),url("Roboto-Medium.woff") format("woff"),url("Roboto-Medium.ttf") format("truetype"),url("Roboto-Medium.svg#Roboto-Medium") format("svg");font-weight:normal;font-style:normal;};
+ @import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
  
  @font-face {
 	font-family: 'NanumSquare';
