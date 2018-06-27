@@ -1019,7 +1019,15 @@
                           "fontWeight": 500,
                           "textTransform": "uppercase",
                           "letterSpacing": "2px",
-                          "marginRight": "35px"
+                          "marginRight": "35px",
+                          "backgroundColor": "rgb(41, 99, 255)",
+                          "color": "rgb(255, 255, 255)",
+                          "paddingTop": "10px",
+                          "paddingBottom": "10px",
+                          "paddingRight": "20px",
+                          "paddingLeft": "20px",
+                          "borderRadius": "16px",
+                          "boxShadow": "0 5px 20px rgba(41, 99, 255, 0.30)"
                         }
                       }
                     }
