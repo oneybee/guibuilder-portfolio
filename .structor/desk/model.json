@@ -967,6 +967,40 @@
       "pagePath": "/Projects",
       "children": [
         {
+          "type": "Title",
+          "variant": "default",
+          "children": [
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "textAlign": "left",
+                  "display": "block",
+                  "fontSize": "90px",
+                  "fontWeight": 700,
+                  "color": "rgba(0, 0, 0, 0.7)",
+                  "fontFamily": "Roboto"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Design at Google. Chrome, Chrome OS and Android",
+                  "props": {}
+                }
+              ]
+            }
+          ],
+          "namespace": "Title",
+          "props": {
+            "style": {
+              "paddingTop": "116.094px",
+              "paddingBottom": "116.094px"
+            }
+          }
+        },
+        {
           "type": "Row",
           "variant": "default",
           "children": [
