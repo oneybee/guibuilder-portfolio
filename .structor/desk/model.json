@@ -1004,7 +1004,8 @@
                   "variant": "default",
                   "props": {
                     "style": {
-                      "width": "100px"
+                      "display": "inline",
+                      "marginLeft": "10px"
                     }
                   },
                   "children": [
@@ -1024,7 +1025,12 @@
                 {
                   "type": "li",
                   "variant": "default",
-                  "props": {},
+                  "props": {
+                    "style": {
+                      "display": "inline",
+                      "marginLeft": "10px"
+                    }
+                  },
                   "children": [
                     {
                       "type": "span",
