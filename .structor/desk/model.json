@@ -1016,7 +1016,10 @@
                         "style": {
                           "fontFamily": "Roboto",
                           "fontSize": "11px",
-                          "fontWeight": 500
+                          "fontWeight": 500,
+                          "textTransform": "uppercase",
+                          "letterSpacing": "2px",
+                          "marginRight": "35px"
                         }
                       }
                     }
@@ -1028,13 +1031,24 @@
                   "props": {
                     "style": {
                       "display": "inline",
-                      "marginLeft": "10px"
+                      "marginLeft": "10px",
+                      "fontSize": "11px",
+                      "fontWeight": 300
                     }
                   },
                   "children": [
                     {
                       "type": "span",
-                      "text": "Home"
+                      "text": "get in touch",
+                      "props": {
+                        "style": {
+                          "fontFamily": "Roboto",
+                          "fontSize": "11px",
+                          "fontWeight": 500,
+                          "textTransform": "uppercase",
+                          "letterSpacing": "2px"
+                        }
+                      }
                     }
                   ]
                 }
