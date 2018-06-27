@@ -975,25 +975,9 @@
               "variant": "default",
               "children": [
                 {
-                  "type": "p",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "textAlign": "left",
-                      "display": "block",
-                      "fontSize": "90px",
-                      "fontWeight": 700,
-                      "color": "rgba(0, 0, 0, 0.7)",
-                      "fontFamily": "Roboto"
-                    }
-                  },
-                  "children": [
-                    {
-                      "type": "span",
-                      "text": "Design at Google. Chrome, Chrome OS and Android",
-                      "props": {}
-                    }
-                  ]
+                  "type": "span",
+                  "text": "Design at Google. Chrome, Chrome OS and Android",
+                  "props": {}
                 }
               ],
               "namespace": "Title",
@@ -1120,8 +1104,8 @@
                                     "style": {
                                       "fontSize": "12px",
                                       "fontWeight": 600,
-                                      "paddingRight": "50px",
-                                      "paddingLeft": "50px",
+                                      "paddingRight": "30px",
+                                      "paddingLeft": "30px",
                                       "color": "#2963ff",
                                       "letterSpacing": "1px",
                                       "fontFamily": "Roboto"
@@ -1138,9 +1122,10 @@
                               "borderWidth": "1px",
                               "borderColor": "#2963ff",
                               "borderRadius": "4px",
-                              "width": "167.7px",
+                              "width": "127.08px",
                               "display": "inline-block",
-                              "height": "38px"
+                              "height": "38px",
+                              "marginBottom": "10px"
                             }
                           }
                         }
@@ -1150,7 +1135,11 @@
                   ],
                   "namespace": "Layout",
                   "props": {
-                    "col": "6"
+                    "col": "6",
+                    "style": {
+                      "marginTop": "6%",
+                      "marginBottom": "6%"
+                    }
                   }
                 },
                 {
@@ -1296,7 +1285,11 @@
                   ],
                   "namespace": "Layout",
                   "props": {
-                    "col": "6"
+                    "col": "6",
+                    "style": {
+                      "marginTop": "6%",
+                      "marginBottom": "6%"
+                    }
                   }
                 }
               ],
