@@ -1,0 +1,33 @@
+[
+  {
+    "type": "Title",
+    "variant": "default",
+    "children": [],
+    "namespace": "Title"
+  },
+  {
+    "type": "Title",
+    "namespace": "Title",
+    "variant": "portfolio-title",
+    "props": {
+      "style": {
+        "paddingTop": "116.094px",
+        "paddingBottom": "116.094px"
+      }
+    },
+    "children": [
+      {
+        "type": "span",
+        "text": "Design at Google. Chrome, Chrome OS and Android.",
+        "props": {
+          "style": {
+            "color": "rgba(0, 0, 0, 0.7)",
+            "fontFamily": "Roboto",
+            "fontSize": "90px",
+            "fontWeight": 700
+          }
+        }
+      }
+    ]
+  }
+]

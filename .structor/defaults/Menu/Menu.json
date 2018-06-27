@@ -1,0 +1,180 @@
+[
+  {
+    "type": "Menu",
+    "variant": "default",
+    "children": [],
+    "namespace": "Menu"
+  },
+  {
+    "type": "Menu",
+    "namespace": "Menu",
+    "variant": "portfolio-menu",
+    "props": {
+      "style": {
+        "fontFamily": "Roboto",
+        "marginTop": "2%",
+        "marginBottom": "2%",
+        "color": "#969696",
+        "lineHeight": "24px"
+      }
+    },
+    "children": [
+      {
+        "type": "li",
+        "variant": "default",
+        "props": {
+          "style": {
+            "display": "inline-block",
+            "marginLeft": "10px",
+            "height": "40px"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Home",
+            "props": {
+              "style": {
+                "fontFamily": "Roboto",
+                "fontSize": "11px",
+                "fontWeight": 500,
+                "textTransform": "uppercase",
+                "letterSpacing": "2px",
+                "marginRight": "35px",
+                "backgroundColor": "rgb(41, 99, 255)",
+                "color": "rgb(255, 255, 255)",
+                "paddingTop": "10px",
+                "paddingBottom": "10px",
+                "paddingRight": "20px",
+                "paddingLeft": "20px",
+                "borderRadius": "16px",
+                "boxShadow": "0 5px 20px rgba(41, 99, 255, 0.30)",
+                "cursor": "pointer"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "variant": "default",
+        "props": {
+          "style": {
+            "display": "inline-block",
+            "marginLeft": "10px",
+            "fontSize": "11px",
+            "fontWeight": 300,
+            "height": "40px"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "get in touch",
+            "props": {
+              "style": {
+                "fontFamily": "Roboto",
+                "fontSize": "11px",
+                "marginRight": "35px",
+                "fontWeight": 500,
+                "textTransform": "uppercase",
+                "letterSpacing": "2px",
+                "cursor": "pointer"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "variant": "default",
+        "props": {
+          "style": {
+            "display": "inline-block",
+            "marginLeft": "10px",
+            "fontSize": "11px",
+            "fontWeight": 300,
+            "height": "40px"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "work",
+            "props": {
+              "style": {
+                "fontFamily": "Roboto",
+                "fontSize": "11px",
+                "marginRight": "35px",
+                "fontWeight": 500,
+                "textTransform": "uppercase",
+                "letterSpacing": "2px",
+                "cursor": "pointer"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "variant": "default",
+        "props": {
+          "style": {
+            "display": "inline-block",
+            "marginLeft": "10px",
+            "fontSize": "11px",
+            "fontWeight": 300,
+            "height": "40px"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "writings",
+            "props": {
+              "style": {
+                "fontFamily": "Roboto",
+                "fontSize": "11px",
+                "marginRight": "35px",
+                "fontWeight": 500,
+                "textTransform": "uppercase",
+                "letterSpacing": "2px",
+                "cursor": "pointer"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "li",
+        "variant": "default",
+        "props": {
+          "style": {
+            "display": "inline-block",
+            "marginLeft": "10px",
+            "fontSize": "11px",
+            "fontWeight": 300,
+            "height": "40px"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "photography",
+            "props": {
+              "style": {
+                "fontFamily": "Roboto",
+                "fontSize": "11px",
+                "marginRight": "35px",
+                "fontWeight": 500,
+                "textTransform": "uppercase",
+                "letterSpacing": "2px",
+                "cursor": "pointer"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

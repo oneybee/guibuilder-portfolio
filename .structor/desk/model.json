@@ -971,27 +971,14 @@
           "variant": "default",
           "children": [
             {
-              "type": "Title",
-              "variant": "default",
-              "children": [
-                {
-                  "type": "span",
-                  "text": "Design at Google. Chrome, Chrome OS and Android.",
-                  "props": {
-                    "style": {
-                      "color": "rgba(0, 0, 0, 0.7)",
-                      "fontFamily": "Roboto",
-                      "fontSize": "90px",
-                      "fontWeight": 700
-                    }
-                  }
-                }
-              ],
-              "namespace": "Title",
+              "type": "span",
+              "text": "Design at Google. Chrome, Chrome OS and Android.",
               "props": {
                 "style": {
-                  "paddingTop": "116.094px",
-                  "paddingBottom": "116.094px"
+                  "color": "rgba(0, 0, 0, 0.7)",
+                  "fontFamily": "Roboto",
+                  "fontSize": "90px",
+                  "fontWeight": 700
                 }
               }
             },
