@@ -1,5 +1,6 @@
 import React from "react";
-import Page89 from "./Page89";
+import Page470 from "./Page470";
+import Page133 from "./Page133";
 
 class App extends React.Component {
   render() {
@@ -14,17 +15,22 @@ class App extends React.Component {
 export default {
   path: "/",
   component: App,
-  indexRoute: { component: Page89 },
+  indexRoute: { component: Page470 },
   childRoutes: [
     {
-      path: "/Projects",
-      name: "/Projects",
-      component: Page89
+      path: "/portfolio",
+      name: "/portfolio",
+      component: Page470
+    },
+    {
+      path: "/get-in-touch",
+      name: "/get-in-touch",
+      component: Page133
     },
     {
       path: "*",
       name: "notfound",
-      component: Page89
+      component: Page470
     }
   ]
 };
