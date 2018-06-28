@@ -1003,13 +1003,6 @@
                       "marginBottom": "15%"
                     }
                   }
-                },
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {},
-                  "children": [],
-                  "text": "Text"
                 }
               ],
               "namespace": "Animations",
@@ -1062,93 +1055,119 @@
                   ]
                 },
                 {
-                  "type": "Link",
+                  "type": "Hover",
                   "variant": "default",
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Link",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "get in touch",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "get in touch",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Router",
+                      "props": {
+                        "link": {},
+                        "to": "get-in-touch"
+                      }
                     }
                   ],
-                  "namespace": "Router",
+                  "namespace": "Animations",
                   "props": {
-                    "link": {},
-                    "to": "get-in-touch",
+                    "color": "#222",
                     "style": {
-                      "color": "#969696"
+                      "transitionTarget": "color",
+                      "color": "#969696",
+                      "transitionDuration": "0.25s"
                     }
                   }
                 },
                 {
-                  "type": "Link",
+                  "type": "Hover",
                   "variant": "default",
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Link",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "work",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "work",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Router",
+                      "props": {
+                        "to": "work"
+                      }
                     }
                   ],
-                  "namespace": "Router",
+                  "namespace": "Animations",
                   "props": {
+                    "color": "#222",
                     "style": {
-                      "color": "#969696"
-                    },
-                    "to": "work"
+                      "color": "#969696",
+                      "transitionDuration": "0.25s"
+                    }
                   }
                 },
                 {
-                  "type": "Link",
+                  "type": "a",
                   "variant": "default",
+                  "props": {
+                    "href": "#"
+                  },
                   "children": [
                     {
                       "type": "li",
@@ -1179,13 +1198,14 @@
                         }
                       ]
                     }
-                  ],
+                  ]
+                },
+                {
+                  "type": "Link",
+                  "variant": "default",
+                  "children": [],
                   "namespace": "Router",
-                  "props": {
-                    "style": {
-                      "color": "#969696"
-                    }
-                  }
+                  "props": {}
                 },
                 {
                   "type": "Link",
@@ -1222,11 +1242,7 @@
                     }
                   ],
                   "namespace": "Router",
-                  "props": {
-                    "style": {
-                      "color": "#969696"
-                    }
-                  }
+                  "props": {}
                 }
               ],
               "namespace": "Menu",
@@ -1274,7 +1290,13 @@
                                 }
                               ],
                               "namespace": "Animations",
-                              "props": {}
+                              "props": {
+                                "boxShadow": "10px 10px 5px 0px rgba(0,0,0,0.75)",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "4s"
+                                }
+                              }
                             }
                           ],
                           "namespace": "PortofolioCard",

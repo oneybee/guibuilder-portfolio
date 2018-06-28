@@ -46,7 +46,6 @@ class Page470 extends Component {
                 Design at Google. Chrome, Chrome OS and Android.
               </span>
             </Header>
-            <span>Text</span>
           </Hover>
           <Menu
             style={{
@@ -86,55 +85,69 @@ class Page470 extends Component {
                 Home
               </span>
             </li>
-            <Link to="get-in-touch" style={{ color: "#969696" }}>
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
-              >
-                <span
+            <Hover
+              color="#222"
+              style={{
+                transitionTarget: "color",
+                color: "#969696",
+                transitionDuration: "0.25s"
+              }}
+            >
+              <Link to="get-in-touch">
+                <li
                   style={{
-                    fontFamily: "Roboto",
+                    display: "inline-block",
+                    marginLeft: "10px",
                     fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
+                    height: "40px"
                   }}
                 >
-                  get in touch
-                </span>
-              </li>
-            </Link>
-            <Link style={{ color: "#969696" }} to="work">
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
-              >
-                <span
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    get in touch
+                  </span>
+                </li>
+              </Link>
+            </Hover>
+            <Hover
+              color="#222"
+              style={{ color: "#969696", transitionDuration: "0.25s" }}
+            >
+              <Link to="work">
+                <li
                   style={{
-                    fontFamily: "Roboto",
+                    display: "inline-block",
+                    marginLeft: "10px",
                     fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
+                    height: "40px"
                   }}
                 >
-                  work
-                </span>
-              </li>
-            </Link>
-            <Link style={{ color: "#969696" }}>
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    work
+                  </span>
+                </li>
+              </Link>
+            </Hover>
+            <a href="#">
               <li
                 style={{
                   display: "inline-block",
@@ -157,8 +170,9 @@ class Page470 extends Component {
                   writings
                 </span>
               </li>
-            </Link>
-            <Link style={{ color: "#969696" }}>
+            </a>
+            <Link />
+            <Link>
               <li
                 style={{
                   display: "inline-block",
