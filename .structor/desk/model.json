@@ -1302,19 +1302,6 @@
                             {
                               "type": "Hover",
                               "variant": "default",
-                              "children": [],
-                              "namespace": "Animations",
-                              "props": {
-                                "transition": {
-                                  "target": "all",
-                                  "time": 400
-                                },
-                                "boxShadow": "0px 12px 65px 2px rgba(41,99,255,0)"
-                              }
-                            },
-                            {
-                              "type": "Hover",
-                              "variant": "default",
                               "children": [
                                 {
                                   "type": "img",
@@ -1336,6 +1323,9 @@
                                 "transition": {
                                   "target": "all",
                                   "time": "400"
+                                },
+                                "style": {
+                                  "display": "inline-block"
                                 }
                               }
                             }

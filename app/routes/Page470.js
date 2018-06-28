@@ -214,12 +214,9 @@ class Page470 extends Component {
                   }}
                 >
                   <Hover
-                    transition={{ target: "all", time: 400 }}
-                    boxShadow="0px 12px 65px 2px rgba(41,99,255,0)"
-                  />
-                  <Hover
                     boxShadow="0px 12px 65px 1px rgba(41,99,255,0.1)"
                     transition={{ target: "all", time: "400" }}
+                    style={{ display: "inline-block" }}
                   >
                     <img
                       src="http://sebastien-gabriel.com/images/home-feature-system-menu.png"
