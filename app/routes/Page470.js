@@ -214,12 +214,20 @@ class Page470 extends Component {
                   }}
                 >
                   <Hover
-                    boxShadow="10px 10px 5px 0px rgba(0,0,0,0.75)"
+                    transition={{ target: "all", time: 400 }}
+                    boxShadow="0px 12px 65px 2px rgba(41,99,255,0)"
+                  />
+                  <Hover
+                    boxShadow="0px 12px 65px 1px rgba(41,99,255,0.1)"
                     transition={{ target: "all", time: "400" }}
                   >
                     <img
                       src="http://sebastien-gabriel.com/images/home-feature-system-menu.png"
-                      style={{ width: "100%", cursor: "pointer" }}
+                      style={{
+                        width: "100%",
+                        cursor: "pointer",
+                        height: "100%"
+                      }}
                     />
                   </Hover>
                 </Image>

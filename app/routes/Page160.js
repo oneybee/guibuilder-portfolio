@@ -11,6 +11,8 @@ import { Header } from "modules/Header";
 import { Menu } from "modules/Menu";
 import { Link } from "modules/Router";
 import { Hover } from "modules/Animations";
+import { Row, Column } from "modules/Layout";
+import { PortofolioCard, Title } from "modules/PortofolioCard";
 
 class Page160 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -220,6 +222,120 @@ class Page160 extends Component {
               </Hover>
             </a>
           </Menu>
+          <Row>
+            <Column col={6}>
+              <PortofolioCard>
+                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                  <span
+                    style={{
+                      fontSize: "22.5px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0, 0, 0, 0.7)"
+                    }}
+                  >
+                    Chrome OS System menu
+                  </span>
+                </Title>
+              </PortofolioCard>
+            </Column>
+            <Column col={6}>
+              <PortofolioCard>
+                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                  <span
+                    style={{
+                      fontSize: "22.5px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0, 0, 0, 0.7)"
+                    }}
+                  >
+                    Chrome OS System menu
+                  </span>
+                </Title>
+              </PortofolioCard>
+            </Column>
+            <Column col={12}>
+              <PortofolioCard>
+                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                  <span
+                    style={{
+                      fontSize: "22.5px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0, 0, 0, 0.7)"
+                    }}
+                  >
+                    Chrome OS System menu
+                  </span>
+                </Title>
+              </PortofolioCard>
+            </Column>
+            <Column col={6}>
+              <PortofolioCard>
+                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                  <span
+                    style={{
+                      fontSize: "22.5px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0, 0, 0, 0.7)"
+                    }}
+                  >
+                    Chrome OS System menu
+                  </span>
+                </Title>
+              </PortofolioCard>
+            </Column>
+            <Column col={6}>
+              <PortofolioCard>
+                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                  <span
+                    style={{
+                      fontSize: "22.5px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0, 0, 0, 0.7)"
+                    }}
+                  >
+                    Chrome OS System menu
+                  </span>
+                </Title>
+              </PortofolioCard>
+            </Column>
+            <Column col={6}>
+              <PortofolioCard>
+                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                  <span
+                    style={{
+                      fontSize: "22.5px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0, 0, 0, 0.7)"
+                    }}
+                  >
+                    Chrome OS System menu
+                  </span>
+                </Title>
+              </PortofolioCard>
+            </Column>
+            <Column col={6}>
+              <PortofolioCard>
+                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                  <span
+                    style={{
+                      fontSize: "22.5px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0, 0, 0, 0.7)"
+                    }}
+                  >
+                    Chrome OS System menu
+                  </span>
+                </Title>
+              </PortofolioCard>
+            </Column>
+          </Row>
         </Container>
 
       </div>
