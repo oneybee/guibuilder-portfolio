@@ -4,8 +4,8 @@
  *
  */
 
-import React, { Component } from 'react'
-import styled, { css } from 'styled-components'
+import React, { Component } from "react";
+import styled, { css } from "styled-components";
 
 const HoverWrapper = styled.span`
   ${props =>
@@ -21,14 +21,14 @@ const HoverWrapper = styled.span`
     props.transition.time &&
     css`
       -webkit-transition: ${props.transition.target}
-        ${props.transition.time + 'ms'}; /* Safari */
-      transition: ${props.transition.target} ${props.transition.time + 'ms'};
+        ${props.transition.time + "ms"}; /* Safari */
+      transition: ${props.transition.target} ${props.transition.time + "ms"};
     `};
-`
+`;
 class Hover extends Component {
   render() {
-    return <HoverWrapper {...this.props}>{this.props.children}</HoverWrapper>
+    return <HoverWrapper {...this.props}>{this.props.children}</HoverWrapper>;
   }
 }
 
-export default Hover
+export default Hover;
