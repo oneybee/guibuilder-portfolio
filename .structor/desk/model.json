@@ -1057,32 +1057,45 @@
                   ]
                 },
                 {
-                  "type": "li",
+                  "type": "a",
                   "variant": "default",
                   "props": {
+                    "href": "/get-in-touch",
                     "style": {
-                      "display": "inline-block",
-                      "marginLeft": "10px",
-                      "fontSize": "11px",
-                      "fontWeight": 300,
-                      "height": "40px"
+                      "textDecoration": "none",
+                      "color": "#969696"
                     }
                   },
                   "children": [
                     {
-                      "type": "span",
-                      "text": "get in touch",
+                      "type": "li",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "fontFamily": "Roboto",
+                          "display": "inline-block",
+                          "marginLeft": "10px",
                           "fontSize": "11px",
-                          "marginRight": "35px",
-                          "fontWeight": 400,
-                          "textTransform": "uppercase",
-                          "letterSpacing": "2px",
-                          "cursor": "pointer"
+                          "fontWeight": 300,
+                          "height": "40px"
                         }
-                      }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "get in touch",
+                          "props": {
+                            "style": {
+                              "fontFamily": "Roboto",
+                              "fontSize": "11px",
+                              "marginRight": "35px",
+                              "fontWeight": 400,
+                              "textTransform": "uppercase",
+                              "letterSpacing": "2px",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
                     }
                   ]
                 },
