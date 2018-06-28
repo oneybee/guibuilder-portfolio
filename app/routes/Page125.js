@@ -10,7 +10,7 @@ import { Container } from "modules/Container";
 import { Menu } from "modules/Menu";
 import { Row, Column } from "modules/Layout";
 import { Image, Text, Button } from "modules/PortofolioCard";
-import * as Title from "modules/Title";
+import * as Header from "modules/Header";
 import * as PortofolioCard from "modules/PortofolioCard";
 
 class Page125 extends Component {
@@ -22,7 +22,7 @@ class Page125 extends Component {
         <Container
           style={{ width: "90%", maxWidth: "960px", margin: "0 auto" }}
         >
-          <Title.Title
+          <Header
             style={{ paddingTop: "116.094px", paddingBottom: "116.094px" }}
           >
             <span
@@ -35,7 +35,7 @@ class Page125 extends Component {
             >
               Design at Google. Chrome, Chrome OS and Android.
             </span>
-          </Title.Title>
+          </Header>
           <Menu
             style={{
               fontFamily: "Roboto",
