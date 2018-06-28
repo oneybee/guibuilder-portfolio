@@ -114,7 +114,7 @@ class Page470 extends Component {
                 </span>
               </li>
             </Link>
-            <Link to="/portfolio" color="#969696">
+            <Link style={{ color: "#969696" }}>
               <li
                 style={{
                   display: "inline-block",
@@ -139,7 +139,7 @@ class Page470 extends Component {
                 </span>
               </li>
             </Link>
-            <Link color="#969696">
+            <Link style={{ color: "#969696" }}>
               <li
                 style={{
                   display: "inline-block",
@@ -164,7 +164,7 @@ class Page470 extends Component {
                 </span>
               </li>
             </Link>
-            <Link color="#969696">
+            <Link style={{ color: "#969696" }}>
               <li
                 style={{
                   display: "inline-block",

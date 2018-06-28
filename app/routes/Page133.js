@@ -9,6 +9,7 @@ import React, { Component } from "react";
 import { Container } from "modules/Container";
 import { Header } from "modules/Header";
 import { Menu } from "modules/Menu";
+import { Link } from "modules/Router";
 
 class Page133 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -119,29 +120,31 @@ class Page133 extends Component {
               lineHeight: "24px"
             }}
           >
-            <li
-              style={{
-                display: "inline-block",
-                marginLeft: "10px",
-                fontSize: "11px",
-                fontWeight: 300,
-                height: "40px"
-              }}
-            >
-              <span
+            <Link to="/portfolio" style={{ color: "#969696" }}>
+              <li
                 style={{
-                  fontFamily: "Roboto",
+                  display: "inline-block",
+                  marginLeft: "10px",
                   fontSize: "11px",
-                  marginRight: "35px",
-                  fontWeight: 400,
-                  textTransform: "uppercase",
-                  letterSpacing: "2px",
-                  cursor: "pointer"
+                  fontWeight: 300,
+                  height: "40px"
                 }}
               >
-                home
-              </span>
-            </li>
+                <span
+                  style={{
+                    fontFamily: "Roboto",
+                    fontSize: "11px",
+                    marginRight: "35px",
+                    fontWeight: 400,
+                    textTransform: "uppercase",
+                    letterSpacing: "2px",
+                    cursor: "pointer"
+                  }}
+                >
+                  home
+                </span>
+              </li>
+            </Link>
             <li
               style={{
                 display: "inline-block",
@@ -171,75 +174,81 @@ class Page133 extends Component {
                 get in touch
               </span>
             </li>
-            <li
-              style={{
-                display: "inline-block",
-                marginLeft: "10px",
-                fontSize: "11px",
-                fontWeight: 300,
-                height: "40px"
-              }}
-            >
-              <span
+            <Link style={{ color: "#969696" }}>
+              <li
                 style={{
-                  fontFamily: "Roboto",
+                  display: "inline-block",
+                  marginLeft: "10px",
                   fontSize: "11px",
-                  marginRight: "35px",
-                  fontWeight: 400,
-                  textTransform: "uppercase",
-                  letterSpacing: "2px",
-                  cursor: "pointer"
+                  fontWeight: 300,
+                  height: "40px"
                 }}
               >
-                work
-              </span>
-            </li>
-            <li
-              style={{
-                display: "inline-block",
-                marginLeft: "10px",
-                fontSize: "11px",
-                fontWeight: 300,
-                height: "40px"
-              }}
-            >
-              <span
+                <span
+                  style={{
+                    fontFamily: "Roboto",
+                    fontSize: "11px",
+                    marginRight: "35px",
+                    fontWeight: 400,
+                    textTransform: "uppercase",
+                    letterSpacing: "2px",
+                    cursor: "pointer"
+                  }}
+                >
+                  work
+                </span>
+              </li>
+            </Link>
+            <Link style={{ color: "#969696" }}>
+              <li
                 style={{
-                  fontFamily: "Roboto",
+                  display: "inline-block",
+                  marginLeft: "10px",
                   fontSize: "11px",
-                  marginRight: "35px",
-                  fontWeight: 400,
-                  textTransform: "uppercase",
-                  letterSpacing: "2px",
-                  cursor: "pointer"
+                  fontWeight: 300,
+                  height: "40px"
                 }}
               >
-                writings
-              </span>
-            </li>
-            <li
-              style={{
-                display: "inline-block",
-                marginLeft: "10px",
-                fontSize: "11px",
-                fontWeight: 300,
-                height: "40px"
-              }}
-            >
-              <span
+                <span
+                  style={{
+                    fontFamily: "Roboto",
+                    fontSize: "11px",
+                    marginRight: "35px",
+                    fontWeight: 400,
+                    textTransform: "uppercase",
+                    letterSpacing: "2px",
+                    cursor: "pointer"
+                  }}
+                >
+                  writings
+                </span>
+              </li>
+            </Link>
+            <Link style={{ color: "#969696" }}>
+              <li
                 style={{
-                  fontFamily: "Roboto",
+                  display: "inline-block",
+                  marginLeft: "10px",
                   fontSize: "11px",
-                  marginRight: "35px",
-                  fontWeight: 400,
-                  textTransform: "uppercase",
-                  letterSpacing: "2px",
-                  cursor: "pointer"
+                  fontWeight: 300,
+                  height: "40px"
                 }}
               >
-                photography
-              </span>
-            </li>
+                <span
+                  style={{
+                    fontFamily: "Roboto",
+                    fontSize: "11px",
+                    marginRight: "35px",
+                    fontWeight: 400,
+                    textTransform: "uppercase",
+                    letterSpacing: "2px",
+                    cursor: "pointer"
+                  }}
+                >
+                  photography
+                </span>
+              </li>
+            </Link>
           </Menu>
         </Container>
 

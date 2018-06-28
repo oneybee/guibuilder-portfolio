@@ -1137,7 +1137,6 @@
                   ],
                   "namespace": "Router",
                   "props": {
-                    "to": "/portfolio",
                     "style": {
                       "color": "#969696"
                     }
@@ -1732,37 +1731,61 @@
             },
             {
               "type": "Menu",
-              "variant": "default",
+              "namespace": "Menu",
+              "variant": "portfolio-menu",
+              "props": {
+                "style": {
+                  "fontFamily": "Roboto",
+                  "marginTop": "2%",
+                  "marginBottom": "2%",
+                  "color": "#969696",
+                  "lineHeight": "24px"
+                }
+              },
               "children": [
                 {
-                  "type": "li",
+                  "type": "Link",
                   "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "inline-block",
-                      "marginLeft": "10px",
-                      "fontSize": "11px",
-                      "fontWeight": 300,
-                      "height": "40px"
-                    }
-                  },
                   "children": [
                     {
-                      "type": "span",
-                      "text": "home",
+                      "type": "li",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "fontFamily": "Roboto",
+                          "display": "inline-block",
+                          "marginLeft": "10px",
                           "fontSize": "11px",
-                          "marginRight": "35px",
-                          "fontWeight": 400,
-                          "textTransform": "uppercase",
-                          "letterSpacing": "2px",
-                          "cursor": "pointer"
+                          "fontWeight": 300,
+                          "height": "40px"
                         }
-                      }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "home",
+                          "props": {
+                            "style": {
+                              "fontFamily": "Roboto",
+                              "fontSize": "11px",
+                              "marginRight": "35px",
+                              "fontWeight": 400,
+                              "textTransform": "uppercase",
+                              "letterSpacing": "2px",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
                     }
-                  ]
+                  ],
+                  "namespace": "Router",
+                  "props": {
+                    "link": {},
+                    "to": "/portfolio",
+                    "style": {
+                      "color": "#969696"
+                    }
+                  }
                 },
                 {
                   "type": "li",
@@ -1801,106 +1824,132 @@
                   ]
                 },
                 {
-                  "type": "li",
+                  "type": "Link",
                   "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "inline-block",
-                      "marginLeft": "10px",
-                      "fontSize": "11px",
-                      "fontWeight": 300,
-                      "height": "40px"
-                    }
-                  },
                   "children": [
                     {
-                      "type": "span",
-                      "text": "work",
+                      "type": "li",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "fontFamily": "Roboto",
+                          "display": "inline-block",
+                          "marginLeft": "10px",
                           "fontSize": "11px",
-                          "marginRight": "35px",
-                          "fontWeight": 400,
-                          "textTransform": "uppercase",
-                          "letterSpacing": "2px",
-                          "cursor": "pointer"
+                          "fontWeight": 300,
+                          "height": "40px"
                         }
-                      }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "work",
+                          "props": {
+                            "style": {
+                              "fontFamily": "Roboto",
+                              "fontSize": "11px",
+                              "marginRight": "35px",
+                              "fontWeight": 400,
+                              "textTransform": "uppercase",
+                              "letterSpacing": "2px",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
                     }
-                  ]
+                  ],
+                  "namespace": "Router",
+                  "props": {
+                    "style": {
+                      "color": "#969696"
+                    }
+                  }
                 },
                 {
-                  "type": "li",
+                  "type": "Link",
                   "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "inline-block",
-                      "marginLeft": "10px",
-                      "fontSize": "11px",
-                      "fontWeight": 300,
-                      "height": "40px"
-                    }
-                  },
                   "children": [
                     {
-                      "type": "span",
-                      "text": "writings",
+                      "type": "li",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "fontFamily": "Roboto",
+                          "display": "inline-block",
+                          "marginLeft": "10px",
                           "fontSize": "11px",
-                          "marginRight": "35px",
-                          "fontWeight": 400,
-                          "textTransform": "uppercase",
-                          "letterSpacing": "2px",
-                          "cursor": "pointer"
+                          "fontWeight": 300,
+                          "height": "40px"
                         }
-                      }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "writings",
+                          "props": {
+                            "style": {
+                              "fontFamily": "Roboto",
+                              "fontSize": "11px",
+                              "marginRight": "35px",
+                              "fontWeight": 400,
+                              "textTransform": "uppercase",
+                              "letterSpacing": "2px",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
                     }
-                  ]
+                  ],
+                  "namespace": "Router",
+                  "props": {
+                    "style": {
+                      "color": "#969696"
+                    }
+                  }
                 },
                 {
-                  "type": "li",
+                  "type": "Link",
                   "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "inline-block",
-                      "marginLeft": "10px",
-                      "fontSize": "11px",
-                      "fontWeight": 300,
-                      "height": "40px"
-                    }
-                  },
                   "children": [
                     {
-                      "type": "span",
-                      "text": "photography",
+                      "type": "li",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "fontFamily": "Roboto",
+                          "display": "inline-block",
+                          "marginLeft": "10px",
                           "fontSize": "11px",
-                          "marginRight": "35px",
-                          "fontWeight": 400,
-                          "textTransform": "uppercase",
-                          "letterSpacing": "2px",
-                          "cursor": "pointer"
+                          "fontWeight": 300,
+                          "height": "40px"
                         }
-                      }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "photography",
+                          "props": {
+                            "style": {
+                              "fontFamily": "Roboto",
+                              "fontSize": "11px",
+                              "marginRight": "35px",
+                              "fontWeight": 400,
+                              "textTransform": "uppercase",
+                              "letterSpacing": "2px",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
                     }
-                  ]
+                  ],
+                  "namespace": "Router",
+                  "props": {
+                    "style": {
+                      "color": "#969696"
+                    }
+                  }
                 }
-              ],
-              "namespace": "Menu",
-              "props": {
-                "style": {
-                  "fontFamily": "Roboto",
-                  "marginTop": "2%",
-                  "marginBottom": "2%",
-                  "color": "#969696",
-                  "lineHeight": "24px"
-                }
-              }
+              ]
             }
           ],
           "namespace": "Container",
