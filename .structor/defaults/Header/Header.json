@@ -29,5 +29,158 @@
         }
       }
     ]
+  },
+  {
+    "type": "Header",
+    "namespace": "Header",
+    "variant": "portfolio-header-02",
+    "props": {
+      "style": {
+        "marginTop": "15%",
+        "marginBottom": "15%"
+      }
+    },
+    "children": [
+      {
+        "type": "span",
+        "text": "Want to chat? Hit me up on ",
+        "props": {
+          "style": {
+            "color": "rgba(0, 0, 0, 0.7)",
+            "fontFamily": "Roboto",
+            "fontSize": "90px",
+            "fontWeight": 700,
+            "transitionTarget": "color"
+          },
+          "transition": {
+            "Target": "color"
+          },
+          "color": "pink"
+        }
+      },
+      {
+        "type": "a",
+        "variant": "default",
+        "props": {
+          "href": "#",
+          "style": {
+            "textDecoration": "none"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Twitter",
+            "props": {
+              "style": {
+                "color": "#2963ff",
+                "fontFamily": "Roboto",
+                "fontSize": "90px",
+                "fontWeight": 700
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "span",
+        "text": ", ",
+        "props": {
+          "style": {
+            "color": "rgba(0, 0, 0, 0.7)",
+            "fontFamily": "Roboto",
+            "fontSize": "90px",
+            "fontWeight": 700,
+            "transitionTarget": "color"
+          },
+          "transition": {
+            "Target": "color"
+          },
+          "color": "pink"
+        }
+      },
+      {
+        "type": "a",
+        "variant": "default",
+        "props": {
+          "href": "#",
+          "style": {
+            "textDecoration": "none"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Messenger ",
+            "props": {
+              "style": {
+                "color": "#2963ff",
+                "fontFamily": "Roboto",
+                "fontSize": "90px",
+                "fontWeight": 700
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "span",
+        "text": "or drop me an ",
+        "props": {
+          "style": {
+            "color": "rgba(0, 0, 0, 0.7)",
+            "fontFamily": "Roboto",
+            "fontSize": "90px",
+            "fontWeight": 700,
+            "transitionTarget": "color"
+          },
+          "transition": {
+            "Target": "color"
+          },
+          "color": "pink"
+        }
+      },
+      {
+        "type": "a",
+        "variant": "default",
+        "props": {
+          "href": "#",
+          "style": {
+            "textDecoration": "none"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "email",
+            "props": {
+              "style": {
+                "color": "#2963ff",
+                "fontFamily": "Roboto",
+                "fontSize": "90px",
+                "fontWeight": 700
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "span",
+        "text": ".",
+        "props": {
+          "style": {
+            "color": "rgba(0, 0, 0, 0.7)",
+            "fontFamily": "Roboto",
+            "fontSize": "90px",
+            "fontWeight": 700,
+            "transitionTarget": "color"
+          },
+          "transition": {
+            "Target": "color"
+          },
+          "color": "pink"
+        }
+      }
+    ]
   }
 ]
