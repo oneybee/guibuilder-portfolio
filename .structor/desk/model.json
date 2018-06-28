@@ -971,47 +971,33 @@
           "variant": "default",
           "children": [
             {
-              "type": "Hover",
+              "type": "Header",
               "variant": "default",
               "children": [
                 {
-                  "type": "Header",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "span",
-                      "text": "Design at Google. Chrome, Chrome OS and Android.",
-                      "props": {
-                        "style": {
-                          "color": "rgba(0, 0, 0, 0.7)",
-                          "fontFamily": "Roboto",
-                          "fontSize": "90px",
-                          "fontWeight": 700,
-                          "transitionTarget": "color"
-                        },
-                        "transition": {
-                          "Target": "color"
-                        },
-                        "color": "pink"
-                      }
-                    }
-                  ],
-                  "namespace": "Header",
+                  "type": "span",
+                  "text": "Design at Google. Chrome, Chrome OS and Android.",
                   "props": {
                     "style": {
-                      "marginTop": "15%",
-                      "marginBottom": "15%"
-                    }
+                      "color": "rgba(0, 0, 0, 0.7)",
+                      "fontFamily": "Roboto",
+                      "fontSize": "90px",
+                      "fontWeight": 700,
+                      "transitionTarget": "color"
+                    },
+                    "transition": {
+                      "Target": "color"
+                    },
+                    "color": "pink"
                   }
                 }
               ],
-              "namespace": "Animations",
+              "namespace": "Header",
               "props": {
                 "style": {
-                  "color": "blue"
-                },
-                "color": "pink",
-                "transition": {}
+                  "marginTop": "15%",
+                  "marginBottom": "15%"
+                }
               }
             },
             {
@@ -1055,11 +1041,11 @@
                   ]
                 },
                 {
-                  "type": "Hover",
+                  "type": "Link",
                   "variant": "default",
                   "children": [
                     {
-                      "type": "Link",
+                      "type": "Hover",
                       "variant": "default",
                       "children": [
                         {
@@ -1092,29 +1078,38 @@
                           ]
                         }
                       ],
-                      "namespace": "Router",
+                      "namespace": "Animations",
                       "props": {
-                        "link": {},
-                        "to": "get-in-touch"
+                        "color": "#222",
+                        "transition": {
+                          "target": "all"
+                        },
+                        "style": {
+                          "color": "#969696",
+                          "transition": {
+                            "Duration": "0.25s"
+                          },
+                          "transitionDuration": "0.25s"
+                        }
                       }
                     }
                   ],
-                  "namespace": "Animations",
+                  "namespace": "Router",
                   "props": {
-                    "color": "#222",
+                    "link": {},
+                    "to": "get-in-touch",
+                    "transition": {},
                     "style": {
-                      "transitionTarget": "color",
-                      "color": "#969696",
-                      "transitionDuration": "0.25s"
+                      "textDecoration": "none"
                     }
                   }
                 },
                 {
-                  "type": "Hover",
+                  "type": "Link",
                   "variant": "default",
                   "children": [
                     {
-                      "type": "Link",
+                      "type": "Hover",
                       "variant": "default",
                       "children": [
                         {
@@ -1147,19 +1142,19 @@
                           ]
                         }
                       ],
-                      "namespace": "Router",
+                      "namespace": "Animations",
                       "props": {
-                        "to": "work"
+                        "color": "#222",
+                        "style": {
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        }
                       }
                     }
                   ],
-                  "namespace": "Animations",
+                  "namespace": "Router",
                   "props": {
-                    "color": "#222",
-                    "style": {
-                      "color": "#969696",
-                      "transitionDuration": "0.25s"
-                    }
+                    "to": "work"
                   }
                 },
                 {
@@ -1170,79 +1165,111 @@
                   },
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "writings",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "writings",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "style": {
+                          "transition": {
+                            "Duration": "0.25s"
+                          },
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        },
+                        "trainsition": {
+                          "target": "all"
+                        },
+                        "color": "#222",
+                        "transition": {}
+                      }
                     }
                   ]
                 },
                 {
-                  "type": "Link",
+                  "type": "a",
                   "variant": "default",
-                  "children": [],
-                  "namespace": "Router",
-                  "props": {}
-                },
-                {
-                  "type": "Link",
-                  "variant": "default",
+                  "props": {
+                    "href": "#"
+                  },
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "photography",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "photography",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "transition": {
+                          "target": "all"
+                        },
+                        "style": {
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        },
+                        "color": "#222"
+                      }
                     }
-                  ],
-                  "namespace": "Router",
-                  "props": {}
+                  ]
                 }
               ],
               "namespace": "Menu",
@@ -1294,7 +1321,7 @@
                                 "boxShadow": "10px 10px 5px 0px rgba(0,0,0,0.75)",
                                 "transition": {
                                   "target": "all",
-                                  "time": "4s"
+                                  "time": "400"
                                 }
                               }
                             }
@@ -1772,41 +1799,62 @@
                   "variant": "default",
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "home",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "home",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "color": "#222",
+                        "transition": {
+                          "target": "all"
+                        },
+                        "style": {
+                          "color": "#969696",
+                          "transition": {
+                            "Duration": "0.25s"
+                          },
+                          "transitionDuration": "0.25s"
+                        }
+                      }
                     }
                   ],
                   "namespace": "Router",
                   "props": {
                     "link": {},
                     "to": "portfolio",
+                    "transition": {},
                     "style": {
-                      "color": "#969696"
+                      "textDecoration": "none"
                     }
                   }
                 },
@@ -1851,124 +1899,167 @@
                   "variant": "default",
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "work",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "work",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "color": "#222",
+                        "style": {
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        }
+                      }
                     }
                   ],
                   "namespace": "Router",
                   "props": {
-                    "style": {
-                      "color": "#969696"
-                    },
                     "to": "work"
                   }
                 },
                 {
-                  "type": "Link",
+                  "type": "a",
                   "variant": "default",
+                  "props": {
+                    "href": "#"
+                  },
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "writings",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "writings",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "style": {
+                          "transition": {
+                            "Duration": "0.25s"
+                          },
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        },
+                        "trainsition": {
+                          "target": "all"
+                        },
+                        "color": "#222",
+                        "transition": {}
+                      }
                     }
-                  ],
-                  "namespace": "Router",
-                  "props": {
-                    "style": {
-                      "color": "#969696"
-                    }
-                  }
+                  ]
                 },
                 {
-                  "type": "Link",
+                  "type": "a",
                   "variant": "default",
+                  "props": {
+                    "href": "#"
+                  },
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "photography",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "photography",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "transition": {
+                          "target": "all"
+                        },
+                        "style": {
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        },
+                        "color": "#222"
+                      }
                     }
-                  ],
-                  "namespace": "Router",
-                  "props": {
-                    "style": {
-                      "color": "#969696"
-                    }
-                  }
+                  ]
                 }
               ]
             }
@@ -2082,42 +2173,52 @@
                   "variant": "default",
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "home",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "home",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "color": "#222",
+                        "style": {
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        }
+                      }
                     }
                   ],
                   "namespace": "Router",
                   "props": {
-                    "link": {},
-                    "to": "portfolio",
-                    "style": {
-                      "color": "#969696"
-                    }
+                    "to": "portfolio"
                   }
                 },
                 {
@@ -2125,41 +2226,63 @@
                   "variant": "default",
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "get in touch",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "get in touch",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "color": "#222",
+                        "transition": {
+                          "target": "all"
+                        },
+                        "style": {
+                          "color": "#969696",
+                          "transition": {
+                            "Duration": "0.25s"
+                          },
+                          "transitionDuration": "0.25s"
+                        }
+                      }
                     }
                   ],
                   "namespace": "Router",
                   "props": {
+                    "link": {},
+                    "to": "get-in-touch",
+                    "transition": {},
                     "style": {
-                      "color": "#969696"
-                    },
-                    "to": "get-in-touch"
+                      "textDecoration": "none"
+                    }
                   }
                 },
                 {
@@ -2199,86 +2322,118 @@
                   ]
                 },
                 {
-                  "type": "Link",
+                  "type": "a",
                   "variant": "default",
+                  "props": {
+                    "href": "#"
+                  },
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "writings",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "writings",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "style": {
+                          "transition": {
+                            "Duration": "0.25s"
+                          },
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        },
+                        "trainsition": {
+                          "target": "all"
+                        },
+                        "color": "#222",
+                        "transition": {}
+                      }
                     }
-                  ],
-                  "namespace": "Router",
-                  "props": {
-                    "style": {
-                      "color": "#969696"
-                    }
-                  }
+                  ]
                 },
                 {
-                  "type": "Link",
+                  "type": "a",
                   "variant": "default",
+                  "props": {
+                    "href": "#"
+                  },
                   "children": [
                     {
-                      "type": "li",
+                      "type": "Hover",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "inline-block",
-                          "marginLeft": "10px",
-                          "fontSize": "11px",
-                          "height": "40px"
-                        }
-                      },
                       "children": [
                         {
-                          "type": "span",
-                          "text": "photography",
+                          "type": "li",
+                          "variant": "default",
                           "props": {
                             "style": {
-                              "fontFamily": "Roboto",
+                              "display": "inline-block",
+                              "marginLeft": "10px",
                               "fontSize": "11px",
-                              "marginRight": "35px",
-                              "fontWeight": 300,
-                              "textTransform": "uppercase",
-                              "letterSpacing": "2px",
-                              "cursor": "pointer"
+                              "height": "40px"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "photography",
+                              "props": {
+                                "style": {
+                                  "fontFamily": "Roboto",
+                                  "fontSize": "11px",
+                                  "marginRight": "35px",
+                                  "fontWeight": 300,
+                                  "textTransform": "uppercase",
+                                  "letterSpacing": "2px",
+                                  "cursor": "pointer"
+                                }
+                              }
+                            }
+                          ]
                         }
-                      ]
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "transition": {
+                          "target": "all"
+                        },
+                        "style": {
+                          "color": "#969696",
+                          "transitionDuration": "0.25s"
+                        },
+                        "color": "#222"
+                      }
                     }
-                  ],
-                  "namespace": "Router",
-                  "props": {
-                    "style": {
-                      "color": "#969696"
-                    }
-                  }
+                  ]
                 }
               ]
             }

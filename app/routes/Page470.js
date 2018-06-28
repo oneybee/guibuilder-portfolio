@@ -7,10 +7,10 @@
 import React, { Component } from "react";
 
 import { Container } from "modules/Container";
-import { Hover } from "modules/Animations";
 import { Header } from "modules/Header";
 import { Menu } from "modules/Menu";
 import { Link } from "modules/Router";
+import { Hover } from "modules/Animations";
 import { Row, Column } from "modules/Layout";
 import {
   PortofolioCard,
@@ -30,23 +30,21 @@ class Page470 extends Component {
         <Container
           style={{ width: "90%", maxWidth: "960px", margin: "0 auto" }}
         >
-          <Hover style={{ color: "blue" }} color="pink">
-            <Header style={{ marginTop: "15%", marginBottom: "15%" }}>
-              <span
-                style={{
-                  color: "rgba(0, 0, 0, 0.7)",
-                  fontFamily: "Roboto",
-                  fontSize: "90px",
-                  fontWeight: 700,
-                  transitionTarget: "color"
-                }}
-                transition={{ Target: "color" }}
-                color="pink"
-              >
-                Design at Google. Chrome, Chrome OS and Android.
-              </span>
-            </Header>
-          </Hover>
+          <Header style={{ marginTop: "15%", marginBottom: "15%" }}>
+            <span
+              style={{
+                color: "rgba(0, 0, 0, 0.7)",
+                fontFamily: "Roboto",
+                fontSize: "90px",
+                fontWeight: 700,
+                transitionTarget: "color"
+              }}
+              transition={{ Target: "color" }}
+              color="pink"
+            >
+              Design at Google. Chrome, Chrome OS and Android.
+            </span>
+          </Header>
           <Menu
             style={{
               fontFamily: "Roboto",
@@ -85,15 +83,12 @@ class Page470 extends Component {
                 Home
               </span>
             </li>
-            <Hover
-              color="#222"
-              style={{
-                transitionTarget: "color",
-                color: "#969696",
-                transitionDuration: "0.25s"
-              }}
-            >
-              <Link to="get-in-touch">
+            <Link to="get-in-touch" style={{ textDecoration: "none" }}>
+              <Hover
+                color="#222"
+                transition={{ target: "all" }}
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
+              >
                 <li
                   style={{
                     display: "inline-block",
@@ -116,13 +111,13 @@ class Page470 extends Component {
                     get in touch
                   </span>
                 </li>
-              </Link>
-            </Hover>
-            <Hover
-              color="#222"
-              style={{ color: "#969696", transitionDuration: "0.25s" }}
-            >
-              <Link to="work">
+              </Hover>
+            </Link>
+            <Link to="work">
+              <Hover
+                color="#222"
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
+              >
                 <li
                   style={{
                     display: "inline-block",
@@ -145,57 +140,68 @@ class Page470 extends Component {
                     work
                   </span>
                 </li>
-              </Link>
-            </Hover>
-            <a href="#">
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
-              >
-                <span
-                  style={{
-                    fontFamily: "Roboto",
-                    fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
-                  }}
-                >
-                  writings
-                </span>
-              </li>
-            </a>
-            <Link />
-            <Link>
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
-              >
-                <span
-                  style={{
-                    fontFamily: "Roboto",
-                    fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
-                  }}
-                >
-                  photography
-                </span>
-              </li>
+              </Hover>
             </Link>
+            <a href="#">
+              <Hover
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
+                trainsition={{ target: "all" }}
+                color="#222"
+              >
+                <li
+                  style={{
+                    display: "inline-block",
+                    marginLeft: "10px",
+                    fontSize: "11px",
+                    height: "40px"
+                  }}
+                >
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    writings
+                  </span>
+                </li>
+              </Hover>
+            </a>
+            <a href="#">
+              <Hover
+                transition={{ target: "all" }}
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
+                color="#222"
+              >
+                <li
+                  style={{
+                    display: "inline-block",
+                    marginLeft: "10px",
+                    fontSize: "11px",
+                    height: "40px"
+                  }}
+                >
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    photography
+                  </span>
+                </li>
+              </Hover>
+            </a>
           </Menu>
           <Row>
             <Column col="6" style={{ marginTop: "6%", marginBottom: "6%" }}>
@@ -207,7 +213,10 @@ class Page470 extends Component {
                     paddingBottom: "4%"
                   }}
                 >
-                  <Hover>
+                  <Hover
+                    boxShadow="10px 10px 5px 0px rgba(0,0,0,0.75)"
+                    transition={{ target: "all", time: "400" }}
+                  >
                     <img
                       src="http://sebastien-gabriel.com/images/home-feature-system-menu.png"
                       style={{ width: "100%", cursor: "pointer" }}

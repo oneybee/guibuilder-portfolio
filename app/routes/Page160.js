@@ -10,6 +10,7 @@ import { Container } from "modules/Container";
 import { Header } from "modules/Header";
 import { Menu } from "modules/Menu";
 import { Link } from "modules/Router";
+import { Hover } from "modules/Animations";
 
 class Page160 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -70,53 +71,64 @@ class Page160 extends Component {
               lineHeight: "24px"
             }}
           >
-            <Link to="portfolio" style={{ color: "#969696" }}>
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
+            <Link to="portfolio">
+              <Hover
+                color="#222"
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
               >
-                <span
+                <li
                   style={{
-                    fontFamily: "Roboto",
+                    display: "inline-block",
+                    marginLeft: "10px",
                     fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
+                    height: "40px"
                   }}
                 >
-                  home
-                </span>
-              </li>
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    home
+                  </span>
+                </li>
+              </Hover>
             </Link>
-            <Link style={{ color: "#969696" }} to="get-in-touch">
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
+            <Link to="get-in-touch" style={{ textDecoration: "none" }}>
+              <Hover
+                color="#222"
+                transition={{ target: "all" }}
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
               >
-                <span
+                <li
                   style={{
-                    fontFamily: "Roboto",
+                    display: "inline-block",
+                    marginLeft: "10px",
                     fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
+                    height: "40px"
                   }}
                 >
-                  get in touch
-                </span>
-              </li>
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    get in touch
+                  </span>
+                </li>
+              </Hover>
             </Link>
             <li
               style={{
@@ -147,54 +159,66 @@ class Page160 extends Component {
                 work
               </span>
             </li>
-            <Link style={{ color: "#969696" }}>
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
+            <a href="#">
+              <Hover
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
+                trainsition={{ target: "all" }}
+                color="#222"
               >
-                <span
+                <li
                   style={{
-                    fontFamily: "Roboto",
+                    display: "inline-block",
+                    marginLeft: "10px",
                     fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
+                    height: "40px"
                   }}
                 >
-                  writings
-                </span>
-              </li>
-            </Link>
-            <Link style={{ color: "#969696" }}>
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    writings
+                  </span>
+                </li>
+              </Hover>
+            </a>
+            <a href="#">
+              <Hover
+                transition={{ target: "all" }}
+                style={{ color: "#969696", transitionDuration: "0.25s" }}
+                color="#222"
               >
-                <span
+                <li
                   style={{
-                    fontFamily: "Roboto",
+                    display: "inline-block",
+                    marginLeft: "10px",
                     fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
+                    height: "40px"
                   }}
                 >
-                  photography
-                </span>
-              </li>
-            </Link>
+                  <span
+                    style={{
+                      fontFamily: "Roboto",
+                      fontSize: "11px",
+                      marginRight: "35px",
+                      fontWeight: 300,
+                      textTransform: "uppercase",
+                      letterSpacing: "2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    photography
+                  </span>
+                </li>
+              </Hover>
+            </a>
           </Menu>
         </Container>
 
