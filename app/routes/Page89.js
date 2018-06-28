@@ -7,6 +7,7 @@
 import React, { Component } from "react";
 
 import { Container } from "modules/Container";
+import { Header } from "modules/Header";
 import { Menu } from "modules/Menu";
 import { Row, Column } from "modules/Layout";
 import {
@@ -27,16 +28,18 @@ class Page89 extends Component {
         <Container
           style={{ width: "90%", maxWidth: "960px", margin: "0 auto" }}
         >
-          <span
-            style={{
-              color: "rgba(0, 0, 0, 0.7)",
-              fontFamily: "Roboto",
-              fontSize: "90px",
-              fontWeight: 700
-            }}
-          >
-            Design at Google. Chrome, Chrome OS and Android.
-          </span>
+          <Header style={{ marginTop: "15%", marginBottom: "15%" }}>
+            <span
+              style={{
+                color: "rgba(0, 0, 0, 0.7)",
+                fontFamily: "Roboto",
+                fontSize: "90px",
+                fontWeight: 700
+              }}
+            >
+              Design at Google. Chrome, Chrome OS and Android.
+            </span>
+          </Header>
           <Menu
             style={{
               fontFamily: "Roboto",
