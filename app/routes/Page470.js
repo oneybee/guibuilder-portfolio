@@ -30,11 +30,7 @@ class Page470 extends Component {
         <Container
           style={{ width: "90%", maxWidth: "960px", margin: "0 auto" }}
         >
-          <Hover
-            style={{ transitionTarget: "color" }}
-            color="pink"
-            transition={{ Target: "color" }}
-          >
+          <Hover style={{ color: "blue" }} color="pink">
             <Header style={{ marginTop: "15%", marginBottom: "15%" }}>
               <span
                 style={{
@@ -50,6 +46,7 @@ class Page470 extends Component {
                 Design at Google. Chrome, Chrome OS and Android.
               </span>
             </Header>
+            <span>Text</span>
           </Hover>
           <Menu
             style={{
@@ -89,13 +86,12 @@ class Page470 extends Component {
                 Home
               </span>
             </li>
-            <Link to="/get-in-touch" style={{ color: "#969696" }}>
+            <Link to="get-in-touch" style={{ color: "#969696" }}>
               <li
                 style={{
                   display: "inline-block",
                   marginLeft: "10px",
                   fontSize: "11px",
-                  fontWeight: 300,
                   height: "40px"
                 }}
               >
@@ -104,7 +100,7 @@ class Page470 extends Component {
                     fontFamily: "Roboto",
                     fontSize: "11px",
                     marginRight: "35px",
-                    fontWeight: 400,
+                    fontWeight: 300,
                     textTransform: "uppercase",
                     letterSpacing: "2px",
                     cursor: "pointer"
@@ -114,13 +110,12 @@ class Page470 extends Component {
                 </span>
               </li>
             </Link>
-            <Link style={{ color: "#969696" }}>
+            <Link style={{ color: "#969696" }} to="work">
               <li
                 style={{
                   display: "inline-block",
                   marginLeft: "10px",
                   fontSize: "11px",
-                  fontWeight: 300,
                   height: "40px"
                 }}
               >
@@ -129,7 +124,7 @@ class Page470 extends Component {
                     fontFamily: "Roboto",
                     fontSize: "11px",
                     marginRight: "35px",
-                    fontWeight: 400,
+                    fontWeight: 300,
                     textTransform: "uppercase",
                     letterSpacing: "2px",
                     cursor: "pointer"
@@ -145,7 +140,6 @@ class Page470 extends Component {
                   display: "inline-block",
                   marginLeft: "10px",
                   fontSize: "11px",
-                  fontWeight: 300,
                   height: "40px"
                 }}
               >
@@ -154,7 +148,7 @@ class Page470 extends Component {
                     fontFamily: "Roboto",
                     fontSize: "11px",
                     marginRight: "35px",
-                    fontWeight: 400,
+                    fontWeight: 300,
                     textTransform: "uppercase",
                     letterSpacing: "2px",
                     cursor: "pointer"
@@ -170,7 +164,6 @@ class Page470 extends Component {
                   display: "inline-block",
                   marginLeft: "10px",
                   fontSize: "11px",
-                  fontWeight: 300,
                   height: "40px"
                 }}
               >
@@ -179,7 +172,7 @@ class Page470 extends Component {
                     fontFamily: "Roboto",
                     fontSize: "11px",
                     marginRight: "35px",
-                    fontWeight: 400,
+                    fontWeight: 300,
                     textTransform: "uppercase",
                     letterSpacing: "2px",
                     cursor: "pointer"

@@ -1098,7 +1098,7 @@
                   "namespace": "Router",
                   "props": {
                     "link": {},
-                    "to": "/get-in-touch",
+                    "to": "get-in-touch",
                     "style": {
                       "color": "#969696"
                     }
@@ -1142,7 +1142,8 @@
                   "props": {
                     "style": {
                       "color": "#969696"
-                    }
+                    },
+                    "to": "work"
                   }
                 },
                 {
@@ -1781,7 +1782,7 @@
                   "namespace": "Router",
                   "props": {
                     "link": {},
-                    "to": "/portfolio",
+                    "to": "portfolio",
                     "style": {
                       "color": "#969696"
                     }
@@ -1861,7 +1862,8 @@
                   "props": {
                     "style": {
                       "color": "#969696"
-                    }
+                    },
+                    "to": "work"
                   }
                 },
                 {
@@ -2090,7 +2092,7 @@
                   "namespace": "Router",
                   "props": {
                     "link": {},
-                    "to": "/portfolio",
+                    "to": "portfolio",
                     "style": {
                       "color": "#969696"
                     }
@@ -2134,7 +2136,8 @@
                   "props": {
                     "style": {
                       "color": "#969696"
-                    }
+                    },
+                    "to": "get-in-touch"
                   }
                 },
                 {

@@ -1,6 +1,6 @@
 /**
  *
- * Page133
+ * Page160
  *
  */
 
@@ -11,7 +11,7 @@ import { Header } from "modules/Header";
 import { Menu } from "modules/Menu";
 import { Link } from "modules/Router";
 
-class Page133 extends Component {
+class Page160 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
@@ -33,7 +33,7 @@ class Page133 extends Component {
               transition={{ Target: "color" }}
               color="pink"
             >
-              Want to chat? Hit me up on{" "}
+              Simple, clean and precise UI design. Follow me on{" "}
             </span>
             <a href="#" style={{ textDecoration: "none" }}>
               <span
@@ -44,57 +44,7 @@ class Page133 extends Component {
                   fontWeight: 700
                 }}
               >
-                Twitter
-              </span>
-            </a>
-            <span
-              style={{
-                color: "rgba(0, 0, 0, 0.7)",
-                fontFamily: "Roboto",
-                fontSize: "90px",
-                fontWeight: 700,
-                transitionTarget: "color"
-              }}
-              transition={{ Target: "color" }}
-              color="pink"
-            >
-              ,{" "}
-            </span>
-            <a href="#" style={{ textDecoration: "none" }}>
-              <span
-                style={{
-                  color: "#2963ff",
-                  fontFamily: "Roboto",
-                  fontSize: "90px",
-                  fontWeight: 700
-                }}
-              >
-                Messenger{" "}
-              </span>
-            </a>
-            <span
-              style={{
-                color: "rgba(0, 0, 0, 0.7)",
-                fontFamily: "Roboto",
-                fontSize: "90px",
-                fontWeight: 700,
-                transitionTarget: "color"
-              }}
-              transition={{ Target: "color" }}
-              color="pink"
-            >
-              or drop me an{" "}
-            </span>
-            <a href="#" style={{ textDecoration: "none" }}>
-              <span
-                style={{
-                  color: "#2963ff",
-                  fontFamily: "Roboto",
-                  fontSize: "90px",
-                  fontWeight: 700
-                }}
-              >
-                email
+                Dribbble
               </span>
             </a>
             <span
@@ -144,6 +94,30 @@ class Page133 extends Component {
                 </span>
               </li>
             </Link>
+            <Link style={{ color: "#969696" }} to="get-in-touch">
+              <li
+                style={{
+                  display: "inline-block",
+                  marginLeft: "10px",
+                  fontSize: "11px",
+                  height: "40px"
+                }}
+              >
+                <span
+                  style={{
+                    fontFamily: "Roboto",
+                    fontSize: "11px",
+                    marginRight: "35px",
+                    fontWeight: 300,
+                    textTransform: "uppercase",
+                    letterSpacing: "2px",
+                    cursor: "pointer"
+                  }}
+                >
+                  get in touch
+                </span>
+              </li>
+            </Link>
             <li
               style={{
                 display: "inline-block",
@@ -170,33 +144,9 @@ class Page133 extends Component {
                   cursor: "pointer"
                 }}
               >
-                get in touch
+                work
               </span>
             </li>
-            <Link style={{ color: "#969696" }} to="work">
-              <li
-                style={{
-                  display: "inline-block",
-                  marginLeft: "10px",
-                  fontSize: "11px",
-                  height: "40px"
-                }}
-              >
-                <span
-                  style={{
-                    fontFamily: "Roboto",
-                    fontSize: "11px",
-                    marginRight: "35px",
-                    fontWeight: 300,
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    cursor: "pointer"
-                  }}
-                >
-                  work
-                </span>
-              </li>
-            </Link>
             <Link style={{ color: "#969696" }}>
               <li
                 style={{
@@ -253,4 +203,4 @@ class Page133 extends Component {
   }
 }
 
-export default Page133;
+export default Page160;
