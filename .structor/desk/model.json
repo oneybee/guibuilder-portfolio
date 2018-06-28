@@ -1302,6 +1302,19 @@
                             {
                               "type": "Hover",
                               "variant": "default",
+                              "children": [],
+                              "namespace": "Animations",
+                              "props": {
+                                "transition": {
+                                  "target": "all",
+                                  "time": 400
+                                },
+                                "boxShadow": "0px 12px 65px 2px rgba(41,99,255,0)"
+                              }
+                            },
+                            {
+                              "type": "Hover",
+                              "variant": "default",
                               "children": [
                                 {
                                   "type": "img",
@@ -1310,7 +1323,8 @@
                                     "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
                                     "style": {
                                       "width": "100%",
-                                      "cursor": "pointer"
+                                      "cursor": "pointer",
+                                      "height": "100%"
                                     }
                                   },
                                   "children": []
@@ -1318,7 +1332,7 @@
                               ],
                               "namespace": "Animations",
                               "props": {
-                                "boxShadow": "10px 10px 5px 0px rgba(0,0,0,0.75)",
+                                "boxShadow": "0px 12px 65px 1px rgba(41,99,255,0.1)",
                                 "transition": {
                                   "target": "all",
                                   "time": "400"
@@ -2436,6 +2450,328 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "Row",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "PortofolioCard",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "Title",
+                          "namespace": "PortofolioCard",
+                          "variant": "card01",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
+                                }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "PortofolioCard",
+                      "variant": "default"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "PortofolioCard",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "Title",
+                          "namespace": "PortofolioCard",
+                          "variant": "card01",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
+                                }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "PortofolioCard",
+                      "variant": "default"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "PortofolioCard",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "Title",
+                          "namespace": "PortofolioCard",
+                          "variant": "card01",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
+                                }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "PortofolioCard",
+                      "variant": "default"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 12
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "PortofolioCard",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "Title",
+                          "namespace": "PortofolioCard",
+                          "variant": "card01",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
+                                }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "PortofolioCard",
+                      "variant": "default"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "PortofolioCard",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "Title",
+                          "namespace": "PortofolioCard",
+                          "variant": "card01",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
+                                }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "PortofolioCard",
+                      "variant": "default"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "PortofolioCard",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "Title",
+                          "namespace": "PortofolioCard",
+                          "variant": "card01",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
+                                }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "PortofolioCard",
+                      "variant": "default"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "PortofolioCard",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "Title",
+                          "namespace": "PortofolioCard",
+                          "variant": "card01",
+                          "props": {
+                            "style": {
+                              "paddingTop": "20px",
+                              "paddingBottom": "20px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "22.5px",
+                                  "fontWeight": 400,
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "rgba(0, 0, 0, 0.7)"
+                                }
+                              },
+                              "children": [],
+                              "text": "Chrome OS System menu"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "PortofolioCard",
+                      "variant": "default"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6
+                  }
+                }
+              ],
+              "namespace": "Layout"
             }
           ],
           "namespace": "Container",
