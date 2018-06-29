@@ -65,7 +65,7 @@ class Page727 extends Component {
               <span style={{ display: "block" }}>
                 The Chrome OS system menu is one of the key part of all Chromebook. It is the quick access point to the most essential parts of the operationg system, akin to the quick settings menu on Android. Always avaialbe, this transient UI enables the user to control the core features of the OS such as WiFi, tethering, data, brightness, volume, VPN, Bluetooth, etc...
               </span>
-              <span style={{ display: "block" }}>br</span>
+              <span style={{ display: "block", color: "#ffffff" }}>br</span>
               <span style={{ display: "block" }}>br</span>
               <span style={{ display: "block" }}>br</span>
               <span style={{ display: "block" }}>
@@ -85,6 +85,27 @@ class Page727 extends Component {
               style={{ maxWidth: "100%" }}
             />
           </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-01.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-02.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-03.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
+          <span style={{ display: "block" }}>br</span>
+          <span style={{ display: "block" }}>br</span>
+          <span style={{ display: "block" }}>br</span>
         </Container>
 
       </div>
