@@ -44,6 +44,16 @@ class Page727 extends Component {
               >
                 <span>↤ Work /</span>
               </Link>
+              <span
+                style={{
+                  fontSize: "25px",
+                  fontWeight: 400,
+                  color: "rgba(0,0,0,70)",
+                  lineHeight: "40px"
+                }}
+              >
+                {" "}Chrome OS system menu
+              </span>
             </div>
           </Container>
         </Container>

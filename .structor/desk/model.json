@@ -3349,6 +3349,20 @@
                           "lineHeight": "20.8px"
                         }
                       }
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "25px",
+                          "fontWeight": 400,
+                          "color": "rgba(0,0,0,70)",
+                          "lineHeight": "40px"
+                        }
+                      },
+                      "children": [],
+                      "text": " Chrome OS system menu"
                     }
                   ]
                 }
