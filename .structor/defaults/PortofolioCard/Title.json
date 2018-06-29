@@ -44,14 +44,14 @@
         "props": {
           "style": {
             "fontSize": "17px",
-            "fontWeight": 300,
+            "fontWeight": 400,
             "fontFamily": "Roboto Mono",
             "color": "rgba(0,0,0,70)",
             "lineHeight": "27.2px"
           }
         },
         "children": [],
-        "text": "Chrome OS System menu"
+        "text": "Chrome for Windows"
       }
     ]
   }

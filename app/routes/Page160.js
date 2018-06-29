@@ -247,7 +247,7 @@ class Page160 extends Component {
                   <span
                     style={{
                       fontSize: "17px",
-                      fontWeight: 300,
+                      fontWeight: 400,
                       fontFamily: "Roboto Mono",
                       color: "rgb(90, 90, 90)",
                       lineHeight: "27.2px",
@@ -282,10 +282,11 @@ class Page160 extends Component {
                   <span
                     style={{
                       fontSize: "17px",
-                      fontWeight: 300,
+                      fontWeight: 400,
                       fontFamily: "Roboto Mono",
                       color: "rgba(0,0,0,70)",
-                      lineHeight: "27.2px"
+                      lineHeight: "27.2px",
+                      cursor: "pointer"
                     }}
                   >
                     Chrome for Windows
@@ -294,81 +295,175 @@ class Page160 extends Component {
               </PortofolioCard>
             </Column>
             <Column col={12}>
-              <PortofolioCard>
+              <PortofolioCard style={{ marginBottom: "10%" }}>
+                <Image style={{ paddingBottom: "20px" }}>
+                  <img
+                    src="http://sebastien-gabriel.com/images/portfolio/chrome-macos.png"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  />
+                </Image>
+                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
+                  <span
+                    style={{
+                      fontSize: "11px",
+                      fontWeight: 400,
+                      lineHeight: "17.6px"
+                    }}
+                  >
+                    JUL 2016
+                  </span>
+                </Date>
                 <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
                   <span
                     style={{
                       fontSize: "22.5px",
                       fontWeight: 400,
                       fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)"
+                      color: "rgba(0, 0, 0, 0.7)",
+                      cursor: "pointer"
                     }}
                   >
-                    Chrome OS System menu
+                    Chrome for MacOS
                   </span>
                 </Title>
               </PortofolioCard>
             </Column>
             <Column col={6}>
-              <PortofolioCard>
-                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+              <PortofolioCard style={{ paddingBottom: "20%" }}>
+                <Image style={{ paddingBottom: "20px" }}>
+                  <img
+                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  />
+                </Image>
+                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
                     style={{
-                      fontSize: "22.5px",
+                      fontSize: "11px",
                       fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)"
+                      lineHeight: "17.6px"
                     }}
                   >
-                    Chrome OS System menu
+                    SEP 2016
+                  </span>
+                </Date>
+                <Title>
+                  <span
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0,0,0,70)",
+                      lineHeight: "27.2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    Chrome for Windows
                   </span>
                 </Title>
               </PortofolioCard>
             </Column>
             <Column col={6}>
-              <PortofolioCard>
-                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+              <PortofolioCard style={{ paddingBottom: "20%" }}>
+                <Image style={{ paddingBottom: "20px" }}>
+                  <img
+                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  />
+                </Image>
+                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
                     style={{
-                      fontSize: "22.5px",
+                      fontSize: "11px",
                       fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)"
+                      lineHeight: "17.6px"
                     }}
                   >
-                    Chrome OS System menu
+                    SEP 2016
+                  </span>
+                </Date>
+                <Title>
+                  <span
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0,0,0,70)",
+                      lineHeight: "27.2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    Chrome for Windows
                   </span>
                 </Title>
               </PortofolioCard>
             </Column>
             <Column col={6}>
-              <PortofolioCard>
-                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+              <PortofolioCard style={{ paddingBottom: "20%" }}>
+                <Image style={{ paddingBottom: "20px" }}>
+                  <img
+                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  />
+                </Image>
+                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
                     style={{
-                      fontSize: "22.5px",
+                      fontSize: "11px",
                       fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)"
+                      lineHeight: "17.6px"
                     }}
                   >
-                    Chrome OS System menu
+                    SEP 2016
+                  </span>
+                </Date>
+                <Title>
+                  <span
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0,0,0,70)",
+                      lineHeight: "27.2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    Chrome for Windows
                   </span>
                 </Title>
               </PortofolioCard>
             </Column>
             <Column col={6}>
-              <PortofolioCard>
-                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+              <PortofolioCard style={{ paddingBottom: "20%" }}>
+                <Image style={{ paddingBottom: "20px" }}>
+                  <img
+                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                    style={{ width: "100%", cursor: "pointer" }}
+                  />
+                </Image>
+                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
                     style={{
-                      fontSize: "22.5px",
+                      fontSize: "11px",
                       fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)"
+                      lineHeight: "17.6px"
                     }}
                   >
-                    Chrome OS System menu
+                    SEP 2016
+                  </span>
+                </Date>
+                <Title>
+                  <span
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: 400,
+                      fontFamily: "Roboto Mono",
+                      color: "rgba(0,0,0,70)",
+                      lineHeight: "27.2px",
+                      cursor: "pointer"
+                    }}
+                  >
+                    Chrome for Windows
                   </span>
                 </Title>
               </PortofolioCard>

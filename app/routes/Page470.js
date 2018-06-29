@@ -214,8 +214,8 @@ class Page470 extends Component {
                   }}
                 >
                   <Hover
-                    boxShadow="0px 12px 65px 1px rgba(41,99,255,0.1)"
-                    transition={{ target: "all", time: "400" }}
+                    boxShadow="0 12px 65px 2px #2963ff, 0 1px 2px 1px #2963ff"
+                    transition={{ target: "all", time: "250" }}
                     style={{ display: "inline-block" }}
                   >
                     <img
@@ -301,10 +301,16 @@ class Page470 extends Component {
                     paddingBottom: "4%"
                   }}
                 >
-                  <img
-                    src="http://sebastien-gabriel.com/images/home-feature-chrome-desktop-article-small.png"
-                    style={{ width: "100%" }}
-                  />
+                  <Hover
+                    style={{ display: "inline-block" }}
+                    transition={{ target: "all", time: 250 }}
+                    boxShadow="0 12px 65px 2px #2963ff, 0 1px 2px 1px #2963ff"
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/home-feature-chrome-desktop-article-small.png"
+                      style={{ width: "100%" }}
+                    />
+                  </Hover>
                 </Image>
                 <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
                   <span
