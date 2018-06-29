@@ -1304,16 +1304,29 @@
                               "variant": "default",
                               "children": [
                                 {
-                                  "type": "img",
+                                  "type": "Link",
                                   "variant": "default",
-                                  "props": {
-                                    "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
-                                    "style": {
-                                      "cursor": "pointer",
-                                      "width": "100%"
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
+                                        "style": {
+                                          "cursor": "pointer",
+                                          "width": "100%"
+                                        }
+                                      },
+                                      "children": []
                                     }
-                                  },
-                                  "children": []
+                                  ],
+                                  "namespace": "Router",
+                                  "props": {
+                                    "style": {
+                                      "display": "block"
+                                    },
+                                    "to": "work/chrome-os-system-menu"
+                                  }
                                 }
                               ],
                               "namespace": "Animations",
@@ -1397,18 +1410,8 @@
                           "variant": "default",
                           "children": [
                             {
-                              "type": "a",
+                              "type": "Link",
                               "variant": "default",
-                              "props": {
-                                "href": "#",
-                                "style": {
-                                  "textAlign": "center",
-                                  "display": "inline-block",
-                                  "cursor": "pointer",
-                                  "lineHeight": "38px",
-                                  "textDecoration": "none"
-                                }
-                              },
                               "children": [
                                 {
                                   "type": "Hover",
@@ -1441,7 +1444,18 @@
                                     "color": "#fff"
                                   }
                                 }
-                              ]
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "style": {
+                                  "textAlign": "center",
+                                  "display": "inline-block",
+                                  "cursor": "pointer",
+                                  "lineHeight": "38px",
+                                  "textDecoration": "none"
+                                },
+                                "to": "work/chrome-os-system-menu"
+                              }
                             }
                           ],
                           "namespace": "PortofolioCard",
@@ -2526,16 +2540,29 @@
                               },
                               "children": [
                                 {
-                                  "type": "img",
+                                  "type": "Link",
                                   "variant": "default",
-                                  "props": {
-                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
-                                    "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
+                                        "style": {
+                                          "width": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
                                     }
-                                  },
-                                  "children": []
+                                  ],
+                                  "namespace": "Router",
+                                  "props": {
+                                    "style": {
+                                      "display": "block"
+                                    },
+                                    "to": "work/chrome-os-system-menu"
+                                  }
                                 }
                               ]
                             }
@@ -2574,20 +2601,30 @@
                           "props": {},
                           "children": [
                             {
-                              "type": "span",
+                              "type": "Link",
                               "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "17px",
-                                  "fontWeight": 400,
-                                  "fontFamily": "Roboto Mono",
-                                  "color": "rgb(90, 90, 90)",
-                                  "lineHeight": "27.2px",
-                                  "cursor": "pointer"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "17px",
+                                      "fontWeight": 400,
+                                      "fontFamily": "Roboto Mono",
+                                      "color": "rgb(90, 90, 90)",
+                                      "lineHeight": "27.2px",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Chrome OS System menu"
                                 }
-                              },
-                              "children": [],
-                              "text": "Chrome OS System menu"
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "work/chrome-os-system-menu"
+                              }
                             }
                           ]
                         }

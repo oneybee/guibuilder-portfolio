@@ -218,10 +218,15 @@ class Page470 extends Component {
                     transition={{ target: "all", time: "250" }}
                     style={{ display: "inline-block" }}
                   >
-                    <img
-                      src="http://sebastien-gabriel.com/images/home-feature-system-menu.png"
-                      style={{ cursor: "pointer", width: "100%" }}
-                    />
+                    <Link
+                      style={{ display: "block" }}
+                      to="work/chrome-os-system-menu"
+                    >
+                      <img
+                        src="http://sebastien-gabriel.com/images/home-feature-system-menu.png"
+                        style={{ cursor: "pointer", width: "100%" }}
+                      />
+                    </Link>
                   </Hover>
                 </Image>
                 <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
@@ -265,8 +270,7 @@ class Page470 extends Component {
                     borderColor: "#2963ff"
                   }}
                 >
-                  <a
-                    href="#"
+                  <Link
                     style={{
                       textAlign: "center",
                       display: "inline-block",
@@ -274,6 +278,7 @@ class Page470 extends Component {
                       lineHeight: "38px",
                       textDecoration: "none"
                     }}
+                    to="work/chrome-os-system-menu"
                   >
                     <Hover
                       style={{ display: "inline-block", color: "#2963ff" }}
@@ -293,7 +298,7 @@ class Page470 extends Component {
                         SEE MORE
                       </span>
                     </Hover>
-                  </a>
+                  </Link>
                 </Button>
               </PortofolioCard>
             </Column>

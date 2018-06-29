@@ -232,10 +232,15 @@ class Page160 extends Component {
                     transition={{ target: "all", time: "250" }}
                     style={{ display: "inline-block" }}
                   >
-                    <img
-                      src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
-                      style={{ width: "100%", cursor: "pointer" }}
-                    />
+                    <Link
+                      style={{ display: "block" }}
+                      to="work/chrome-os-system-menu"
+                    >
+                      <img
+                        src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
+                        style={{ width: "100%", cursor: "pointer" }}
+                      />
+                    </Link>
                   </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
@@ -250,18 +255,20 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <span
-                    style={{
-                      fontSize: "17px",
-                      fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgb(90, 90, 90)",
-                      lineHeight: "27.2px",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Chrome OS System menu
-                  </span>
+                  <Link to="work/chrome-os-system-menu">
+                    <span
+                      style={{
+                        fontSize: "17px",
+                        fontWeight: 400,
+                        fontFamily: "Roboto Mono",
+                        color: "rgb(90, 90, 90)",
+                        lineHeight: "27.2px",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Chrome OS System menu
+                    </span>
+                  </Link>
                 </Title>
               </PortofolioCard>
             </Column>
