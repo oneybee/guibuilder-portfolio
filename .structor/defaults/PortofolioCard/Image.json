@@ -29,5 +29,28 @@
         "children": []
       }
     ]
+  },
+  {
+    "type": "Image",
+    "namespace": "PortofolioCard",
+    "variant": "work-card-01",
+    "props": {
+      "style": {
+        "paddingBottom": "20px"
+      }
+    },
+    "children": [
+      {
+        "type": "img",
+        "variant": "default",
+        "props": {
+          "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
+          "style": {
+            "width": "100%"
+          }
+        },
+        "children": []
+      }
+    ]
   }
 ]

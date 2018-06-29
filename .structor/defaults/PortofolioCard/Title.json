@@ -31,5 +31,28 @@
         "text": "Chrome OS System menu"
       }
     ]
+  },
+  {
+    "type": "Title",
+    "namespace": "PortofolioCard",
+    "variant": "work-card-01",
+    "props": {},
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {
+          "style": {
+            "fontSize": "17px",
+            "fontWeight": 300,
+            "fontFamily": "Roboto Mono",
+            "color": "#5A5A5A",
+            "lineHeight": "27.2px"
+          }
+        },
+        "children": [],
+        "text": "Chrome OS System menu"
+      }
+    ]
   }
 ]

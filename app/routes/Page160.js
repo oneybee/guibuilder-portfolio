@@ -12,7 +12,7 @@ import { Menu } from "modules/Menu";
 import { Link } from "modules/Router";
 import { Hover } from "modules/Animations";
 import { Row, Column } from "modules/Layout";
-import { PortofolioCard, Title } from "modules/PortofolioCard";
+import { PortofolioCard, Image, Date, Title } from "modules/PortofolioCard";
 
 class Page160 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -225,13 +225,31 @@ class Page160 extends Component {
           <Row>
             <Column col={6}>
               <PortofolioCard>
-                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                <Image style={{ paddingBottom: "20px" }}>
+                  <img
+                    src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
+                    style={{ width: "100%" }}
+                  />
+                </Image>
+                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
                     style={{
-                      fontSize: "22.5px",
+                      fontSize: "11px",
                       fontWeight: 400,
+                      lineHeight: "17.6px"
+                    }}
+                  >
+                    JAN 2017
+                  </span>
+                </Date>
+                <Title>
+                  <span
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: 300,
                       fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)"
+                      color: "#5A5A5A",
+                      lineHeight: "27.2px"
                     }}
                   >
                     Chrome OS System menu
@@ -241,16 +259,34 @@ class Page160 extends Component {
             </Column>
             <Column col={6}>
               <PortofolioCard>
-                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+                <Image style={{ paddingBottom: "20px" }}>
+                  <img
+                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                    style={{ width: "100%" }}
+                  />
+                </Image>
+                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
                     style={{
-                      fontSize: "22.5px",
+                      fontSize: "11px",
                       fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)"
+                      lineHeight: "17.6px"
                     }}
                   >
-                    Chrome OS System menu
+                    SEP 2016
+                  </span>
+                </Date>
+                <Title>
+                  <span
+                    style={{
+                      fontSize: "17px",
+                      fontWeight: 300,
+                      fontFamily: "Roboto Mono",
+                      color: "#5A5A5A",
+                      lineHeight: "27.2px"
+                    }}
+                  >
+                    Chrome for Windows
                   </span>
                 </Title>
               </PortofolioCard>

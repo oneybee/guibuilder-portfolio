@@ -220,11 +220,7 @@ class Page470 extends Component {
                   >
                     <img
                       src="http://sebastien-gabriel.com/images/home-feature-system-menu.png"
-                      style={{
-                        width: "100%",
-                        cursor: "pointer",
-                        height: "100%"
-                      }}
+                      style={{ width: "100%", cursor: "pointer" }}
                     />
                   </Hover>
                 </Image>

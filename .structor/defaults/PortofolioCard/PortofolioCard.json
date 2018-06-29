@@ -36,5 +36,85 @@
     ],
     "namespace": "PortofolioCard",
     "variant": "default"
+  },
+  {
+    "type": "PortofolioCard",
+    "namespace": "PortofolioCard",
+    "variant": "work-portfolio-card-01",
+    "props": {},
+    "children": [
+      {
+        "type": "Image",
+        "namespace": "PortofolioCard",
+        "variant": "card01",
+        "props": {
+          "style": {
+            "paddingBottom": "20px"
+          }
+        },
+        "children": [
+          {
+            "type": "img",
+            "variant": "default",
+            "props": {
+              "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
+              "style": {
+                "width": "100%"
+              }
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "Date",
+        "variant": "default",
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {
+              "style": {
+                "fontSize": "11px",
+                "fontWeight": 400,
+                "lineHeight": "17.6px"
+              }
+            },
+            "children": [],
+            "text": "2018"
+          }
+        ],
+        "namespace": "PortofolioCard",
+        "props": {
+          "style": {
+            "color": "#969696",
+            "fontFamily": "Roboto"
+          }
+        }
+      },
+      {
+        "type": "Title",
+        "namespace": "PortofolioCard",
+        "variant": "card01",
+        "props": {},
+        "children": [
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {
+              "style": {
+                "fontSize": "17px",
+                "fontWeight": 300,
+                "fontFamily": "Roboto Mono",
+                "color": "#5A5A5A",
+                "lineHeight": "27.2px"
+              }
+            },
+            "children": [],
+            "text": "Chrome OS System menu"
+          }
+        ]
+      }
+    ]
   }
 ]
