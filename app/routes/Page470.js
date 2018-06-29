@@ -257,12 +257,12 @@ class Page470 extends Component {
                   style={{
                     borderStyle: "solid",
                     borderWidth: "1px",
-                    borderColor: "#2963ff",
                     borderRadius: "4px",
                     width: "127.08px",
-                    display: "inline-block",
                     height: "38px",
-                    marginBottom: "10px"
+                    marginBottom: "10px",
+                    display: "inline-block",
+                    borderColor: "#2963ff"
                   }}
                 >
                   <a
@@ -275,19 +275,24 @@ class Page470 extends Component {
                       textDecoration: "none"
                     }}
                   >
-                    <span
-                      style={{
-                        fontSize: "12px",
-                        fontWeight: 600,
-                        paddingRight: "30px",
-                        paddingLeft: "30px",
-                        color: "#2963ff",
-                        letterSpacing: "1px",
-                        fontFamily: "Roboto"
-                      }}
+                    <Hover
+                      style={{ display: "inline-block", color: "#2963ff" }}
+                      transition={{ target: "all" }}
+                      color="#fff"
                     >
-                      SEE MORE
-                    </span>
+                      <span
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: 600,
+                          paddingRight: "30px",
+                          paddingLeft: "30px",
+                          letterSpacing: "1px",
+                          fontFamily: "Roboto"
+                        }}
+                      >
+                        SEE MORE
+                      </span>
+                    </Hover>
                   </a>
                 </Button>
               </PortofolioCard>

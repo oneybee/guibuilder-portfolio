@@ -8,16 +8,17 @@
   {
     "type": "Button",
     "namespace": "PortofolioCard",
-    "variant": "card01",
+    "variant": "portfolio-card-01",
     "props": {
       "style": {
         "borderStyle": "solid",
         "borderWidth": "1px",
         "borderColor": "#2963ff",
         "borderRadius": "4px",
-        "width": "167.7px",
+        "width": "127.08px",
         "display": "inline-block",
-        "height": "38px"
+        "height": "38px",
+        "marginBottom": "10px"
       }
     },
     "children": [
@@ -42,8 +43,8 @@
               "style": {
                 "fontSize": "12px",
                 "fontWeight": 600,
-                "paddingRight": "50px",
-                "paddingLeft": "50px",
+                "paddingRight": "30px",
+                "paddingLeft": "30px",
                 "color": "#2963ff",
                 "letterSpacing": "1px",
                 "fontFamily": "Roboto"

@@ -1411,18 +1411,34 @@
                               },
                               "children": [
                                 {
-                                  "type": "span",
-                                  "text": "SEE MORE",
+                                  "type": "Hover",
+                                  "variant": "default",
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "SEE MORE",
+                                      "props": {
+                                        "style": {
+                                          "fontSize": "12px",
+                                          "fontWeight": 600,
+                                          "paddingRight": "30px",
+                                          "paddingLeft": "30px",
+                                          "letterSpacing": "1px",
+                                          "fontFamily": "Roboto"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "namespace": "Animations",
                                   "props": {
                                     "style": {
-                                      "fontSize": "12px",
-                                      "fontWeight": 600,
-                                      "paddingRight": "30px",
-                                      "paddingLeft": "30px",
-                                      "color": "#2963ff",
-                                      "letterSpacing": "1px",
-                                      "fontFamily": "Roboto"
-                                    }
+                                      "display": "inline-block",
+                                      "color": "#2963ff"
+                                    },
+                                    "transition": {
+                                      "target": "all"
+                                    },
+                                    "color": "#fff"
                                   }
                                 }
                               ]
@@ -1433,12 +1449,12 @@
                             "style": {
                               "borderStyle": "solid",
                               "borderWidth": "1px",
-                              "borderColor": "#2963ff",
                               "borderRadius": "4px",
                               "width": "127.08px",
-                              "display": "inline-block",
                               "height": "38px",
-                              "marginBottom": "10px"
+                              "marginBottom": "10px",
+                              "display": "inline-block",
+                              "borderColor": "#2963ff"
                             }
                           }
                         }

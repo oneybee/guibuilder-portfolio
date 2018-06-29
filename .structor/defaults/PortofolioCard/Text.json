@@ -8,7 +8,7 @@
   {
     "type": "Text",
     "namespace": "PortofolioCard",
-    "variant": "card01",
+    "variant": "portfolio-card-01",
     "props": {
       "style": {
         "fontSize": "15px",

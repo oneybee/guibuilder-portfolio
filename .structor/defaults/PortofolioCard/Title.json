@@ -8,7 +8,30 @@
   {
     "type": "Title",
     "namespace": "PortofolioCard",
-    "variant": "card01",
+    "variant": "work-card-01",
+    "props": {},
+    "children": [
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {
+          "style": {
+            "fontSize": "17px",
+            "fontWeight": 400,
+            "fontFamily": "Roboto Mono",
+            "color": "rgba(0,0,0,70)",
+            "lineHeight": "27.2px"
+          }
+        },
+        "children": [],
+        "text": "Chrome for Windows"
+      }
+    ]
+  },
+  {
+    "type": "Title",
+    "namespace": "PortofolioCard",
+    "variant": "portfolio-card-01",
     "props": {
       "style": {
         "paddingTop": "20px",
@@ -29,29 +52,6 @@
         },
         "children": [],
         "text": "Chrome OS System menu"
-      }
-    ]
-  },
-  {
-    "type": "Title",
-    "namespace": "PortofolioCard",
-    "variant": "work-card-01",
-    "props": {},
-    "children": [
-      {
-        "type": "span",
-        "variant": "default",
-        "props": {
-          "style": {
-            "fontSize": "17px",
-            "fontWeight": 400,
-            "fontFamily": "Roboto Mono",
-            "color": "rgba(0,0,0,70)",
-            "lineHeight": "27.2px"
-          }
-        },
-        "children": [],
-        "text": "Chrome for Windows"
       }
     ]
   }

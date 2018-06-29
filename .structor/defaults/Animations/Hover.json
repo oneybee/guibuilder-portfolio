@@ -1,0 +1,58 @@
+[
+  {
+    "type": "Hover",
+    "variant": "default",
+    "children": [],
+    "namespace": "Animations"
+  },
+  {
+    "type": "Hover",
+    "namespace": "Animations",
+    "variant": "portfolio-card-01",
+    "props": {
+      "style": {
+        "transition": {
+          "Duration": "0.25s"
+        },
+        "color": "#969696",
+        "transitionDuration": "0.25s"
+      },
+      "trainsition": {
+        "target": "all"
+      },
+      "color": "#222",
+      "transition": {}
+    },
+    "children": [
+      {
+        "type": "li",
+        "variant": "default",
+        "props": {
+          "style": {
+            "display": "inline-block",
+            "marginLeft": "10px",
+            "fontSize": "11px",
+            "height": "40px"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "writings",
+            "props": {
+              "style": {
+                "fontFamily": "Roboto",
+                "fontSize": "11px",
+                "marginRight": "35px",
+                "fontWeight": 300,
+                "textTransform": "uppercase",
+                "letterSpacing": "2px",
+                "cursor": "pointer"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

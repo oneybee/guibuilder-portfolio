@@ -8,31 +8,6 @@
   {
     "type": "Image",
     "namespace": "PortofolioCard",
-    "variant": "card01",
-    "props": {
-      "style": {
-        "paddingTop": "4%",
-        "paddingRight": "4%",
-        "paddingBottom": "4%"
-      }
-    },
-    "children": [
-      {
-        "type": "img",
-        "variant": "default",
-        "props": {
-          "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
-          "style": {
-            "width": "100%"
-          }
-        },
-        "children": []
-      }
-    ]
-  },
-  {
-    "type": "Image",
-    "namespace": "PortofolioCard",
     "variant": "work-card-01",
     "props": {
       "style": {
@@ -51,6 +26,49 @@
           }
         },
         "children": []
+      }
+    ]
+  },
+  {
+    "type": "Image",
+    "namespace": "PortofolioCard",
+    "variant": "portfolio-card-01",
+    "props": {
+      "style": {
+        "paddingTop": "4%",
+        "paddingRight": "4%",
+        "paddingBottom": "4%"
+      }
+    },
+    "children": [
+      {
+        "type": "Hover",
+        "variant": "default",
+        "children": [
+          {
+            "type": "img",
+            "variant": "default",
+            "props": {
+              "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
+              "style": {
+                "width": "100%",
+                "cursor": "pointer"
+              }
+            },
+            "children": []
+          }
+        ],
+        "namespace": "Animations",
+        "props": {
+          "boxShadow": "0 12px 65px 2px #2963ff, 0 1px 2px 1px #2963ff",
+          "transition": {
+            "target": "all",
+            "time": "250"
+          },
+          "style": {
+            "display": "inline-block"
+          }
+        }
       }
     ]
   }
