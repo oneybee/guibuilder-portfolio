@@ -214,7 +214,7 @@ class Page470 extends Component {
                   }}
                 >
                   <Hover
-                    boxShadow="0 12px 65px 2px #2963ff, 0 1px 2px 1px #2963ff"
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
                     transition={{ target: "all", time: "250" }}
                     style={{ display: "inline-block" }}
                   >
@@ -309,7 +309,7 @@ class Page470 extends Component {
                   <Hover
                     style={{ display: "inline-block" }}
                     transition={{ target: "all", time: 250 }}
-                    boxShadow="0 12px 65px 2px #2963ff, 0 1px 2px 1px #2963ff"
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
                   >
                     <img
                       src="http://sebastien-gabriel.com/images/home-feature-chrome-desktop-article-small.png"
