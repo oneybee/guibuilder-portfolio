@@ -17,7 +17,15 @@ class Page727 extends Component {
       <div>
 
         <Container
-          style={{ width: "90%", margin: "0 auto", maxWidth: "960px" }}
+          style={{
+            width: "90%",
+            margin: "0 auto",
+            maxWidth: "960px",
+            fontFamily: "Roboto",
+            fontSize: "15px",
+            fontWeight: 400,
+            lineHeight: "24px"
+          }}
         >
           <Container style={{ paddingTop: "4%", paddingBottom: "4%" }}>
             <div
