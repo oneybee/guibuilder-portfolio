@@ -73,6 +73,18 @@ class Page727 extends Component {
               </span>
             </p>
           </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-00.jpg"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-00-2.jpg"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
         </Container>
 
       </div>

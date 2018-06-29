@@ -553,5 +553,29 @@
       }
     },
     "children": []
+  },
+  {
+    "type": "Container",
+    "namespace": "Container",
+    "variant": "portfolio-project-photo-container",
+    "props": {
+      "style": {
+        "marginBottom": "2%",
+        "marginTop": "8%"
+      }
+    },
+    "children": [
+      {
+        "type": "img",
+        "variant": "default",
+        "props": {
+          "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-00.jpg",
+          "style": {
+            "maxWidth": "100%"
+          }
+        },
+        "children": []
+      }
+    ]
   }
 ]
