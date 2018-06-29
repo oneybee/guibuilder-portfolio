@@ -1309,8 +1309,8 @@
                                   "props": {
                                     "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
                                     "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                      "cursor": "pointer",
+                                      "width": "100%"
                                     }
                                   },
                                   "children": []
