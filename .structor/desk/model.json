@@ -1324,7 +1324,7 @@
                                   "time": "400"
                                 },
                                 "style": {
-                                  "display": "flex"
+                                  "display": "inline-block"
                                 }
                               }
                             }
