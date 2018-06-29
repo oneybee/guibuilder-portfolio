@@ -1,0 +1,21 @@
+[
+  {
+    "type": "Project",
+    "variant": "default",
+    "children": [],
+    "namespace": "Project"
+  },
+  {
+    "type": "Project",
+    "namespace": "Project",
+    "variant": "project-container",
+    "props": {
+      "style": {
+        "width": "90%",
+        "maxWidth": "960px",
+        "margin": "0 auto"
+      }
+    },
+    "children": []
+  }
+]
