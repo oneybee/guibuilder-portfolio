@@ -2511,16 +2511,33 @@
                           },
                           "children": [
                             {
-                              "type": "img",
-                              "variant": "default",
+                              "type": "Hover",
+                              "namespace": "Animations",
+                              "variant": "portfolio-card-01",
                               "props": {
-                                "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
+                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "250"
+                                },
                                 "style": {
-                                  "width": "100%",
-                                  "cursor": "pointer"
+                                  "display": "inline-block"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
+                                    "style": {
+                                      "width": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -2607,16 +2624,33 @@
                           },
                           "children": [
                             {
-                              "type": "img",
-                              "variant": "default",
+                              "type": "Hover",
+                              "namespace": "Animations",
+                              "variant": "portfolio-card-01",
                               "props": {
-                                "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
+                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "250"
+                                },
                                 "style": {
-                                  "width": "100%",
-                                  "cursor": "pointer"
+                                  "display": "inline-block"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
+                                    "style": {
+                                      "width": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -2703,16 +2737,33 @@
                           },
                           "children": [
                             {
-                              "type": "img",
-                              "variant": "default",
+                              "type": "Hover",
+                              "namespace": "Animations",
+                              "variant": "portfolio-card-01",
                               "props": {
-                                "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos.png",
+                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "250"
+                                },
                                 "style": {
-                                  "width": "100%",
-                                  "cursor": "pointer"
+                                  "display": "inline-block"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos.png",
+                                    "style": {
+                                      "width": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -2803,16 +2854,33 @@
                           },
                           "children": [
                             {
-                              "type": "img",
-                              "variant": "default",
+                              "type": "Hover",
+                              "namespace": "Animations",
+                              "variant": "portfolio-card-01",
                               "props": {
-                                "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
+                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "250"
+                                },
                                 "style": {
-                                  "width": "100%",
-                                  "cursor": "pointer"
+                                  "display": "inline-block"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros.png",
+                                    "style": {
+                                      "width": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -2831,7 +2899,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "SEP 2016"
+                              "text": "APR 2016"
                             }
                           ],
                           "namespace": "PortofolioCard",
@@ -2862,7 +2930,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "Chrome for Windows"
+                              "text": "Chrome for Chrome OS"
                             }
                           ]
                         }
@@ -2899,16 +2967,33 @@
                           },
                           "children": [
                             {
-                              "type": "img",
-                              "variant": "default",
+                              "type": "Hover",
+                              "namespace": "Animations",
+                              "variant": "portfolio-card-01",
                               "props": {
-                                "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
+                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "250"
+                                },
                                 "style": {
-                                  "width": "100%",
-                                  "cursor": "pointer"
+                                  "display": "inline-block"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player.png",
+                                    "style": {
+                                      "width": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -2927,7 +3012,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "SEP 2016"
+                              "text": "NOV 2015"
                             }
                           ],
                           "namespace": "PortofolioCard",
@@ -2958,7 +3043,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "Chrome for Windows"
+                              "text": "Chrome OS audio player"
                             }
                           ]
                         }
@@ -2995,16 +3080,33 @@
                           },
                           "children": [
                             {
-                              "type": "img",
-                              "variant": "default",
+                              "type": "Hover",
+                              "namespace": "Animations",
+                              "variant": "portfolio-card-01",
                               "props": {
-                                "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
+                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "250"
+                                },
                                 "style": {
-                                  "width": "100%",
-                                  "cursor": "pointer"
+                                  "display": "inline-block"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/files-app.png",
+                                    "style": {
+                                      "width": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -3023,7 +3125,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "SEP 2016"
+                              "text": "OCT 2015"
                             }
                           ],
                           "namespace": "PortofolioCard",
@@ -3054,7 +3156,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "Chrome for Windows"
+                              "text": "Chrome OS Files up"
                             }
                           ]
                         }
@@ -3091,16 +3193,33 @@
                           },
                           "children": [
                             {
-                              "type": "img",
-                              "variant": "default",
+                              "type": "Hover",
+                              "namespace": "Animations",
+                              "variant": "portfolio-card-01",
                               "props": {
-                                "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
+                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                "transition": {
+                                  "target": "all",
+                                  "time": "250"
+                                },
                                 "style": {
-                                  "width": "100%",
-                                  "cursor": "pointer"
+                                  "display": "inline-block"
                                 }
                               },
-                              "children": []
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/gallery.png",
+                                    "style": {
+                                      "width": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -3119,7 +3238,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "SEP 2016"
+                              "text": "OCT 2015"
                             }
                           ],
                           "namespace": "PortofolioCard",
@@ -3150,7 +3269,7 @@
                                 }
                               },
                               "children": [],
-                              "text": "Chrome for Windows"
+                              "text": "Chrome OS Gallery app"
                             }
                           ]
                         }

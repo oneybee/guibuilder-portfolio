@@ -227,10 +227,16 @@ class Page160 extends Component {
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <img
-                    src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
+                  <Hover
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                    transition={{ target: "all", time: "250" }}
+                    style={{ display: "inline-block" }}
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
+                      style={{ width: "100%", cursor: "pointer" }}
+                    />
+                  </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -262,10 +268,16 @@ class Page160 extends Component {
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <img
-                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
+                  <Hover
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                    transition={{ target: "all", time: "250" }}
+                    style={{ display: "inline-block" }}
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                      style={{ width: "100%", cursor: "pointer" }}
+                    />
+                  </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -297,10 +309,16 @@ class Page160 extends Component {
             <Column col={12}>
               <PortofolioCard style={{ marginBottom: "10%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <img
-                    src="http://sebastien-gabriel.com/images/portfolio/chrome-macos.png"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
+                  <Hover
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                    transition={{ target: "all", time: "250" }}
+                    style={{ display: "inline-block" }}
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-macos.png"
+                      style={{ width: "100%", cursor: "pointer" }}
+                    />
+                  </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -331,10 +349,16 @@ class Page160 extends Component {
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <img
-                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
+                  <Hover
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                    transition={{ target: "all", time: "250" }}
+                    style={{ display: "inline-block" }}
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-cros.png"
+                      style={{ width: "100%", cursor: "pointer" }}
+                    />
+                  </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -344,7 +368,7 @@ class Page160 extends Component {
                       lineHeight: "17.6px"
                     }}
                   >
-                    SEP 2016
+                    APR 2016
                   </span>
                 </Date>
                 <Title>
@@ -358,7 +382,7 @@ class Page160 extends Component {
                       cursor: "pointer"
                     }}
                   >
-                    Chrome for Windows
+                    Chrome for Chrome OS
                   </span>
                 </Title>
               </PortofolioCard>
@@ -366,10 +390,16 @@ class Page160 extends Component {
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <img
-                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
+                  <Hover
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                    transition={{ target: "all", time: "250" }}
+                    style={{ display: "inline-block" }}
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/audio-player.png"
+                      style={{ width: "100%", cursor: "pointer" }}
+                    />
+                  </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -379,7 +409,7 @@ class Page160 extends Component {
                       lineHeight: "17.6px"
                     }}
                   >
-                    SEP 2016
+                    NOV 2015
                   </span>
                 </Date>
                 <Title>
@@ -393,7 +423,7 @@ class Page160 extends Component {
                       cursor: "pointer"
                     }}
                   >
-                    Chrome for Windows
+                    Chrome OS audio player
                   </span>
                 </Title>
               </PortofolioCard>
@@ -401,10 +431,16 @@ class Page160 extends Component {
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <img
-                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
+                  <Hover
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                    transition={{ target: "all", time: "250" }}
+                    style={{ display: "inline-block" }}
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/files-app.png"
+                      style={{ width: "100%", cursor: "pointer" }}
+                    />
+                  </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -414,7 +450,7 @@ class Page160 extends Component {
                       lineHeight: "17.6px"
                     }}
                   >
-                    SEP 2016
+                    OCT 2015
                   </span>
                 </Date>
                 <Title>
@@ -428,7 +464,7 @@ class Page160 extends Component {
                       cursor: "pointer"
                     }}
                   >
-                    Chrome for Windows
+                    Chrome OS Files up
                   </span>
                 </Title>
               </PortofolioCard>
@@ -436,10 +472,16 @@ class Page160 extends Component {
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <img
-                    src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                    style={{ width: "100%", cursor: "pointer" }}
-                  />
+                  <Hover
+                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                    transition={{ target: "all", time: "250" }}
+                    style={{ display: "inline-block" }}
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/gallery.png"
+                      style={{ width: "100%", cursor: "pointer" }}
+                    />
+                  </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -449,7 +491,7 @@ class Page160 extends Component {
                       lineHeight: "17.6px"
                     }}
                   >
-                    SEP 2016
+                    OCT 2015
                   </span>
                 </Date>
                 <Title>
@@ -463,7 +505,7 @@ class Page160 extends Component {
                       cursor: "pointer"
                     }}
                   >
-                    Chrome for Windows
+                    Chrome OS Gallery app
                   </span>
                 </Title>
               </PortofolioCard>

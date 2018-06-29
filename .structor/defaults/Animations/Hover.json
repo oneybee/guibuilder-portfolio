@@ -10,48 +10,27 @@
     "namespace": "Animations",
     "variant": "portfolio-card-01",
     "props": {
+      "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+      "transition": {
+        "target": "all",
+        "time": "250"
+      },
       "style": {
-        "transition": {
-          "Duration": "0.25s"
-        },
-        "color": "#969696",
-        "transitionDuration": "0.25s"
-      },
-      "trainsition": {
-        "target": "all"
-      },
-      "color": "#222",
-      "transition": {}
+        "display": "inline-block"
+      }
     },
     "children": [
       {
-        "type": "li",
+        "type": "img",
         "variant": "default",
         "props": {
+          "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
           "style": {
-            "display": "inline-block",
-            "marginLeft": "10px",
-            "fontSize": "11px",
-            "height": "40px"
+            "width": "100%",
+            "cursor": "pointer"
           }
         },
-        "children": [
-          {
-            "type": "span",
-            "text": "writings",
-            "props": {
-              "style": {
-                "fontFamily": "Roboto",
-                "fontSize": "11px",
-                "marginRight": "35px",
-                "fontWeight": 300,
-                "textTransform": "uppercase",
-                "letterSpacing": "2px",
-                "cursor": "pointer"
-              }
-            }
-          }
-        ]
+        "children": []
       }
     ]
   }
