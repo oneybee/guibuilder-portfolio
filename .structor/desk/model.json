@@ -2441,6 +2441,17 @@
               ]
             },
             {
+              "type": "h5",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginTop": "15%",
+                  "marginBottom": "5%"
+                }
+              },
+              "children": []
+            },
+            {
               "type": "Row",
               "variant": "default",
               "children": [
@@ -2450,7 +2461,11 @@
                   "children": [
                     {
                       "type": "PortofolioCard",
-                      "props": {},
+                      "props": {
+                        "style": {
+                          "paddingBottom": "20%"
+                        }
+                      },
                       "children": [
                         {
                           "type": "Image",
@@ -2468,7 +2483,8 @@
                               "props": {
                                 "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
                                 "style": {
-                                  "width": "100%"
+                                  "width": "100%",
+                                  "cursor": "pointer"
                                 }
                               },
                               "children": []
@@ -2515,8 +2531,9 @@
                                   "fontSize": "17px",
                                   "fontWeight": 300,
                                   "fontFamily": "Roboto Mono",
-                                  "color": "#5A5A5A",
-                                  "lineHeight": "27.2px"
+                                  "color": "rgb(90, 90, 90)",
+                                  "lineHeight": "27.2px",
+                                  "cursor": "pointer"
                                 }
                               },
                               "children": [],
@@ -2540,7 +2557,11 @@
                   "children": [
                     {
                       "type": "PortofolioCard",
-                      "props": {},
+                      "props": {
+                        "style": {
+                          "paddingBottom": "20%"
+                        }
+                      },
                       "children": [
                         {
                           "type": "Image",
@@ -2558,7 +2579,8 @@
                               "props": {
                                 "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
                                 "style": {
-                                  "width": "100%"
+                                  "width": "100%",
+                                  "cursor": "pointer"
                                 }
                               },
                               "children": []
@@ -2594,7 +2616,7 @@
                         {
                           "type": "Title",
                           "namespace": "PortofolioCard",
-                          "variant": "card01",
+                          "variant": "work-card-01",
                           "props": {},
                           "children": [
                             {
@@ -2605,7 +2627,7 @@
                                   "fontSize": "17px",
                                   "fontWeight": 300,
                                   "fontFamily": "Roboto Mono",
-                                  "color": "#5A5A5A",
+                                  "color": "rgba(0,0,0,70)",
                                   "lineHeight": "27.2px"
                                 }
                               },

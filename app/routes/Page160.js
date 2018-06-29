@@ -222,13 +222,14 @@ class Page160 extends Component {
               </Hover>
             </a>
           </Menu>
+          <h5 style={{ marginTop: "15%", marginBottom: "5%" }} />
           <Row>
             <Column col={6}>
-              <PortofolioCard>
+              <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
                   <img
                     src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%", cursor: "pointer" }}
                   />
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
@@ -248,8 +249,9 @@ class Page160 extends Component {
                       fontSize: "17px",
                       fontWeight: 300,
                       fontFamily: "Roboto Mono",
-                      color: "#5A5A5A",
-                      lineHeight: "27.2px"
+                      color: "rgb(90, 90, 90)",
+                      lineHeight: "27.2px",
+                      cursor: "pointer"
                     }}
                   >
                     Chrome OS System menu
@@ -258,11 +260,11 @@ class Page160 extends Component {
               </PortofolioCard>
             </Column>
             <Column col={6}>
-              <PortofolioCard>
+              <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
                   <img
                     src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%", cursor: "pointer" }}
                   />
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
@@ -282,7 +284,7 @@ class Page160 extends Component {
                       fontSize: "17px",
                       fontWeight: 300,
                       fontFamily: "Roboto Mono",
-                      color: "#5A5A5A",
+                      color: "rgba(0,0,0,70)",
                       lineHeight: "27.2px"
                     }}
                   >

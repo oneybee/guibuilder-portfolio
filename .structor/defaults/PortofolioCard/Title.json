@@ -46,7 +46,7 @@
             "fontSize": "17px",
             "fontWeight": 300,
             "fontFamily": "Roboto Mono",
-            "color": "#5A5A5A",
+            "color": "rgba(0,0,0,70)",
             "lineHeight": "27.2px"
           }
         },

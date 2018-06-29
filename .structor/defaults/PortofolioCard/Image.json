@@ -46,7 +46,8 @@
         "props": {
           "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
           "style": {
-            "width": "100%"
+            "width": "100%",
+            "cursor": "pointer"
           }
         },
         "children": []
