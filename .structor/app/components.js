@@ -5,5 +5,15 @@ import * as PortofolioCard from "modules/PortofolioCard";
 import * as Container from "modules/Container";
 import * as Menu from "modules/Menu";
 import * as Header from "modules/Header";
+import * as Footer from "modules/Footer";
 
-export { Layout, Router, Animations, PortofolioCard, Container, Menu, Header };
+export {
+  Layout,
+  Router,
+  Animations,
+  PortofolioCard,
+  Container,
+  Menu,
+  Header,
+  Footer
+};

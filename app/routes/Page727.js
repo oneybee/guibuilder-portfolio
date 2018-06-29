@@ -8,6 +8,7 @@ import React, { Component } from "react";
 
 import { Container } from "modules/Container";
 import { Link } from "modules/Router";
+import { Footer } from "modules/Footer";
 
 class Page727 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -42,7 +43,8 @@ class Page727 extends Component {
                   cursor: "pointer",
                   fontSize: "13px",
                   fontWeight: 300,
-                  lineHeight: "20.8px"
+                  lineHeight: "20.8px",
+                  textDecoration: "none"
                 }}
               >
                 <span>↤ Work /</span>
@@ -155,6 +157,46 @@ class Page727 extends Component {
               style={{ maxWidth: "100%" }}
             />
           </Container>
+          <Footer
+            style={{
+              textAlign: "center",
+              marginTop: "10%",
+              borderTop: "1px solid #e6e6e6"
+            }}
+          >
+            <span
+              style={{
+                fontSize: "14px",
+                lineHeight: "30px",
+                paddingTop: "5%",
+                display: "block",
+                marginBottom: "25px",
+                color: "#969696",
+                textTransform: "uppercase"
+              }}
+            >
+              THANKS FOR watching
+            </span>
+            <span
+              style={{
+                fontSize: "12px",
+                lineHeight: "38px",
+                marginBottom: "10px",
+                textTransform: "uppercase",
+                paddingLeft: "30px",
+                paddingRight: "30px",
+                letterSpacing: "1px",
+                display: "inline-block",
+                color: "rgb(41, 99, 255)",
+                fontWeight: 600,
+                border: "1px solid #2963ff",
+                borderRadius: "4px",
+                cursor: "pointer"
+              }}
+            >
+              back to work
+            </span>
+          </Footer>
         </Container>
 
       </div>

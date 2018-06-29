@@ -1,0 +1,58 @@
+[
+  {
+    "type": "Footer",
+    "variant": "default",
+    "children": [],
+    "namespace": "Footer"
+  },
+  {
+    "type": "Footer",
+    "namespace": "Footer",
+    "variant": "work-project-footer",
+    "props": {
+      "style": {
+        "textAlign": "center",
+        "marginTop": "10%",
+        "borderTop": "1px solid #e6e6e6"
+      }
+    },
+    "children": [
+      {
+        "type": "span",
+        "text": "THANKS FOR watching",
+        "props": {
+          "style": {
+            "fontSize": "14px",
+            "lineHeight": "30px",
+            "paddingTop": "5%",
+            "display": "block",
+            "marginBottom": "25px",
+            "color": "#969696",
+            "textTransform": "uppercase"
+          }
+        }
+      },
+      {
+        "type": "span",
+        "text": "back to work",
+        "props": {
+          "style": {
+            "fontSize": "12px",
+            "lineHeight": "38px",
+            "marginBottom": "10px",
+            "textTransform": "uppercase",
+            "paddingLeft": "30px",
+            "paddingRight": "30px",
+            "letterSpacing": "1px",
+            "display": "inline-block",
+            "color": "rgb(41, 99, 255)",
+            "fontWeight": 600,
+            "border": "1px solid #2963ff",
+            "borderRadius": "4px",
+            "cursor": "pointer"
+          }
+        }
+      }
+    ]
+  }
+]
