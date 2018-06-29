@@ -177,25 +177,27 @@ class Page727 extends Component {
             >
               THANKS FOR watching
             </span>
-            <span
-              style={{
-                fontSize: "12px",
-                lineHeight: "38px",
-                marginBottom: "10px",
-                textTransform: "uppercase",
-                paddingLeft: "30px",
-                paddingRight: "30px",
-                letterSpacing: "1px",
-                display: "inline-block",
-                color: "rgb(41, 99, 255)",
-                fontWeight: 600,
-                border: "1px solid #2963ff",
-                borderRadius: "4px",
-                cursor: "pointer"
-              }}
-            >
-              back to work
-            </span>
+            <Link to="work">
+              <span
+                style={{
+                  fontSize: "12px",
+                  lineHeight: "38px",
+                  marginBottom: "10px",
+                  textTransform: "uppercase",
+                  paddingLeft: "30px",
+                  paddingRight: "30px",
+                  letterSpacing: "1px",
+                  display: "inline-block",
+                  color: "rgb(41, 99, 255)",
+                  fontWeight: 600,
+                  border: "1px solid #2963ff",
+                  borderRadius: "4px",
+                  cursor: "pointer"
+                }}
+              >
+                back to work
+              </span>
+            </Link>
           </Footer>
         </Container>
 
