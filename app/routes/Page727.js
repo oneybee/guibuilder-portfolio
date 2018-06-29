@@ -114,6 +114,47 @@ class Page727 extends Component {
           <span style={{ display: "block" }}>br</span>
           <span style={{ display: "block" }}>br</span>
           <span style={{ display: "block" }}>br</span>
+          <p>
+            <span
+              style={{
+                fontSize: "25px",
+                fontWeight: 400,
+                color: "rgba(0,0,0,70)",
+                lineHeight: "31.25px",
+                marginTop: "2%",
+                fontFamily: "Roboto Mono",
+                display: "block"
+              }}
+            >
+              System menu specification
+            </span>
+            <span style={{ display: "block" }}>br</span>
+            <span
+              style={{
+                fontSize: "15px",
+                fontWeight: 400,
+                color: "rgba(0,0,0,70)",
+                lineHeight: "30px",
+                marginBottom: "25px",
+                display: "block",
+                paddingRight: "15%"
+              }}
+            >
+              I used a very thorough set of specification system to deliver high fidelity mock-ups and specs to engineering. All layout surfaces was checked and aligned to the pixel to deliver the cleanest in-OS experience possible. Below are some excerpt from these specs.
+            </span>
+          </p>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-04.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-05.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
         </Container>
 
       </div>

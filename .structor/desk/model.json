@@ -3594,6 +3594,106 @@
               },
               "children": [],
               "text": "br"
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "25px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "31.25px",
+                      "marginTop": "2%",
+                      "fontFamily": "Roboto Mono",
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "System menu specification"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "br"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "30px",
+                      "marginBottom": "25px",
+                      "display": "block",
+                      "paddingRight": "15%"
+                    }
+                  },
+                  "children": [],
+                  "text": "I used a very thorough set of specification system to deliver high fidelity mock-ups and specs to engineering. All layout surfaces was checked and aligned to the pixel to deliver the cleanest in-OS experience possible. Below are some excerpt from these specs."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-04.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-05.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
             }
           ],
           "namespace": "Container",
