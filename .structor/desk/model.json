@@ -450,76 +450,6 @@
       ]
     },
     {
-      "pageName": "HomePage",
-      "pagePath": "/home",
-      "children": [
-        {
-          "type": "div",
-          "props": {
-            "style": {
-              "display": "flex",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "padding": "1em"
-            }
-          },
-          "children": [
-            {
-              "type": "div",
-              "children": [
-                {
-                  "type": "h3",
-                  "props": {
-                    "style": {
-                      "padding": "1em",
-                      "textAlign": "center"
-                    }
-                  },
-                  "children": [
-                    {
-                      "type": "span",
-                      "text": "home"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "Link",
-              "variant": "default",
-              "children": [
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {},
-                  "children": [],
-                  "text": "밥카드 페이지"
-                }
-              ],
-              "namespace": "Router",
-              "props": {
-                "to": "bob-cards"
-              }
-            },
-            {
-              "type": "Link",
-              "variant": "default",
-              "children": [
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {},
-                  "children": [],
-                  "text": "new page"
-                }
-              ],
-              "namespace": "Router"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "pageName": "Page43",
       "pagePath": "/bob-cards",
       "children": [
@@ -963,8 +893,8 @@
       ]
     },
     {
-      "pageName": "Page470",
-      "pagePath": "/portfolio",
+      "pageName": "Page334",
+      "pagePath": "/home",
       "children": [
         {
           "type": "Container",
@@ -1901,7 +1831,7 @@
                   "namespace": "Router",
                   "props": {
                     "link": {},
-                    "to": "portfolio",
+                    "to": "home",
                     "transition": {},
                     "style": {
                       "textDecoration": "none"
@@ -2268,7 +2198,7 @@
                   ],
                   "namespace": "Router",
                   "props": {
-                    "to": "portfolio"
+                    "to": "home"
                   }
                 },
                 {

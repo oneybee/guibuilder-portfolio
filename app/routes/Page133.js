@@ -121,7 +121,7 @@ class Page133 extends Component {
               lineHeight: "24px"
             }}
           >
-            <Link to="portfolio" style={{ textDecoration: "none" }}>
+            <Link to="home" style={{ textDecoration: "none" }}>
               <Hover
                 color="#222"
                 transition={{ target: "all" }}

@@ -8,7 +8,7 @@
   {
     "type": "Footer",
     "namespace": "Footer",
-    "variant": "work-project-footer",
+    "variant": "work-page-footer",
     "props": {
       "style": {
         "textAlign": "center",

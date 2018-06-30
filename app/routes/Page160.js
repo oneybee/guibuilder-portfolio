@@ -73,7 +73,7 @@ class Page160 extends Component {
               lineHeight: "24px"
             }}
           >
-            <Link to="portfolio">
+            <Link to="home">
               <Hover
                 color="#222"
                 style={{ color: "#969696", transitionDuration: "0.25s" }}

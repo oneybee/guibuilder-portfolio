@@ -40,7 +40,7 @@
   {
     "type": "PortofolioCard",
     "namespace": "PortofolioCard",
-    "variant": "work-portfolio-card-01",
+    "variant": "work-card",
     "props": {},
     "children": [
       {

@@ -8,7 +8,7 @@
   {
     "type": "Menu",
     "namespace": "Menu",
-    "variant": "portfolio-menu",
+    "variant": "menu",
     "props": {
       "style": {
         "fontFamily": "Roboto",
