@@ -2755,33 +2755,46 @@
                           },
                           "children": [
                             {
-                              "type": "Hover",
-                              "namespace": "Animations",
-                              "variant": "portfolio-card-01",
-                              "props": {
-                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                "transition": {
-                                  "target": "all",
-                                  "time": "250"
-                                },
-                                "style": {
-                                  "display": "inline-block"
-                                }
-                              },
+                              "type": "Link",
+                              "variant": "default",
                               "children": [
                                 {
-                                  "type": "img",
-                                  "variant": "default",
+                                  "type": "Hover",
+                                  "namespace": "Animations",
+                                  "variant": "portfolio-card-01",
                                   "props": {
-                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos.png",
+                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                    "transition": {
+                                      "target": "all",
+                                      "time": "250"
+                                    },
                                     "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                      "display": "inline-block"
                                     }
                                   },
-                                  "children": []
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos.png",
+                                        "style": {
+                                          "width": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
                                 }
-                              ]
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "style": {
+                                  "display": "block"
+                                },
+                                "to": "chrome-macos"
+                              }
                             }
                           ]
                         },
@@ -2823,19 +2836,32 @@
                           },
                           "children": [
                             {
-                              "type": "span",
+                              "type": "Link",
                               "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "22.5px",
-                                  "fontWeight": 400,
-                                  "fontFamily": "Roboto Mono",
-                                  "color": "rgba(0, 0, 0, 0.7)",
-                                  "cursor": "pointer"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "22.5px",
+                                      "fontWeight": 400,
+                                      "fontFamily": "Roboto Mono",
+                                      "color": "rgba(0, 0, 0, 0.7)",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Chrome for MacOS"
                                 }
-                              },
-                              "children": [],
-                              "text": "Chrome for MacOS"
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "chrome-macos",
+                                "style": {
+                                  "textDecoration": "none"
+                                }
+                              }
                             }
                           ]
                         }
@@ -4375,27 +4401,12 @@
                   "type": "img",
                   "variant": "default",
                   "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-01.png",
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-01.png",
                     "style": {
                       "maxWidth": "100%"
                     }
                   },
                   "children": []
-                },
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "color": "#B4B4B4",
-                      "fontSize": "12px",
-                      "lineHeight": "19.2px",
-                      "paddingBottom": "5%",
-                      "fontFamily": "Roboto Mono"
-                    }
-                  },
-                  "children": [],
-                  "text": "A Comparison between the old Chrome and Chrome MD."
                 }
               ],
               "namespace": "Container",
@@ -4421,27 +4432,12 @@
                   "type": "img",
                   "variant": "default",
                   "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-02.png",
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-02.png",
                     "style": {
                       "maxWidth": "100%"
                     }
                   },
                   "children": []
-                },
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "color": "#B4B4B4",
-                      "fontSize": "12px",
-                      "lineHeight": "19.2px",
-                      "paddingBottom": "5%",
-                      "fontFamily": "Roboto Mono"
-                    }
-                  },
-                  "children": [],
-                  "text": "All chrome Windows layout variations."
                 }
               ]
             },
@@ -4460,7 +4456,31 @@
                   "type": "img",
                   "variant": "default",
                   "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-03.png",
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-03.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-04.png",
                     "style": {
                       "maxWidth": "100%"
                     }
@@ -4480,7 +4500,184 @@
                     }
                   },
                   "children": [],
-                  "text": "Chrome MD in Windows 10 screenshot in 100% ppi ratio"
+                  "text": "The new history page, designed by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Alan Bettes) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-05.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "The new history page, designed by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Alan Bettes) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-06.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "The inspector in MacOS, work of "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Max Walker) "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-07.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "An excerpt of some of the spec used to implement the new design"
                 }
               ]
             },

@@ -14,7 +14,6 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-
         <div
           style={{
             display: "flex",
@@ -28,10 +27,13 @@ class HomePage extends Component {
               <span>home</span>
             </h3>
           </div>
-          <Link to="bob-cards"><span>밥카드 페이지</span></Link>
-          <Link><span>new page</span></Link>
+          <Link to="home">
+            <span>portfolio</span>
+          </Link>
+          <Link>
+            <span>new page</span>
+          </Link>
         </div>
-
       </div>
     ); // eslint-disable-line
   }

@@ -124,41 +124,25 @@ class Page670 extends Component {
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-01.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-01.png"
               style={{ maxWidth: "100%" }}
             />
-            <span
-              style={{
-                color: "#B4B4B4",
-                fontSize: "12px",
-                lineHeight: "19.2px",
-                paddingBottom: "5%",
-                fontFamily: "Roboto Mono"
-              }}
-            >
-              A Comparison between the old Chrome and Chrome MD.
-            </span>
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-02.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-02.png"
               style={{ maxWidth: "100%" }}
             />
-            <span
-              style={{
-                color: "#B4B4B4",
-                fontSize: "12px",
-                lineHeight: "19.2px",
-                paddingBottom: "5%",
-                fontFamily: "Roboto Mono"
-              }}
-            >
-              All chrome Windows layout variations.
-            </span>
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-03.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-03.png"
+              style={{ maxWidth: "100%" }}
+            />
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-04.png"
               style={{ maxWidth: "100%" }}
             />
             <span
@@ -170,7 +154,94 @@ class Page670 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              Chrome MD in Windows 10 screenshot in 100% ppi ratio
+              The new history page, designed by{" "}
+            </span>
+            <a
+              href="#"
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                color: "#B4B4B4",
+                fontSize: "12px",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              <span>Alan Bettes) </span>
+            </a>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-05.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              The new history page, designed by{" "}
+            </span>
+            <a
+              href="#"
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                color: "#B4B4B4",
+                fontSize: "12px",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              <span>Alan Bettes) </span>
+            </a>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-06.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              The inspector in MacOS, work of{" "}
+            </span>
+            <a
+              href="#"
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                color: "#B4B4B4",
+                fontSize: "12px",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              <span>Max Walker) </span>
+            </a>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-07.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              An excerpt of some of the spec used to implement the new design
             </span>
           </Container>
           <Footer

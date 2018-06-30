@@ -323,16 +323,18 @@ class Page160 extends Component {
             <Column col={12}>
               <PortofolioCard style={{ marginBottom: "10%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <Hover
-                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                    transition={{ target: "all", time: "250" }}
-                    style={{ display: "inline-block" }}
-                  >
-                    <img
-                      src="http://sebastien-gabriel.com/images/portfolio/chrome-macos.png"
-                      style={{ width: "100%", cursor: "pointer" }}
-                    />
-                  </Hover>
+                  <Link style={{ display: "block" }} to="chrome-macos">
+                    <Hover
+                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                      transition={{ target: "all", time: "250" }}
+                      style={{ display: "inline-block" }}
+                    >
+                      <img
+                        src="http://sebastien-gabriel.com/images/portfolio/chrome-macos.png"
+                        style={{ width: "100%", cursor: "pointer" }}
+                      />
+                    </Hover>
+                  </Link>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -346,17 +348,19 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
-                  <span
-                    style={{
-                      fontSize: "22.5px",
-                      fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0, 0, 0, 0.7)",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Chrome for MacOS
-                  </span>
+                  <Link to="chrome-macos" style={{ textDecoration: "none" }}>
+                    <span
+                      style={{
+                        fontSize: "22.5px",
+                        fontWeight: 400,
+                        fontFamily: "Roboto Mono",
+                        color: "rgba(0, 0, 0, 0.7)",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Chrome for MacOS
+                    </span>
+                  </Link>
                 </Title>
               </PortofolioCard>
             </Column>
