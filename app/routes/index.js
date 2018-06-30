@@ -4,6 +4,7 @@ import Page133 from "./Page133";
 import Page334 from "./Page334";
 import Page335 from "./Page335";
 import Page336 from "./Page336";
+import Page670 from "./Page670";
 
 class App extends React.Component {
   render() {
@@ -44,6 +45,11 @@ export default {
       path: "/chrome-windows",
       name: "/chrome-windows",
       component: Page336
+    },
+    {
+      path: "/chrome-macos",
+      name: "/chrome-macos",
+      component: Page670
     },
     {
       path: "*",

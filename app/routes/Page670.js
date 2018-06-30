@@ -1,6 +1,6 @@
 /**
  *
- * Page336
+ * Page670
  *
  */
 
@@ -10,7 +10,7 @@ import { Container } from "modules/Container";
 import { Link } from "modules/Router";
 import { Footer } from "modules/Footer";
 
-class Page336 extends Component {
+class Page670 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
@@ -57,7 +57,7 @@ class Page336 extends Component {
                   lineHeight: "40px"
                 }}
               >
-                {" "}Chrome for windows
+                {" "}Chrome for Mac OS
               </span>
             </div>
             <p
@@ -72,8 +72,27 @@ class Page336 extends Component {
                 color: "rgba(0,0,0,70)"
               }}
             >
+              <span style={{ display: "block" }}>
+                Chrome Material design for MacOS was part of the second wave of deployment of the new Chrome Core UI design on desktop.
+              </span>
+              <span>First to be updated was </span>
+              <Link style={{ textDecoration: "underline", cursor: "pointer" }}>
+                <span style={{ textDecorationStyle: "solid" }}>Chrome OS.</span>
+              </Link>
+              <span style={{ display: "block" }}>br</span>
+              <span style={{ display: "block" }}>br</span>
+              <span style={{ display: "block" }}>
+                Similarily to its Chrome OS counterpart, and while using Cocoa, the Mac version of the Core UI ditches bitmap assets in favor of complete programmatic rendering. The new chrome for Mac also gets the new dark incognito mode.
+              </span>
+              <span style={{ display: "block" }}>br</span>
+              <span style={{ display: "block" }}>br</span>
+              <span style={{ display: "block" }}>
+                My responsibility on this project was to design, spec and work closely with Engineering to bring the new design to life in its smallest details. Engineering worked tirelessly to give Chrome this revamp, making it more inline with it's MacOS environment and more consistent with the Chrome brand.
+              </span>
+              <span style={{ display: "block" }}>br</span>
+              <span style={{ display: "block" }}>br</span>
               <span>
-                September 2016 marked the realease of Chrome Material design on Windows' stable channel. This was the last step of the three phases deployement of Chrome MD. By default, only the regular layout is available. Users interested in testing the "Hybrid" layout can activate it in about://flags, under "UI Layout in the browser’s top chrome" and by setting it to "touch". You can learn more about this release and the reasonning behind it by reading my
+                At the same time I was working on the Core UI, other team-members worked on other core features of the browser, also featured in a few of the screenshots below such as the new Omnibox security visuals (created by
                 {" "}
               </span>
               <a
@@ -85,7 +104,21 @@ class Page336 extends Component {
                   textDecorationStyle: "solid"
                 }}
               >
-                <span>Medium article on the subject.</span>
+                <span>Max Walker) </span>
+              </a>
+              <span>
+                or the new inner pages: downloads and history (created by{" "}
+              </span>
+              <a
+                href="#"
+                style={{
+                  textDecoration: "underline",
+                  color: "#000",
+                  cursor: "pointer",
+                  textDecorationStyle: "solid"
+                }}
+              >
+                <span>Alan Bettes) </span>
               </a>
             </p>
           </Container>
@@ -189,4 +222,4 @@ class Page336 extends Component {
   }
 }
 
-export default Page336;
+export default Page670;
