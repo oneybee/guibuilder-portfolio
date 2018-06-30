@@ -123,9 +123,100 @@ class Page374 extends Component {
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-01.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-01.png"
               style={{ maxWidth: "100%" }}
             />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome normal layout, in default mode.
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-02.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome normal layout, in incognito mode.
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-03.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome Material design with dev tools (dev tools designer{" "}
+            </span>
+            <a
+              href="#"
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                color: "#B4B4B4",
+                fontSize: "12px",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              <span>Max Walker) </span>
+            </a>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-04.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome icognito layout omnibox dropdown
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-05.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome normal layout omnibox dropdown
+            </span>
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
