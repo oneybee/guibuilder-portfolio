@@ -3,6 +3,7 @@ import Page470 from "./Page470";
 import Page133 from "./Page133";
 import Page160 from "./Page160";
 import Page727 from "./Page727";
+import Page1198 from "./Page1198";
 
 class App extends React.Component {
   render() {
@@ -38,6 +39,11 @@ export default {
       path: "/work/chrome-os-system-menu",
       name: "/work/chrome-os-system-menu",
       component: Page727
+    },
+    {
+      path: "/work/chrome-windows",
+      name: "/work/chrome-windows",
+      component: Page1198
     },
     {
       path: "*",
