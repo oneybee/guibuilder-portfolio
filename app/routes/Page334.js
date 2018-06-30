@@ -281,9 +281,14 @@ class Page334 extends Component {
                     to="chrome-os-system-menu"
                   >
                     <Hover
-                      style={{ display: "inline-block", color: "#2963ff" }}
-                      transition={{ target: "all" }}
+                      style={{
+                        display: "inline-block",
+                        color: "#2963ff",
+                        height: "38px"
+                      }}
+                      transition={{ target: "all", time: 250 }}
                       color="#fff"
+                      boxShadow="0 5px 20px rgba(41,99,255,0.09)"
                     >
                       <span
                         style={{
@@ -373,20 +378,30 @@ class Page334 extends Component {
                       textDecoration: "none"
                     }}
                   >
-                    <span
+                    <Hover
                       style={{
-                        fontSize: "12px",
-                        fontWeight: 600,
-                        paddingRight: "30px",
-                        paddingLeft: "30px",
+                        display: "inline-block",
                         color: "#2963ff",
-                        letterSpacing: "1px",
-                        fontFamily: "Roboto",
-                        textTransform: "uppercase"
+                        height: "38px"
                       }}
+                      transition={{ target: "all", time: 250 }}
+                      color="#fff"
+                      boxShadow="0 5px 20px rgba(41,99,255,0.09)"
                     >
-                      read↗︎
-                    </span>
+                      <span
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: 600,
+                          paddingRight: "30px",
+                          paddingLeft: "30px",
+                          letterSpacing: "1px",
+                          fontFamily: "Roboto",
+                          textTransform: "uppercase"
+                        }}
+                      >
+                        read↗︎
+                      </span>
+                    </Hover>
                   </a>
                 </Button>
               </PortofolioCard>
