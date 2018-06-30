@@ -1,10 +1,11 @@
 import React from "react";
-import Page160 from "./Page160";
-import Page133 from "./Page133";
 import Page334 from "./Page334";
+import Page133 from "./Page133";
+import Page160 from "./Page160";
 import Page335 from "./Page335";
 import Page336 from "./Page336";
 import Page670 from "./Page670";
+import Page374 from "./Page374";
 
 class App extends React.Component {
   render() {
@@ -19,12 +20,12 @@ class App extends React.Component {
 export default {
   path: "/",
   component: App,
-  indexRoute: { component: Page160 },
+  indexRoute: { component: Page334 },
   childRoutes: [
     {
-      path: "/work",
-      name: "/work",
-      component: Page160
+      path: "/home",
+      name: "/home",
+      component: Page334
     },
     {
       path: "/get-in-touch",
@@ -32,9 +33,9 @@ export default {
       component: Page133
     },
     {
-      path: "/home",
-      name: "/home",
-      component: Page334
+      path: "/work",
+      name: "/work",
+      component: Page160
     },
     {
       path: "/chrome-os-system-menu",
@@ -52,9 +53,14 @@ export default {
       component: Page670
     },
     {
+      path: "/chrome-cros",
+      name: "/chrome-cros",
+      component: Page374
+    },
+    {
       path: "*",
       name: "notfound",
-      component: Page160
+      component: Page334
     }
   ]
 };
