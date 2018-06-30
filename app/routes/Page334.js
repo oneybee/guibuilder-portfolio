@@ -220,7 +220,7 @@ class Page334 extends Component {
                   >
                     <Link
                       style={{ display: "block" }}
-                      to="work/chrome-os-system-menu"
+                      to="chrome-os-system-menu"
                     >
                       <img
                         src="http://sebastien-gabriel.com/images/home-feature-system-menu.png"
@@ -278,7 +278,7 @@ class Page334 extends Component {
                       lineHeight: "38px",
                       textDecoration: "none"
                     }}
-                    to="work/chrome-os-system-menu"
+                    to="chrome-os-system-menu"
                   >
                     <Hover
                       style={{ display: "inline-block", color: "#2963ff" }}

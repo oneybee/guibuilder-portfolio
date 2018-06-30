@@ -1045,5 +1045,44 @@
       }
     },
     "children": []
+  },
+  {
+    "type": "Container",
+    "namespace": "Container",
+    "variant": "work-page-img-02",
+    "props": {
+      "style": {
+        "marginBottom": "2%",
+        "marginTop": "8%"
+      }
+    },
+    "children": [
+      {
+        "type": "img",
+        "variant": "default",
+        "props": {
+          "src": "http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-01.png",
+          "style": {
+            "maxWidth": "100%"
+          }
+        },
+        "children": []
+      },
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {
+          "style": {
+            "color": "#B4B4B4",
+            "fontSize": "12px",
+            "lineHeight": "19.2px",
+            "paddingBottom": "5%",
+            "fontFamily": "Roboto Mono"
+          }
+        },
+        "children": [],
+        "text": "A Comparison between the old Chrome and Chrome MD."
+      }
+    ]
   }
 ]

@@ -234,7 +234,7 @@ class Page160 extends Component {
                   >
                     <Link
                       style={{ display: "block" }}
-                      to="work/chrome-os-system-menu"
+                      to="chrome-os-system-menu"
                     >
                       <img
                         src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
@@ -255,7 +255,10 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <Link to="work/chrome-os-system-menu">
+                  <Link
+                    to="chrome-os-system-menu"
+                    style={{ textDecoration: "none" }}
+                  >
                     <span
                       style={{
                         fontSize: "17px",
@@ -280,10 +283,12 @@ class Page160 extends Component {
                     transition={{ target: "all", time: "250" }}
                     style={{ display: "inline-block" }}
                   >
-                    <img
-                      src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                      style={{ width: "100%", cursor: "pointer" }}
-                    />
+                    <Link style={{ display: "block" }} to="chrome-windows">
+                      <img
+                        src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                        style={{ width: "100%", cursor: "pointer" }}
+                      />
+                    </Link>
                   </Hover>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
@@ -298,18 +303,20 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <span
-                    style={{
-                      fontSize: "17px",
-                      fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0,0,0,70)",
-                      lineHeight: "27.2px",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Chrome for Windows
-                  </span>
+                  <Link style={{ textDecoration: "none" }} to="chrome-windows">
+                    <span
+                      style={{
+                        fontSize: "17px",
+                        fontWeight: 400,
+                        fontFamily: "Roboto Mono",
+                        color: "rgba(0,0,0,70)",
+                        lineHeight: "27.2px",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Chrome for Windows
+                    </span>
+                  </Link>
                 </Title>
               </PortofolioCard>
             </Column>

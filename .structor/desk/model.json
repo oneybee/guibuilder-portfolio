@@ -1255,7 +1255,7 @@
                                     "style": {
                                       "display": "block"
                                     },
-                                    "to": "work/chrome-os-system-menu"
+                                    "to": "chrome-os-system-menu"
                                   }
                                 }
                               ],
@@ -1384,7 +1384,7 @@
                                   "lineHeight": "38px",
                                   "textDecoration": "none"
                                 },
-                                "to": "work/chrome-os-system-menu"
+                                "to": "chrome-os-system-menu"
                               }
                             }
                           ],
@@ -2491,7 +2491,7 @@
                                     "style": {
                                       "display": "block"
                                     },
-                                    "to": "work/chrome-os-system-menu"
+                                    "to": "chrome-os-system-menu"
                                   }
                                 }
                               ]
@@ -2553,7 +2553,10 @@
                               ],
                               "namespace": "Router",
                               "props": {
-                                "to": "work/chrome-os-system-menu"
+                                "to": "chrome-os-system-menu",
+                                "style": {
+                                  "textDecoration": "none"
+                                }
                               }
                             }
                           ]
@@ -2606,16 +2609,29 @@
                               },
                               "children": [
                                 {
-                                  "type": "img",
+                                  "type": "Link",
                                   "variant": "default",
-                                  "props": {
-                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
-                                    "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
+                                        "style": {
+                                          "width": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
                                     }
-                                  },
-                                  "children": []
+                                  ],
+                                  "namespace": "Router",
+                                  "props": {
+                                    "style": {
+                                      "display": "block"
+                                    },
+                                    "to": "chrome-windows"
+                                  }
                                 }
                               ]
                             }
@@ -2654,20 +2670,33 @@
                           "props": {},
                           "children": [
                             {
-                              "type": "span",
+                              "type": "Link",
                               "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "17px",
+                                      "fontWeight": 400,
+                                      "fontFamily": "Roboto Mono",
+                                      "color": "rgba(0,0,0,70)",
+                                      "lineHeight": "27.2px",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Chrome for Windows"
+                                }
+                              ],
+                              "namespace": "Router",
                               "props": {
                                 "style": {
-                                  "fontSize": "17px",
-                                  "fontWeight": 400,
-                                  "fontFamily": "Roboto Mono",
-                                  "color": "rgba(0,0,0,70)",
-                                  "lineHeight": "27.2px",
-                                  "cursor": "pointer"
-                                }
-                              },
-                              "children": [],
-                              "text": "Chrome for Windows"
+                                  "textDecoration": "none"
+                                },
+                                "to": "chrome-windows"
+                              }
                             }
                           ]
                         }
@@ -3266,8 +3295,8 @@
       ]
     },
     {
-      "pageName": "Page727",
-      "pagePath": "/work/chrome-os-system-menu",
+      "pageName": "Page335",
+      "pagePath": "/chrome-os-system-menu",
       "children": [
         {
           "type": "Container",
@@ -3740,8 +3769,8 @@
       ]
     },
     {
-      "pageName": "Page1198",
-      "pagePath": "/work/chrome-windows",
+      "pageName": "Page336",
+      "pagePath": "/chrome-windows",
       "children": [
         {
           "type": "Container",
@@ -3853,6 +3882,21 @@
                     }
                   },
                   "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "A Comparison between the old Chrome and Chrome MD."
                 }
               ],
               "namespace": "Container",
@@ -3878,217 +3922,66 @@
                   "type": "img",
                   "variant": "default",
                   "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-00-2.jpg",
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-02.png",
                     "style": {
                       "maxWidth": "100%"
                     }
                   },
                   "children": []
-                }
-              ]
-            },
-            {
-              "type": "Container",
-              "namespace": "Container",
-              "variant": "portfolio-project-photo-container",
-              "props": {
-                "style": {
-                  "marginBottom": "2%",
-                  "marginTop": "8%"
-                }
-              },
-              "children": [
-                {
-                  "type": "img",
-                  "variant": "default",
-                  "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-01.png",
-                    "style": {
-                      "maxWidth": "100%"
-                    }
-                  },
-                  "children": []
-                }
-              ]
-            },
-            {
-              "type": "Container",
-              "namespace": "Container",
-              "variant": "portfolio-project-photo-container",
-              "props": {
-                "style": {
-                  "marginBottom": "2%",
-                  "marginTop": "8%"
-                }
-              },
-              "children": [
-                {
-                  "type": "img",
-                  "variant": "default",
-                  "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-02.png",
-                    "style": {
-                      "maxWidth": "100%"
-                    }
-                  },
-                  "children": []
-                }
-              ]
-            },
-            {
-              "type": "Container",
-              "namespace": "Container",
-              "variant": "portfolio-project-photo-container",
-              "props": {
-                "style": {
-                  "marginBottom": "2%",
-                  "marginTop": "8%"
-                }
-              },
-              "children": [
-                {
-                  "type": "img",
-                  "variant": "default",
-                  "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-03.png",
-                    "style": {
-                      "maxWidth": "100%"
-                    }
-                  },
-                  "children": []
-                }
-              ]
-            },
-            {
-              "type": "span",
-              "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
-              "children": [],
-              "text": "br"
-            },
-            {
-              "type": "span",
-              "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
-              "children": [],
-              "text": "br"
-            },
-            {
-              "type": "span",
-              "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
-              "children": [],
-              "text": "br"
-            },
-            {
-              "type": "p",
-              "variant": "default",
-              "props": {},
-              "children": [
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "fontSize": "25px",
-                      "fontWeight": 400,
-                      "color": "rgba(0,0,0,70)",
-                      "lineHeight": "31.25px",
-                      "marginTop": "2%",
-                      "fontFamily": "Roboto Mono",
-                      "display": "block"
-                    }
-                  },
-                  "children": [],
-                  "text": "System menu specification"
                 },
                 {
                   "type": "span",
                   "variant": "default",
                   "props": {
                     "style": {
-                      "display": "block"
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
                     }
                   },
                   "children": [],
-                  "text": "br"
+                  "text": "All chrome Windows layout variations."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-windows/chrome-windows-03.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
                 },
                 {
                   "type": "span",
                   "variant": "default",
                   "props": {
                     "style": {
-                      "fontSize": "15px",
-                      "fontWeight": 400,
-                      "color": "rgba(0,0,0,70)",
-                      "lineHeight": "30px",
-                      "marginBottom": "25px",
-                      "display": "block",
-                      "paddingRight": "15%"
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
                     }
                   },
                   "children": [],
-                  "text": "I used a very thorough set of specification system to deliver high fidelity mock-ups and specs to engineering. All layout surfaces was checked and aligned to the pixel to deliver the cleanest in-OS experience possible. Below are some excerpt from these specs."
-                }
-              ]
-            },
-            {
-              "type": "Container",
-              "namespace": "Container",
-              "variant": "portfolio-project-photo-container",
-              "props": {
-                "style": {
-                  "marginBottom": "2%",
-                  "marginTop": "8%"
-                }
-              },
-              "children": [
-                {
-                  "type": "img",
-                  "variant": "default",
-                  "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-04.png",
-                    "style": {
-                      "maxWidth": "100%"
-                    }
-                  },
-                  "children": []
-                }
-              ]
-            },
-            {
-              "type": "Container",
-              "namespace": "Container",
-              "variant": "portfolio-project-photo-container",
-              "props": {
-                "style": {
-                  "marginBottom": "2%",
-                  "marginTop": "8%"
-                }
-              },
-              "children": [
-                {
-                  "type": "img",
-                  "variant": "default",
-                  "props": {
-                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-05.png",
-                    "style": {
-                      "maxWidth": "100%"
-                    }
-                  },
-                  "children": []
+                  "text": "Chrome MD in Windows 10 screenshot in 100% ppi ratio"
                 }
               ]
             },
