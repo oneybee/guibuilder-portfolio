@@ -86,41 +86,42 @@ class Page374 extends Component {
                 Also new with Chrome, we introduced a fully re-themed Incognito mode, sporting a beautiful black layout from the tabs to the toolbar and even the NTP and omnibox dropdown.
               </span>
             </p>
-            <div
-              style={{
-                display: "inline",
-                fontFamily: "Roboto Mono",
-                marginTop: "2%"
-              }}
-            >
-              <span
-                style={{
-                  fontSize: "25px",
-                  fontWeight: 400,
-                  color: "rgba(0,0,0,70)",
-                  lineHeight: "40px"
-                }}
-              >
-                {" "}Chrome normal layout
-              </span>
-            </div>
-            <span style={{ display: "block" }}>br</span>
-            <p
-              style={{
-                fontFamily: "Roboto",
-                paddingBottom: "3%",
-                lineHeight: "30px",
-                marginBottom: "25px",
-                fontSize: "15px",
-                fontWeight: 400,
-                color: "rgba(0,0,0,70)"
-              }}
-            >
-              <span style={{ display: "block" }}>
-                The Chrome normal layout is the default Chrome UI we've known over the years. Optimized for mouse-only input, it is currently deployed on all desktop platforms. Starting with non-touchscreen Chromebooks, the new Chrome Material version will bring a complete visual refresh to this layout.
-              </span>
-            </p>
           </Container>
+          <div
+            style={{
+              display: "inline",
+              fontFamily: "Roboto Mono",
+              marginTop: "2%"
+            }}
+          >
+            <span
+              style={{
+                fontSize: "25px",
+                fontWeight: 400,
+                color: "rgba(0,0,0,70)",
+                lineHeight: "40px"
+              }}
+            >
+              {" "}Chrome normal layout
+            </span>
+          </div>
+          <span style={{ display: "block" }}>br</span>
+          <p
+            style={{
+              fontFamily: "Roboto",
+              paddingBottom: "3%",
+              lineHeight: "30px",
+              marginBottom: "25px",
+              fontSize: "15px",
+              fontWeight: 400,
+              color: "rgba(0,0,0,70)",
+              paddingRight: "15%"
+            }}
+          >
+            <span style={{ display: "block" }}>
+              The Chrome normal layout is the default Chrome UI we've known over the years. Optimized for mouse-only input, it is currently deployed on all desktop platforms. Starting with non-touchscreen Chromebooks, the new Chrome Material version will bring a complete visual refresh to this layout.
+            </span>
+          </p>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
               src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-01.png"
@@ -218,21 +219,44 @@ class Page374 extends Component {
               Chrome normal layout omnibox dropdown
             </span>
           </Container>
+          <div
+            style={{
+              display: "inline",
+              fontFamily: "Roboto Mono",
+              marginTop: "2%"
+            }}
+          >
+            <span
+              style={{
+                fontSize: "25px",
+                fontWeight: 400,
+                color: "rgba(0,0,0,70)",
+                lineHeight: "40px"
+              }}
+            >
+              {" "}Chrome Hybrid layout
+            </span>
+          </div>
+          <span style={{ display: "block" }}>br</span>
+          <p
+            style={{
+              fontFamily: "Roboto",
+              paddingBottom: "3%",
+              lineHeight: "30px",
+              marginBottom: "25px",
+              fontSize: "15px",
+              fontWeight: 400,
+              color: "rgba(0,0,0,70)",
+              paddingRight: "15%"
+            }}
+          >
+            <span style={{ display: "block" }}>
+              Coming with this redesign, the "Hybrid" layout which aims at Hybrid devices such as convertibles and touch-screen enabled computers enables better touchability while compromising as little as possible on productivity. This layout will be deployed first by default on touchscreen Chromebooks only.
+            </span>
+          </p>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-02.png"
-              style={{ maxWidth: "100%" }}
-            />
-          </Container>
-          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
-            <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-03.png"
-              style={{ maxWidth: "100%" }}
-            />
-          </Container>
-          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
-            <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-04.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-blueprint.png"
               style={{ maxWidth: "100%" }}
             />
             <span
@@ -244,7 +268,41 @@ class Page374 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              The new history page, designed by{" "}
+              The size difference between Chrome normal layout and Hybrid layout
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-blueprint-02.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome normal vs. Chrome hybrid visualization
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-06.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome Hybrid with the new .pdf viewer by{" "}
             </span>
             <a
               href="#"
@@ -256,12 +314,12 @@ class Page374 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              <span>Alan Bettes) </span>
+              <span>Codey Sielawa) </span>
             </a>
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-05.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-07.png"
               style={{ maxWidth: "100%" }}
             />
             <span
@@ -273,7 +331,144 @@ class Page374 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              The new history page, designed by{" "}
+              Chrome Hybrid incognito
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-08.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome hybrid layout omnibox dropdown
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-09.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome hybrid incognito layout omnibox dropdown
+            </span>
+          </Container>
+          <div
+            style={{
+              display: "inline",
+              fontFamily: "Roboto Mono",
+              marginTop: "2%"
+            }}
+          >
+            <span
+              style={{
+                fontSize: "25px",
+                fontWeight: 400,
+                color: "rgba(0,0,0,70)",
+                lineHeight: "40px"
+              }}
+            >
+              Common elements
+            </span>
+          </div>
+          <span style={{ display: "block" }}>br</span>
+          <p
+            style={{
+              fontFamily: "Roboto",
+              paddingBottom: "3%",
+              lineHeight: "30px",
+              marginBottom: "25px",
+              fontSize: "15px",
+              fontWeight: 400,
+              color: "rgba(0,0,0,70)",
+              paddingRight: "15%"
+            }}
+          >
+            <span style={{ display: "block" }}>
+              Compoents that you can find in both Normal and Hybrid mode. Beside spacing, everything is shared between the two versions, including iconography and motion.
+            </span>
+          </p>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-10.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              The new download shelf, will be available on Windows, replace by notification on Chrome OS
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-11-01.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              New MD buttons for dialogs and secondary UI
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-11-02.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome basic color scheme
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-12-01.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Iconography principle. Chrome follows a smaller grid than{" "}
             </span>
             <a
               href="#"
@@ -285,12 +480,23 @@ class Page374 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              <span>Alan Bettes) </span>
+              <span>Material's </span>
             </a>
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              to keep the UI more dense.
+            </span>
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-06.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-12.png"
               style={{ maxWidth: "100%" }}
             />
             <span
@@ -302,7 +508,58 @@ class Page374 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              The inspector in MacOS, work of{" "}
+              New iconography, rendered programmatically based on .svg.
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-13.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Infobar design, including the new buttons
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              New infobar design in place
+            </span>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome Hybrid with the new .pdf viewer by{" "}
             </span>
             <a
               href="#"
@@ -314,12 +571,12 @@ class Page374 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              <span>Max Walker) </span>
+              <span>Codey Sielawa) </span>
             </a>
           </Container>
           <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
             <img
-              src="http://sebastien-gabriel.com/images/portfolio/chrome-macos/chrome-macos-07.png"
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png"
               style={{ maxWidth: "100%" }}
             />
             <span
@@ -331,8 +588,49 @@ class Page374 extends Component {
                 fontFamily: "Roboto Mono"
               }}
             >
-              An excerpt of some of the spec used to implement the new design
+              Chrome Hybrid with the new .pdf viewer by{" "}
             </span>
+            <a
+              href="#"
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                color: "#B4B4B4",
+                fontSize: "12px",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              <span>Codey Sielawa) </span>
+            </a>
+          </Container>
+          <Container style={{ marginBottom: "2%", marginTop: "8%" }}>
+            <img
+              src="http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png"
+              style={{ maxWidth: "100%" }}
+            />
+            <span
+              style={{
+                color: "#B4B4B4",
+                fontSize: "12px",
+                lineHeight: "19.2px",
+                paddingBottom: "5%",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              Chrome Hybrid with the new .pdf viewer by{" "}
+            </span>
+            <a
+              href="#"
+              style={{
+                cursor: "pointer",
+                textDecoration: "underline",
+                color: "#B4B4B4",
+                fontSize: "12px",
+                fontFamily: "Roboto Mono"
+              }}
+            >
+              <span>Codey Sielawa) </span>
+            </a>
           </Container>
           <Footer
             style={{
