@@ -2898,33 +2898,46 @@
                           },
                           "children": [
                             {
-                              "type": "Hover",
-                              "namespace": "Animations",
-                              "variant": "portfolio-card-01",
-                              "props": {
-                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                "transition": {
-                                  "target": "all",
-                                  "time": "250"
-                                },
-                                "style": {
-                                  "display": "inline-block"
-                                }
-                              },
+                              "type": "Link",
+                              "variant": "default",
                               "children": [
                                 {
-                                  "type": "img",
-                                  "variant": "default",
+                                  "type": "Hover",
+                                  "namespace": "Animations",
+                                  "variant": "portfolio-card-01",
                                   "props": {
-                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros.png",
+                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                    "transition": {
+                                      "target": "all",
+                                      "time": "250"
+                                    },
                                     "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                      "display": "inline-block"
                                     }
                                   },
-                                  "children": []
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros.png",
+                                        "style": {
+                                          "width": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
                                 }
-                              ]
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "style": {
+                                  "display": "block"
+                                },
+                                "to": "chrome-cros"
+                              }
                             }
                           ]
                         },
@@ -2961,20 +2974,30 @@
                           "props": {},
                           "children": [
                             {
-                              "type": "span",
+                              "type": "Link",
                               "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "17px",
-                                  "fontWeight": 400,
-                                  "fontFamily": "Roboto Mono",
-                                  "color": "rgba(0,0,0,70)",
-                                  "lineHeight": "27.2px",
-                                  "cursor": "pointer"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "17px",
+                                      "fontWeight": 400,
+                                      "fontFamily": "Roboto Mono",
+                                      "color": "rgba(0,0,0,70)",
+                                      "lineHeight": "27.2px",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Chrome for Chrome OS"
                                 }
-                              },
-                              "children": [],
-                              "text": "Chrome for Chrome OS"
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "chrome-cros"
+                              }
                             }
                           ]
                         }
@@ -3011,33 +3034,46 @@
                           },
                           "children": [
                             {
-                              "type": "Hover",
-                              "namespace": "Animations",
-                              "variant": "portfolio-card-01",
-                              "props": {
-                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                "transition": {
-                                  "target": "all",
-                                  "time": "250"
-                                },
-                                "style": {
-                                  "display": "inline-block"
-                                }
-                              },
+                              "type": "Link",
+                              "variant": "default",
                               "children": [
                                 {
-                                  "type": "img",
-                                  "variant": "default",
+                                  "type": "Hover",
+                                  "namespace": "Animations",
+                                  "variant": "portfolio-card-01",
                                   "props": {
-                                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player.png",
+                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                    "transition": {
+                                      "target": "all",
+                                      "time": "250"
+                                    },
                                     "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                      "display": "inline-block"
                                     }
                                   },
-                                  "children": []
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/portfolio/audio-player.png",
+                                        "style": {
+                                          "width": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
                                 }
-                              ]
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "style": {
+                                  "display": "block"
+                                },
+                                "to": "audio-player"
+                              }
                             }
                           ]
                         },
@@ -3074,20 +3110,30 @@
                           "props": {},
                           "children": [
                             {
-                              "type": "span",
+                              "type": "Link",
                               "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "17px",
-                                  "fontWeight": 400,
-                                  "fontFamily": "Roboto Mono",
-                                  "color": "rgba(0,0,0,70)",
-                                  "lineHeight": "27.2px",
-                                  "cursor": "pointer"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "17px",
+                                      "fontWeight": 400,
+                                      "fontFamily": "Roboto Mono",
+                                      "color": "rgba(0,0,0,70)",
+                                      "lineHeight": "27.2px",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Chrome OS audio player"
                                 }
-                              },
-                              "children": [],
-                              "text": "Chrome OS audio player"
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "audio-player"
+                              }
                             }
                           ]
                         }
@@ -3124,33 +3170,46 @@
                           },
                           "children": [
                             {
-                              "type": "Hover",
-                              "namespace": "Animations",
-                              "variant": "portfolio-card-01",
-                              "props": {
-                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                "transition": {
-                                  "target": "all",
-                                  "time": "250"
-                                },
-                                "style": {
-                                  "display": "inline-block"
-                                }
-                              },
+                              "type": "Link",
+                              "variant": "default",
                               "children": [
                                 {
-                                  "type": "img",
-                                  "variant": "default",
+                                  "type": "Hover",
+                                  "namespace": "Animations",
+                                  "variant": "portfolio-card-01",
                                   "props": {
-                                    "src": "http://sebastien-gabriel.com/images/portfolio/files-app.png",
+                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                    "transition": {
+                                      "target": "all",
+                                      "time": "250"
+                                    },
                                     "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                      "display": "inline-block"
                                     }
                                   },
-                                  "children": []
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/portfolio/files-app.png",
+                                        "style": {
+                                          "width": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
                                 }
-                              ]
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "style": {
+                                  "display": "block"
+                                },
+                                "to": "files-app"
+                              }
                             }
                           ]
                         },
@@ -3187,20 +3246,30 @@
                           "props": {},
                           "children": [
                             {
-                              "type": "span",
+                              "type": "Link",
                               "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "17px",
-                                  "fontWeight": 400,
-                                  "fontFamily": "Roboto Mono",
-                                  "color": "rgba(0,0,0,70)",
-                                  "lineHeight": "27.2px",
-                                  "cursor": "pointer"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "17px",
+                                      "fontWeight": 400,
+                                      "fontFamily": "Roboto Mono",
+                                      "color": "rgba(0,0,0,70)",
+                                      "lineHeight": "27.2px",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Chrome OS Files app"
                                 }
-                              },
-                              "children": [],
-                              "text": "Chrome OS Files up"
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "files-app"
+                              }
                             }
                           ]
                         }
@@ -3237,33 +3306,46 @@
                           },
                           "children": [
                             {
-                              "type": "Hover",
-                              "namespace": "Animations",
-                              "variant": "portfolio-card-01",
-                              "props": {
-                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                "transition": {
-                                  "target": "all",
-                                  "time": "250"
-                                },
-                                "style": {
-                                  "display": "inline-block"
-                                }
-                              },
+                              "type": "Link",
+                              "variant": "default",
                               "children": [
                                 {
-                                  "type": "img",
-                                  "variant": "default",
+                                  "type": "Hover",
+                                  "namespace": "Animations",
+                                  "variant": "portfolio-card-01",
                                   "props": {
-                                    "src": "http://sebastien-gabriel.com/images/portfolio/gallery.png",
+                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                                    "transition": {
+                                      "target": "all",
+                                      "time": "250"
+                                    },
                                     "style": {
-                                      "width": "100%",
-                                      "cursor": "pointer"
+                                      "display": "inline-block"
                                     }
                                   },
-                                  "children": []
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "http://sebastien-gabriel.com/images/portfolio/gallery.png",
+                                        "style": {
+                                          "width": "100%",
+                                          "cursor": "pointer"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
                                 }
-                              ]
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "style": {
+                                  "display": "block"
+                                },
+                                "to": "gallery-app"
+                              }
                             }
                           ]
                         },
@@ -3300,20 +3382,30 @@
                           "props": {},
                           "children": [
                             {
-                              "type": "span",
+                              "type": "Link",
                               "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "17px",
-                                  "fontWeight": 400,
-                                  "fontFamily": "Roboto Mono",
-                                  "color": "rgba(0,0,0,70)",
-                                  "lineHeight": "27.2px",
-                                  "cursor": "pointer"
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "17px",
+                                      "fontWeight": 400,
+                                      "fontFamily": "Roboto Mono",
+                                      "color": "rgba(0,0,0,70)",
+                                      "lineHeight": "27.2px",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Chrome OS Gallery app"
                                 }
-                              },
-                              "children": [],
-                              "text": "Chrome OS Gallery app"
+                              ],
+                              "namespace": "Router",
+                              "props": {
+                                "to": "gallery-app"
+                              }
                             }
                           ]
                         }
@@ -4760,6 +4852,3107 @@
     {
       "pageName": "Page374",
       "pagePath": "/chrome-cros",
+      "children": [
+        {
+          "type": "Container",
+          "variant": "default",
+          "children": [
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-container",
+              "props": {
+                "style": {
+                  "paddingTop": "4%",
+                  "paddingBottom": "4%"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline",
+                      "marginBottom": "10%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "Link",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "↤ Work /",
+                          "props": {}
+                        }
+                      ],
+                      "namespace": "Router",
+                      "props": {
+                        "to": "work",
+                        "style": {
+                          "color": "#969696",
+                          "cursor": "pointer",
+                          "fontSize": "13px",
+                          "fontWeight": 300,
+                          "lineHeight": "20.8px",
+                          "textDecoration": "none"
+                        }
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "25px",
+                          "fontWeight": 400,
+                          "color": "rgba(0,0,0,70)",
+                          "lineHeight": "40px"
+                        }
+                      },
+                      "children": [],
+                      "text": " Chrome for Chrome OS"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontFamily": "Roboto",
+                      "paddingTop": "3%",
+                      "paddingBottom": "3%",
+                      "lineHeight": "30px",
+                      "marginBottom": "25px",
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "Chrome 50 for desktop saw one of the its biggest revamp in 4 years. This project that spanned across an entire year and for which I was the visual lead consisted in redesigning Chrome core UI from the ground up for all desktop platforms. Starting with Chrome OS, we entirely rethought the way Chrome is implemented, starting by removing any type of bitmap assets such as .png to entirely render it programmatically, which removed a total of ~1200 pngs. Chrome should now scale way better across PPIs, including on Windows when it will be deployed."
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "In addition, we brought Material motion to the core UI with complex morphing ripples and bubbles burst on the icons. We also created two different layout: One mouse optimized layout and a more spaced-out one that we are calling \"hybrid\", which will be deployed by default on touch-enabled Chromebooks. The goal of the layout is to enable better touchability without comprimising layout density and productivity."
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {},
+                      "children": [],
+                      "text": "Also new with Chrome, we introduced a fully re-themed Incognito mode, sporting a beautiful black layout from the tabs to the toolbar and even the NTP and omnibox dropdown."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline",
+                  "fontFamily": "Roboto Mono",
+                  "marginTop": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "25px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "40px"
+                    }
+                  },
+                  "children": [],
+                  "text": " Chrome normal layout"
+                }
+              ]
+            },
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block"
+                }
+              },
+              "children": [],
+              "text": "br"
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "Roboto",
+                  "paddingBottom": "3%",
+                  "lineHeight": "30px",
+                  "marginBottom": "25px",
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "color": "rgba(0,0,0,70)",
+                  "paddingRight": "15%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "The Chrome normal layout is the default Chrome UI we've known over the years. Optimized for mouse-only input, it is currently deployed on all desktop platforms. Starting with non-touchscreen Chromebooks, the new Chrome Material version will bring a complete visual refresh to this layout."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-01.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal layout, in default mode."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-02.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal layout, in incognito mode."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-03.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Material design with dev tools (dev tools designer "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Max Walker) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-04.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome icognito layout omnibox dropdown"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-05.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal layout omnibox dropdown"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline",
+                  "fontFamily": "Roboto Mono",
+                  "marginTop": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "25px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "40px"
+                    }
+                  },
+                  "children": [],
+                  "text": " Chrome Hybrid layout"
+                }
+              ]
+            },
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block"
+                }
+              },
+              "children": [],
+              "text": "br"
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "Roboto",
+                  "paddingBottom": "3%",
+                  "lineHeight": "30px",
+                  "marginBottom": "25px",
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "color": "rgba(0,0,0,70)",
+                  "paddingRight": "15%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "Coming with this redesign, the \"Hybrid\" layout which aims at Hybrid devices such as convertibles and touch-screen enabled computers enables better touchability while compromising as little as possible on productivity. This layout will be deployed first by default on touchscreen Chromebooks only."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-blueprint.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "The size difference between Chrome normal layout and Hybrid layout"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-blueprint-02.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal vs. Chrome hybrid visualization"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-06.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-07.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid incognito"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-08.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome hybrid layout omnibox dropdown"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-09.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome hybrid incognito layout omnibox dropdown"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline",
+                  "fontFamily": "Roboto Mono",
+                  "marginTop": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "25px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "40px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Common elements"
+                }
+              ]
+            },
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block"
+                }
+              },
+              "children": [],
+              "text": "br"
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "Roboto",
+                  "paddingBottom": "3%",
+                  "lineHeight": "30px",
+                  "marginBottom": "25px",
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "color": "rgba(0,0,0,70)",
+                  "paddingRight": "15%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "Compoents that you can find in both Normal and Hybrid mode. Beside spacing, everything is shared between the two versions, including iconography and motion."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-10.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "The new download shelf, will be available on Windows, replace by notification on Chrome OS"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-11-01.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "New MD buttons for dialogs and secondary UI"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-11-02.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome basic color scheme"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-12-01.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Iconography principle. Chrome follows a smaller grid than "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Material's ",
+                      "props": {}
+                    }
+                  ]
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "to keep the UI more dense."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-12.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "New iconography, rendered programmatically based on .svg."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-13.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Infobar design, including the new buttons"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "New infobar design in place"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    },
+                    "type": {}
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Footer",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "span",
+                  "text": "THANKS FOR watching",
+                  "props": {
+                    "style": {
+                      "fontSize": "14px",
+                      "lineHeight": "30px",
+                      "paddingTop": "5%",
+                      "display": "block",
+                      "marginBottom": "25px",
+                      "color": "#969696",
+                      "textTransform": "uppercase"
+                    }
+                  }
+                },
+                {
+                  "type": "Link",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "back to work",
+                      "props": {
+                        "style": {
+                          "fontSize": "12px",
+                          "lineHeight": "38px",
+                          "marginBottom": "10px",
+                          "textTransform": "uppercase",
+                          "paddingLeft": "30px",
+                          "paddingRight": "30px",
+                          "letterSpacing": "1px",
+                          "display": "inline-block",
+                          "color": "rgb(41, 99, 255)",
+                          "fontWeight": 600,
+                          "border": "1px solid #2963ff",
+                          "borderRadius": "4px",
+                          "cursor": "pointer"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Router",
+                  "props": {
+                    "to": "work"
+                  }
+                }
+              ],
+              "namespace": "Footer",
+              "props": {
+                "style": {
+                  "textAlign": "center",
+                  "marginTop": "10%",
+                  "borderTop": "1px solid #e6e6e6"
+                }
+              }
+            }
+          ],
+          "namespace": "Container",
+          "props": {
+            "style": {
+              "width": "90%",
+              "margin": "0 auto",
+              "maxWidth": "960px",
+              "fontFamily": "Roboto",
+              "fontSize": "15px",
+              "fontWeight": 400,
+              "lineHeight": "24px"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageName": "Page1914",
+      "pagePath": "/audio-player",
+      "children": [
+        {
+          "type": "Container",
+          "variant": "default",
+          "children": [
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-container",
+              "props": {
+                "style": {
+                  "paddingTop": "4%",
+                  "paddingBottom": "4%"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline",
+                      "marginBottom": "10%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "Link",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "↤ Work /",
+                          "props": {}
+                        }
+                      ],
+                      "namespace": "Router",
+                      "props": {
+                        "to": "work",
+                        "style": {
+                          "color": "#969696",
+                          "cursor": "pointer",
+                          "fontSize": "13px",
+                          "fontWeight": 300,
+                          "lineHeight": "20.8px",
+                          "textDecoration": "none"
+                        }
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "25px",
+                          "fontWeight": 400,
+                          "color": "rgba(0,0,0,70)",
+                          "lineHeight": "40px"
+                        }
+                      },
+                      "children": [],
+                      "text": " Chrome OS Audio player"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontFamily": "Roboto",
+                      "paddingTop": "3%",
+                      "paddingBottom": "3%",
+                      "lineHeight": "30px",
+                      "marginBottom": "25px",
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "Available natively in Chrome OS as a Files app extension, the audio player is a small and simple audio-only player able to read a wide variety of audio files. It also displays album cover and handles playlist. It received a Material design update on novemenber 2015 as part of our on-going effort to bring MD to the Chrome OS platform. It sports an enhanced, more touchable yet compact, UI layout and some Material design ripples and effect."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player/audio-player-01.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player/audio-player-02.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player/audio-player-03.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player/audio-player-04.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player/audio-player-05.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "The Audio player in place along with it's parent app, the Files app."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Footer",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "span",
+                  "text": "THANKS FOR watching",
+                  "props": {
+                    "style": {
+                      "fontSize": "14px",
+                      "lineHeight": "30px",
+                      "paddingTop": "5%",
+                      "display": "block",
+                      "marginBottom": "25px",
+                      "color": "#969696",
+                      "textTransform": "uppercase"
+                    }
+                  }
+                },
+                {
+                  "type": "Link",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "back to work",
+                      "props": {
+                        "style": {
+                          "fontSize": "12px",
+                          "lineHeight": "38px",
+                          "marginBottom": "10px",
+                          "textTransform": "uppercase",
+                          "paddingLeft": "30px",
+                          "paddingRight": "30px",
+                          "letterSpacing": "1px",
+                          "display": "inline-block",
+                          "color": "rgb(41, 99, 255)",
+                          "fontWeight": 600,
+                          "border": "1px solid #2963ff",
+                          "borderRadius": "4px",
+                          "cursor": "pointer"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Router",
+                  "props": {
+                    "to": "work"
+                  }
+                }
+              ],
+              "namespace": "Footer",
+              "props": {
+                "style": {
+                  "textAlign": "center",
+                  "marginTop": "10%",
+                  "borderTop": "1px solid #e6e6e6"
+                }
+              }
+            }
+          ],
+          "namespace": "Container",
+          "props": {
+            "style": {
+              "width": "90%",
+              "margin": "0 auto",
+              "maxWidth": "960px",
+              "fontFamily": "Roboto",
+              "fontSize": "15px",
+              "fontWeight": 400,
+              "lineHeight": "24px"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageName": "Page2025",
+      "pagePath": "/files-app",
+      "children": [
+        {
+          "type": "Container",
+          "variant": "default",
+          "children": [
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-container",
+              "props": {
+                "style": {
+                  "paddingTop": "4%",
+                  "paddingBottom": "4%"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline",
+                      "marginBottom": "10%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "Link",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "↤ Work /",
+                          "props": {}
+                        }
+                      ],
+                      "namespace": "Router",
+                      "props": {
+                        "to": "work",
+                        "style": {
+                          "color": "#969696",
+                          "cursor": "pointer",
+                          "fontSize": "13px",
+                          "fontWeight": 300,
+                          "lineHeight": "20.8px",
+                          "textDecoration": "none"
+                        }
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "25px",
+                          "fontWeight": 400,
+                          "color": "rgba(0,0,0,70)",
+                          "lineHeight": "40px"
+                        }
+                      },
+                      "children": [],
+                      "text": " Chrome for Chrome OS"
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontFamily": "Roboto",
+                      "paddingTop": "3%",
+                      "paddingBottom": "3%",
+                      "lineHeight": "30px",
+                      "marginBottom": "25px",
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "Chrome 50 for desktop saw one of the its biggest revamp in 4 years. This project that spanned across an entire year and for which I was the visual lead consisted in redesigning Chrome core UI from the ground up for all desktop platforms. Starting with Chrome OS, we entirely rethought the way Chrome is implemented, starting by removing any type of bitmap assets such as .png to entirely render it programmatically, which removed a total of ~1200 pngs. Chrome should now scale way better across PPIs, including on Windows when it will be deployed."
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "In addition, we brought Material motion to the core UI with complex morphing ripples and bubbles burst on the icons. We also created two different layout: One mouse optimized layout and a more spaced-out one that we are calling \"hybrid\", which will be deployed by default on touch-enabled Chromebooks. The goal of the layout is to enable better touchability without comprimising layout density and productivity."
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "br"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {},
+                      "children": [],
+                      "text": "Also new with Chrome, we introduced a fully re-themed Incognito mode, sporting a beautiful black layout from the tabs to the toolbar and even the NTP and omnibox dropdown."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline",
+                  "fontFamily": "Roboto Mono",
+                  "marginTop": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "25px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "40px"
+                    }
+                  },
+                  "children": [],
+                  "text": " Chrome normal layout"
+                }
+              ]
+            },
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block"
+                }
+              },
+              "children": [],
+              "text": "br"
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "Roboto",
+                  "paddingBottom": "3%",
+                  "lineHeight": "30px",
+                  "marginBottom": "25px",
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "color": "rgba(0,0,0,70)",
+                  "paddingRight": "15%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "The Chrome normal layout is the default Chrome UI we've known over the years. Optimized for mouse-only input, it is currently deployed on all desktop platforms. Starting with non-touchscreen Chromebooks, the new Chrome Material version will bring a complete visual refresh to this layout."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-01.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal layout, in default mode."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-02.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal layout, in incognito mode."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-03.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Material design with dev tools (dev tools designer "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Max Walker) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-04.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome icognito layout omnibox dropdown"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-05.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal layout omnibox dropdown"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline",
+                  "fontFamily": "Roboto Mono",
+                  "marginTop": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "25px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "40px"
+                    }
+                  },
+                  "children": [],
+                  "text": " Chrome Hybrid layout"
+                }
+              ]
+            },
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block"
+                }
+              },
+              "children": [],
+              "text": "br"
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "Roboto",
+                  "paddingBottom": "3%",
+                  "lineHeight": "30px",
+                  "marginBottom": "25px",
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "color": "rgba(0,0,0,70)",
+                  "paddingRight": "15%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "Coming with this redesign, the \"Hybrid\" layout which aims at Hybrid devices such as convertibles and touch-screen enabled computers enables better touchability while compromising as little as possible on productivity. This layout will be deployed first by default on touchscreen Chromebooks only."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-blueprint.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "The size difference between Chrome normal layout and Hybrid layout"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-blueprint-02.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome normal vs. Chrome hybrid visualization"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-06.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-07.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid incognito"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-08.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome hybrid layout omnibox dropdown"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-09.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome hybrid incognito layout omnibox dropdown"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline",
+                  "fontFamily": "Roboto Mono",
+                  "marginTop": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "25px",
+                      "fontWeight": 400,
+                      "color": "rgba(0,0,0,70)",
+                      "lineHeight": "40px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Common elements"
+                }
+              ]
+            },
+            {
+              "type": "span",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "block"
+                }
+              },
+              "children": [],
+              "text": "br"
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "fontFamily": "Roboto",
+                  "paddingBottom": "3%",
+                  "lineHeight": "30px",
+                  "marginBottom": "25px",
+                  "fontSize": "15px",
+                  "fontWeight": 400,
+                  "color": "rgba(0,0,0,70)",
+                  "paddingRight": "15%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block"
+                    }
+                  },
+                  "children": [],
+                  "text": "Compoents that you can find in both Normal and Hybrid mode. Beside spacing, everything is shared between the two versions, including iconography and motion."
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-10.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "The new download shelf, will be available on Windows, replace by notification on Chrome OS"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-11-01.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "New MD buttons for dialogs and secondary UI"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "namespace": "Container",
+              "variant": "portfolio-project-photo-container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              },
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-11-02.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome basic color scheme"
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-12-01.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Iconography principle. Chrome follows a smaller grid than "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Material's ",
+                      "props": {}
+                    }
+                  ]
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "to keep the UI more dense."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-12.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "New iconography, rendered programmatically based on .svg."
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-13.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Infobar design, including the new buttons"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "New infobar design in place"
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    },
+                    "type": {}
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Container",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros/chrome-cros-14.png",
+                    "style": {
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "lineHeight": "19.2px",
+                      "paddingBottom": "5%",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome Hybrid with the new .pdf viewer by "
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#",
+                    "style": {
+                      "cursor": "pointer",
+                      "textDecoration": "underline",
+                      "color": "#B4B4B4",
+                      "fontSize": "12px",
+                      "fontFamily": "Roboto Mono"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Codey Sielawa) "
+                    }
+                  ]
+                }
+              ],
+              "namespace": "Container",
+              "props": {
+                "style": {
+                  "marginBottom": "2%",
+                  "marginTop": "8%"
+                }
+              }
+            },
+            {
+              "type": "Footer",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "span",
+                  "text": "THANKS FOR watching",
+                  "props": {
+                    "style": {
+                      "fontSize": "14px",
+                      "lineHeight": "30px",
+                      "paddingTop": "5%",
+                      "display": "block",
+                      "marginBottom": "25px",
+                      "color": "#969696",
+                      "textTransform": "uppercase"
+                    }
+                  }
+                },
+                {
+                  "type": "Link",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "back to work",
+                      "props": {
+                        "style": {
+                          "fontSize": "12px",
+                          "lineHeight": "38px",
+                          "marginBottom": "10px",
+                          "textTransform": "uppercase",
+                          "paddingLeft": "30px",
+                          "paddingRight": "30px",
+                          "letterSpacing": "1px",
+                          "display": "inline-block",
+                          "color": "rgb(41, 99, 255)",
+                          "fontWeight": 600,
+                          "border": "1px solid #2963ff",
+                          "borderRadius": "4px",
+                          "cursor": "pointer"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Router",
+                  "props": {
+                    "to": "work"
+                  }
+                }
+              ],
+              "namespace": "Footer",
+              "props": {
+                "style": {
+                  "textAlign": "center",
+                  "marginTop": "10%",
+                  "borderTop": "1px solid #e6e6e6"
+                }
+              }
+            }
+          ],
+          "namespace": "Container",
+          "props": {
+            "style": {
+              "width": "90%",
+              "margin": "0 auto",
+              "maxWidth": "960px",
+              "fontFamily": "Roboto",
+              "fontSize": "15px",
+              "fontWeight": 400,
+              "lineHeight": "24px"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageName": "Page2136",
+      "pagePath": "/gallery-app",
       "children": [
         {
           "type": "Container",

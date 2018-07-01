@@ -367,16 +367,18 @@ class Page160 extends Component {
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <Hover
-                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                    transition={{ target: "all", time: "250" }}
-                    style={{ display: "inline-block" }}
-                  >
-                    <img
-                      src="http://sebastien-gabriel.com/images/portfolio/chrome-cros.png"
-                      style={{ width: "100%", cursor: "pointer" }}
-                    />
-                  </Hover>
+                  <Link style={{ display: "block" }} to="chrome-cros">
+                    <Hover
+                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                      transition={{ target: "all", time: "250" }}
+                      style={{ display: "inline-block" }}
+                    >
+                      <img
+                        src="http://sebastien-gabriel.com/images/portfolio/chrome-cros.png"
+                        style={{ width: "100%", cursor: "pointer" }}
+                      />
+                    </Hover>
+                  </Link>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -390,34 +392,38 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <span
-                    style={{
-                      fontSize: "17px",
-                      fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0,0,0,70)",
-                      lineHeight: "27.2px",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Chrome for Chrome OS
-                  </span>
+                  <Link to="chrome-cros">
+                    <span
+                      style={{
+                        fontSize: "17px",
+                        fontWeight: 400,
+                        fontFamily: "Roboto Mono",
+                        color: "rgba(0,0,0,70)",
+                        lineHeight: "27.2px",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Chrome for Chrome OS
+                    </span>
+                  </Link>
                 </Title>
               </PortofolioCard>
             </Column>
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <Hover
-                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                    transition={{ target: "all", time: "250" }}
-                    style={{ display: "inline-block" }}
-                  >
-                    <img
-                      src="http://sebastien-gabriel.com/images/portfolio/audio-player.png"
-                      style={{ width: "100%", cursor: "pointer" }}
-                    />
-                  </Hover>
+                  <Link style={{ display: "block" }} to="audio-player">
+                    <Hover
+                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                      transition={{ target: "all", time: "250" }}
+                      style={{ display: "inline-block" }}
+                    >
+                      <img
+                        src="http://sebastien-gabriel.com/images/portfolio/audio-player.png"
+                        style={{ width: "100%", cursor: "pointer" }}
+                      />
+                    </Hover>
+                  </Link>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -431,34 +437,38 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <span
-                    style={{
-                      fontSize: "17px",
-                      fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0,0,0,70)",
-                      lineHeight: "27.2px",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Chrome OS audio player
-                  </span>
+                  <Link to="audio-player">
+                    <span
+                      style={{
+                        fontSize: "17px",
+                        fontWeight: 400,
+                        fontFamily: "Roboto Mono",
+                        color: "rgba(0,0,0,70)",
+                        lineHeight: "27.2px",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Chrome OS audio player
+                    </span>
+                  </Link>
                 </Title>
               </PortofolioCard>
             </Column>
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <Hover
-                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                    transition={{ target: "all", time: "250" }}
-                    style={{ display: "inline-block" }}
-                  >
-                    <img
-                      src="http://sebastien-gabriel.com/images/portfolio/files-app.png"
-                      style={{ width: "100%", cursor: "pointer" }}
-                    />
-                  </Hover>
+                  <Link style={{ display: "block" }} to="files-app">
+                    <Hover
+                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                      transition={{ target: "all", time: "250" }}
+                      style={{ display: "inline-block" }}
+                    >
+                      <img
+                        src="http://sebastien-gabriel.com/images/portfolio/files-app.png"
+                        style={{ width: "100%", cursor: "pointer" }}
+                      />
+                    </Hover>
+                  </Link>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -472,34 +482,38 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <span
-                    style={{
-                      fontSize: "17px",
-                      fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0,0,0,70)",
-                      lineHeight: "27.2px",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Chrome OS Files up
-                  </span>
+                  <Link to="files-app">
+                    <span
+                      style={{
+                        fontSize: "17px",
+                        fontWeight: 400,
+                        fontFamily: "Roboto Mono",
+                        color: "rgba(0,0,0,70)",
+                        lineHeight: "27.2px",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Chrome OS Files app
+                    </span>
+                  </Link>
                 </Title>
               </PortofolioCard>
             </Column>
             <Column col={6}>
               <PortofolioCard style={{ paddingBottom: "20%" }}>
                 <Image style={{ paddingBottom: "20px" }}>
-                  <Hover
-                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                    transition={{ target: "all", time: "250" }}
-                    style={{ display: "inline-block" }}
-                  >
-                    <img
-                      src="http://sebastien-gabriel.com/images/portfolio/gallery.png"
-                      style={{ width: "100%", cursor: "pointer" }}
-                    />
-                  </Hover>
+                  <Link style={{ display: "block" }} to="gallery-app">
+                    <Hover
+                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                      transition={{ target: "all", time: "250" }}
+                      style={{ display: "inline-block" }}
+                    >
+                      <img
+                        src="http://sebastien-gabriel.com/images/portfolio/gallery.png"
+                        style={{ width: "100%", cursor: "pointer" }}
+                      />
+                    </Hover>
+                  </Link>
                 </Image>
                 <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
                   <span
@@ -513,18 +527,20 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <span
-                    style={{
-                      fontSize: "17px",
-                      fontWeight: 400,
-                      fontFamily: "Roboto Mono",
-                      color: "rgba(0,0,0,70)",
-                      lineHeight: "27.2px",
-                      cursor: "pointer"
-                    }}
-                  >
-                    Chrome OS Gallery app
-                  </span>
+                  <Link to="gallery-app">
+                    <span
+                      style={{
+                        fontSize: "17px",
+                        fontWeight: 400,
+                        fontFamily: "Roboto Mono",
+                        color: "rgba(0,0,0,70)",
+                        lineHeight: "27.2px",
+                        cursor: "pointer"
+                      }}
+                    >
+                      Chrome OS Gallery app
+                    </span>
+                  </Link>
                 </Title>
               </PortofolioCard>
             </Column>
