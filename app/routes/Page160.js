@@ -392,7 +392,7 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <Link to="chrome-cros">
+                  <Link to="chrome-cros" style={{ textDecoration: "none" }}>
                     <span
                       style={{
                         fontSize: "17px",
@@ -437,7 +437,7 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <Link to="audio-player">
+                  <Link to="audio-player" style={{ textDecoration: "none" }}>
                     <span
                       style={{
                         fontSize: "17px",
@@ -482,7 +482,7 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <Link to="files-app">
+                  <Link to="files-app" style={{ textDecoration: "none" }}>
                     <span
                       style={{
                         fontSize: "17px",
@@ -527,7 +527,7 @@ class Page160 extends Component {
                   </span>
                 </Date>
                 <Title>
-                  <Link to="gallery-app">
+                  <Link to="gallery-app" style={{ textDecoration: "none" }}>
                     <span
                       style={{
                         fontSize: "17px",
