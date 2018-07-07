@@ -309,5 +309,107 @@
         "namespace": "PortofolioCard"
       }
     ]
+  },
+  {
+    "type": "Column",
+    "namespace": "Layout",
+    "variant": "card-test-01",
+    "props": {
+      "col": 6
+    },
+    "children": [
+      {
+        "type": "div",
+        "variant": "default",
+        "props": {
+          "style": {
+            "marginBottom": "20%"
+          }
+        },
+        "children": [
+          {
+            "type": "Link",
+            "variant": "default",
+            "children": [
+              {
+                "type": "Hover",
+                "variant": "default",
+                "children": [
+                  {
+                    "type": "img",
+                    "variant": "default",
+                    "props": {
+                      "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
+                      "style": {
+                        "width": "100%",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "children": []
+                  }
+                ],
+                "namespace": "Animations",
+                "props": {
+                  "style": {
+                    "display": "inline-block",
+                    "transitionDuration": "0.25s",
+                    "cursor": "pointer"
+                  },
+                  "transition": {
+                    "target": "all"
+                  },
+                  "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                }
+              }
+            ],
+            "namespace": "Router",
+            "props": {
+              "style": {
+                "display": "inline-block",
+                "marginBottom": "20px"
+              }
+            }
+          },
+          {
+            "type": "span",
+            "variant": "default",
+            "props": {
+              "style": {
+                "display": "block",
+                "color": "#969696",
+                "fontSize": "11px",
+                "fontWeight": 400,
+                "lineHeight": "17.6px"
+              }
+            },
+            "children": [],
+            "text": "JAN 2017"
+          },
+          {
+            "type": "Link",
+            "variant": "default",
+            "children": [
+              {
+                "type": "span",
+                "variant": "default",
+                "props": {
+                  "style": {
+                    "fontFamily": "Roboto Mono",
+                    "color": "#5A5A5A",
+                    "fontSize": "17px",
+                    "fontWeight": 300,
+                    "lineHeight": "27.2p",
+                    "cursor": "pointer"
+                  }
+                },
+                "children": [],
+                "text": "Chrome OS system menu"
+              }
+            ],
+            "namespace": "Router"
+          }
+        ]
+      }
+    ]
   }
 ]

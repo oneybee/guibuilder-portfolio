@@ -2459,69 +2459,74 @@
                   "variant": "default",
                   "children": [
                     {
-                      "type": "PortofolioCard",
+                      "type": "div",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "paddingBottom": "20%"
+                          "marginBottom": "20%"
                         }
                       },
                       "children": [
                         {
-                          "type": "Image",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
-                          "props": {
-                            "style": {
-                              "paddingBottom": "20px"
-                            }
-                          },
+                          "type": "Link",
+                          "variant": "default",
                           "children": [
                             {
                               "type": "Hover",
-                              "namespace": "Animations",
-                              "variant": "portfolio-card-01",
-                              "props": {
-                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                "transition": {
-                                  "target": "all",
-                                  "time": "250"
-                                },
-                                "style": {
-                                  "display": "inline-block"
-                                }
-                              },
+                              "variant": "default",
                               "children": [
                                 {
-                                  "type": "Link",
+                                  "type": "img",
                                   "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "img",
-                                      "variant": "default",
-                                      "props": {
-                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
-                                        "style": {
-                                          "width": "100%",
-                                          "cursor": "pointer"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Router",
                                   "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
                                     "style": {
-                                      "display": "block"
-                                    },
-                                    "to": "chrome-os-system-menu"
-                                  }
+                                      "width": "100%",
+                                      "maxWidth": "100%"
+                                    }
+                                  },
+                                  "children": []
                                 }
-                              ]
+                              ],
+                              "namespace": "Animations",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "transitionDuration": "0.25s",
+                                  "cursor": "pointer"
+                                },
+                                "transition": {
+                                  "target": "all"
+                                },
+                                "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                              }
                             }
-                          ]
+                          ],
+                          "namespace": "Router",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "marginBottom": "20px"
+                            }
+                          }
                         },
                         {
-                          "type": "Date",
+                          "type": "span",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "color": "#969696",
+                              "fontSize": "11px",
+                              "fontWeight": 400,
+                              "lineHeight": "17.6px"
+                            }
+                          },
+                          "children": [],
+                          "text": "JAN 2017"
+                        },
+                        {
+                          "type": "Link",
                           "variant": "default",
                           "children": [
                             {
@@ -2529,63 +2534,21 @@
                               "variant": "default",
                               "props": {
                                 "style": {
-                                  "fontSize": "11px",
-                                  "fontWeight": 400,
-                                  "lineHeight": "17.6px"
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "#5A5A5A",
+                                  "fontSize": "17px",
+                                  "fontWeight": 300,
+                                  "lineHeight": "27.2p",
+                                  "cursor": "pointer"
                                 }
                               },
                               "children": [],
-                              "text": "JAN 2017"
+                              "text": "Chrome OS system menu"
                             }
                           ],
-                          "namespace": "PortofolioCard",
-                          "props": {
-                            "style": {
-                              "color": "#969696",
-                              "fontFamily": "Roboto"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Title",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "fontSize": "17px",
-                                      "fontWeight": 400,
-                                      "fontFamily": "Roboto Mono",
-                                      "color": "rgb(90, 90, 90)",
-                                      "lineHeight": "27.2px",
-                                      "cursor": "pointer"
-                                    }
-                                  },
-                                  "children": [],
-                                  "text": "Chrome OS System menu"
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "to": "chrome-os-system-menu",
-                                "style": {
-                                  "textDecoration": "none"
-                                }
-                              }
-                            }
-                          ]
+                          "namespace": "Router"
                         }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "variant": "default"
+                      ]
                     }
                   ],
                   "namespace": "Layout",
@@ -2595,72 +2558,81 @@
                 },
                 {
                   "type": "Column",
-                  "variant": "default",
+                  "namespace": "Layout",
+                  "variant": "card-test-01",
+                  "props": {
+                    "col": 6
+                  },
                   "children": [
                     {
-                      "type": "PortofolioCard",
+                      "type": "div",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "paddingBottom": "20%"
+                          "marginBottom": "20%"
                         }
                       },
                       "children": [
                         {
-                          "type": "Image",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
-                          "props": {
-                            "style": {
-                              "paddingBottom": "20px"
-                            }
-                          },
+                          "type": "Link",
+                          "variant": "default",
                           "children": [
                             {
                               "type": "Hover",
-                              "namespace": "Animations",
-                              "variant": "portfolio-card-01",
-                              "props": {
-                                "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                "transition": {
-                                  "target": "all",
-                                  "time": "250"
-                                },
-                                "style": {
-                                  "display": "inline-block"
-                                }
-                              },
+                              "variant": "default",
                               "children": [
                                 {
-                                  "type": "Link",
+                                  "type": "img",
                                   "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "img",
-                                      "variant": "default",
-                                      "props": {
-                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
-                                        "style": {
-                                          "width": "100%",
-                                          "cursor": "pointer"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Router",
                                   "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-win.png",
                                     "style": {
-                                      "display": "block"
-                                    },
-                                    "to": "chrome-windows"
-                                  }
+                                      "width": "100%",
+                                      "maxWidth": "100%"
+                                    }
+                                  },
+                                  "children": []
                                 }
-                              ]
+                              ],
+                              "namespace": "Animations",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block",
+                                  "transitionDuration": "0.25s",
+                                  "cursor": "pointer"
+                                },
+                                "transition": {
+                                  "target": "all"
+                                },
+                                "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                              }
                             }
-                          ]
+                          ],
+                          "namespace": "Router",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "marginBottom": "20px"
+                            }
+                          }
                         },
                         {
-                          "type": "Date",
+                          "type": "span",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "color": "#969696",
+                              "fontSize": "11px",
+                              "fontWeight": 400,
+                              "lineHeight": "17.6px"
+                            }
+                          },
+                          "children": [],
+                          "text": "SEP 2016"
+                        },
+                        {
+                          "type": "Link",
                           "variant": "default",
                           "children": [
                             {
@@ -2668,76 +2640,35 @@
                               "variant": "default",
                               "props": {
                                 "style": {
-                                  "fontSize": "11px",
-                                  "fontWeight": 400,
-                                  "lineHeight": "17.6px"
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "#5A5A5A",
+                                  "fontSize": "17px",
+                                  "fontWeight": 300,
+                                  "lineHeight": "27.2p",
+                                  "cursor": "pointer"
                                 }
                               },
                               "children": [],
-                              "text": "SEP 2016"
+                              "text": "Chrome for Windows"
                             }
                           ],
-                          "namespace": "PortofolioCard",
-                          "props": {
-                            "style": {
-                              "color": "#969696",
-                              "fontFamily": "Roboto"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Title",
-                          "namespace": "PortofolioCard",
-                          "variant": "work-card-01",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "fontSize": "17px",
-                                      "fontWeight": 400,
-                                      "fontFamily": "Roboto Mono",
-                                      "color": "rgba(0,0,0,70)",
-                                      "lineHeight": "27.2px",
-                                      "cursor": "pointer"
-                                    }
-                                  },
-                                  "children": [],
-                                  "text": "Chrome for Windows"
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "style": {
-                                  "textDecoration": "none"
-                                },
-                                "to": "chrome-windows"
-                              }
-                            }
-                          ]
+                          "namespace": "Router"
                         }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "variant": "default"
+                      ]
                     }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 6
-                  }
+                  ]
                 },
                 {
                   "type": "Column",
-                  "variant": "default",
+                  "namespace": "Layout",
+                  "variant": "card-test-01",
+                  "props": {
+                    "col": 12
+                  },
                   "children": [
                     {
-                      "type": "PortofolioCard",
+                      "type": "div",
+                      "variant": "default",
                       "props": {
                         "style": {
                           "marginBottom": "10%"
@@ -2745,204 +2676,65 @@
                       },
                       "children": [
                         {
-                          "type": "Image",
-                          "namespace": "PortofolioCard",
-                          "variant": "work-card-01",
-                          "props": {
-                            "style": {
-                              "paddingBottom": "20px"
-                            }
-                          },
+                          "type": "Link",
+                          "variant": "default",
                           "children": [
                             {
-                              "type": "Link",
+                              "type": "Hover",
                               "variant": "default",
                               "children": [
                                 {
-                                  "type": "Hover",
-                                  "namespace": "Animations",
-                                  "variant": "portfolio-card-01",
-                                  "props": {
-                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                    "transition": {
-                                      "target": "all",
-                                      "time": "250"
-                                    },
-                                    "style": {
-                                      "display": "inline-block"
-                                    }
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "img",
-                                      "variant": "default",
-                                      "props": {
-                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos.png",
-                                        "style": {
-                                          "width": "100%",
-                                          "cursor": "pointer"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "style": {
-                                  "display": "block"
-                                },
-                                "to": "chrome-macos"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "type": "Date",
-                          "namespace": "PortofolioCard",
-                          "variant": "work-card-01",
-                          "props": {
-                            "style": {
-                              "color": "#969696",
-                              "fontFamily": "Roboto"
-                            }
-                          },
-                          "children": [
-                            {
-                              "type": "span",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "11px",
-                                  "fontWeight": 400,
-                                  "lineHeight": "17.6px"
-                                }
-                              },
-                              "children": [],
-                              "text": "JUL 2016"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "Title",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
-                          "props": {
-                            "style": {
-                              "paddingTop": "20px",
-                              "paddingBottom": "20px"
-                            }
-                          },
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
+                                  "type": "img",
                                   "variant": "default",
                                   "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos.png",
                                     "style": {
-                                      "fontSize": "22.5px",
-                                      "fontWeight": 400,
-                                      "fontFamily": "Roboto Mono",
-                                      "color": "rgba(0, 0, 0, 0.7)",
-                                      "cursor": "pointer"
+                                      "width": "100%",
+                                      "maxWidth": "100%"
                                     }
                                   },
-                                  "children": [],
-                                  "text": "Chrome for MacOS"
+                                  "children": []
                                 }
                               ],
-                              "namespace": "Router",
+                              "namespace": "Animations",
                               "props": {
-                                "to": "chrome-macos",
                                 "style": {
-                                  "textDecoration": "none"
-                                }
+                                  "display": "inline-block",
+                                  "transitionDuration": "0.25s",
+                                  "cursor": "pointer"
+                                },
+                                "transition": {
+                                  "target": "all"
+                                },
+                                "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
                               }
                             }
-                          ]
-                        }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "variant": "default"
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 12
-                  }
-                },
-                {
-                  "type": "Column",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "paddingBottom": "20%"
-                        }
-                      },
-                      "children": [
-                        {
-                          "type": "Image",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
+                          ],
+                          "namespace": "Router",
                           "props": {
                             "style": {
-                              "paddingBottom": "20px"
+                              "display": "inline-block",
+                              "marginBottom": "20px"
                             }
-                          },
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "Hover",
-                                  "namespace": "Animations",
-                                  "variant": "portfolio-card-01",
-                                  "props": {
-                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                    "transition": {
-                                      "target": "all",
-                                      "time": "250"
-                                    },
-                                    "style": {
-                                      "display": "inline-block"
-                                    }
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "img",
-                                      "variant": "default",
-                                      "props": {
-                                        "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros.png",
-                                        "style": {
-                                          "width": "100%",
-                                          "cursor": "pointer"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "style": {
-                                  "display": "block"
-                                },
-                                "to": "chrome-cros"
-                              }
-                            }
-                          ]
+                          }
                         },
                         {
-                          "type": "Date",
+                          "type": "span",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "color": "#969696",
+                              "fontSize": "11px",
+                              "fontWeight": 400,
+                              "lineHeight": "17.6px"
+                            }
+                          },
+                          "children": [],
+                          "text": "JUL 2016"
+                        },
+                        {
+                          "type": "Link",
                           "variant": "default",
                           "children": [
                             {
@@ -2950,138 +2742,101 @@
                               "variant": "default",
                               "props": {
                                 "style": {
-                                  "fontSize": "11px",
-                                  "fontWeight": 400,
-                                  "lineHeight": "17.6px"
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "#5A5A5A",
+                                  "fontSize": "17px",
+                                  "fontWeight": 300,
+                                  "lineHeight": "27.2p",
+                                  "cursor": "pointer"
                                 }
                               },
                               "children": [],
-                              "text": "APR 2016"
+                              "text": "Chrome for MacOS"
                             }
                           ],
-                          "namespace": "PortofolioCard",
-                          "props": {
-                            "style": {
-                              "color": "#969696",
-                              "fontFamily": "Roboto"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Title",
-                          "namespace": "PortofolioCard",
-                          "variant": "work-card-01",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "fontSize": "17px",
-                                      "fontWeight": 400,
-                                      "fontFamily": "Roboto Mono",
-                                      "color": "rgba(0,0,0,70)",
-                                      "lineHeight": "27.2px",
-                                      "cursor": "pointer"
-                                    }
-                                  },
-                                  "children": [],
-                                  "text": "Chrome for Chrome OS"
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "to": "chrome-cros",
-                                "style": {
-                                  "textDecoration": "none"
-                                }
-                              }
-                            }
-                          ]
+                          "namespace": "Router"
                         }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "variant": "default"
+                      ]
                     }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 6
-                  }
+                  ]
                 },
                 {
                   "type": "Column",
-                  "variant": "default",
+                  "namespace": "Layout",
+                  "variant": "card-test-01",
+                  "props": {
+                    "col": 6
+                  },
                   "children": [
                     {
-                      "type": "PortofolioCard",
+                      "type": "div",
+                      "variant": "default",
                       "props": {
                         "style": {
-                          "paddingBottom": "20%"
+                          "marginBottom": "20%"
                         }
                       },
                       "children": [
                         {
-                          "type": "Image",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
-                          "props": {
-                            "style": {
-                              "paddingBottom": "20px"
-                            }
-                          },
+                          "type": "Link",
+                          "variant": "default",
                           "children": [
                             {
-                              "type": "Link",
+                              "type": "Hover",
                               "variant": "default",
                               "children": [
                                 {
-                                  "type": "Hover",
-                                  "namespace": "Animations",
-                                  "variant": "portfolio-card-01",
+                                  "type": "img",
+                                  "variant": "default",
                                   "props": {
-                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                    "transition": {
-                                      "target": "all",
-                                      "time": "250"
-                                    },
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
                                     "style": {
-                                      "display": "inline-block"
+                                      "width": "100%",
+                                      "maxWidth": "100%"
                                     }
                                   },
-                                  "children": [
-                                    {
-                                      "type": "img",
-                                      "variant": "default",
-                                      "props": {
-                                        "src": "http://sebastien-gabriel.com/images/portfolio/audio-player.png",
-                                        "style": {
-                                          "width": "100%",
-                                          "cursor": "pointer"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ]
+                                  "children": []
                                 }
                               ],
-                              "namespace": "Router",
+                              "namespace": "Animations",
                               "props": {
                                 "style": {
-                                  "display": "block"
+                                  "display": "inline-block",
+                                  "transitionDuration": "0.25s",
+                                  "cursor": "pointer"
                                 },
-                                "to": "audio-player"
+                                "transition": {
+                                  "target": "all"
+                                },
+                                "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
                               }
                             }
-                          ]
+                          ],
+                          "namespace": "Router",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "marginBottom": "20px"
+                            }
+                          }
                         },
                         {
-                          "type": "Date",
+                          "type": "span",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "block",
+                              "color": "#969696",
+                              "fontSize": "11px",
+                              "fontWeight": 400,
+                              "lineHeight": "17.6px"
+                            }
+                          },
+                          "children": [],
+                          "text": "JAN 2017"
+                        },
+                        {
+                          "type": "Link",
                           "variant": "default",
                           "children": [
                             {
@@ -3089,347 +2844,23 @@
                               "variant": "default",
                               "props": {
                                 "style": {
-                                  "fontSize": "11px",
-                                  "fontWeight": 400,
-                                  "lineHeight": "17.6px"
+                                  "fontFamily": "Roboto Mono",
+                                  "color": "#5A5A5A",
+                                  "fontSize": "17px",
+                                  "fontWeight": 300,
+                                  "lineHeight": "27.2p",
+                                  "cursor": "pointer"
                                 }
                               },
                               "children": [],
-                              "text": "NOV 2015"
+                              "text": "Chrome OS system menu"
                             }
                           ],
-                          "namespace": "PortofolioCard",
-                          "props": {
-                            "style": {
-                              "color": "#969696",
-                              "fontFamily": "Roboto"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Title",
-                          "namespace": "PortofolioCard",
-                          "variant": "work-card-01",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "fontSize": "17px",
-                                      "fontWeight": 400,
-                                      "fontFamily": "Roboto Mono",
-                                      "color": "rgba(0,0,0,70)",
-                                      "lineHeight": "27.2px",
-                                      "cursor": "pointer"
-                                    }
-                                  },
-                                  "children": [],
-                                  "text": "Chrome OS audio player"
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "to": "audio-player",
-                                "style": {
-                                  "textDecoration": "none"
-                                }
-                              }
-                            }
-                          ]
+                          "namespace": "Router"
                         }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "variant": "default"
+                      ]
                     }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 6
-                  }
-                },
-                {
-                  "type": "Column",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "paddingBottom": "20%"
-                        }
-                      },
-                      "children": [
-                        {
-                          "type": "Image",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
-                          "props": {
-                            "style": {
-                              "paddingBottom": "20px"
-                            }
-                          },
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "Hover",
-                                  "namespace": "Animations",
-                                  "variant": "portfolio-card-01",
-                                  "props": {
-                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                    "transition": {
-                                      "target": "all",
-                                      "time": "250"
-                                    },
-                                    "style": {
-                                      "display": "inline-block"
-                                    }
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "img",
-                                      "variant": "default",
-                                      "props": {
-                                        "src": "http://sebastien-gabriel.com/images/portfolio/files-app.png",
-                                        "style": {
-                                          "width": "100%",
-                                          "cursor": "pointer"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "style": {
-                                  "display": "block"
-                                },
-                                "to": "files-app"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "type": "Date",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "span",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "11px",
-                                  "fontWeight": 400,
-                                  "lineHeight": "17.6px"
-                                }
-                              },
-                              "children": [],
-                              "text": "OCT 2015"
-                            }
-                          ],
-                          "namespace": "PortofolioCard",
-                          "props": {
-                            "style": {
-                              "color": "#969696",
-                              "fontFamily": "Roboto"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Title",
-                          "namespace": "PortofolioCard",
-                          "variant": "work-card-01",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "fontSize": "17px",
-                                      "fontWeight": 400,
-                                      "fontFamily": "Roboto Mono",
-                                      "color": "rgba(0,0,0,70)",
-                                      "lineHeight": "27.2px",
-                                      "cursor": "pointer"
-                                    }
-                                  },
-                                  "children": [],
-                                  "text": "Chrome OS Files app"
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "to": "files-app",
-                                "style": {
-                                  "textDecoration": "none"
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "variant": "default"
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 6
-                  }
-                },
-                {
-                  "type": "Column",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "PortofolioCard",
-                      "props": {
-                        "style": {
-                          "paddingBottom": "20%"
-                        }
-                      },
-                      "children": [
-                        {
-                          "type": "Image",
-                          "namespace": "PortofolioCard",
-                          "variant": "card01",
-                          "props": {
-                            "style": {
-                              "paddingBottom": "20px"
-                            }
-                          },
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "Hover",
-                                  "namespace": "Animations",
-                                  "variant": "portfolio-card-01",
-                                  "props": {
-                                    "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
-                                    "transition": {
-                                      "target": "all",
-                                      "time": "250"
-                                    },
-                                    "style": {
-                                      "display": "inline-block"
-                                    }
-                                  },
-                                  "children": [
-                                    {
-                                      "type": "img",
-                                      "variant": "default",
-                                      "props": {
-                                        "src": "http://sebastien-gabriel.com/images/portfolio/gallery.png",
-                                        "style": {
-                                          "width": "100%",
-                                          "cursor": "pointer"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "style": {
-                                  "display": "block"
-                                },
-                                "to": "gallery-app"
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "type": "Date",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "span",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "fontSize": "11px",
-                                  "fontWeight": 400,
-                                  "lineHeight": "17.6px"
-                                }
-                              },
-                              "children": [],
-                              "text": "OCT 2015"
-                            }
-                          ],
-                          "namespace": "PortofolioCard",
-                          "props": {
-                            "style": {
-                              "color": "#969696",
-                              "fontFamily": "Roboto"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Title",
-                          "namespace": "PortofolioCard",
-                          "variant": "work-card-01",
-                          "props": {},
-                          "children": [
-                            {
-                              "type": "Link",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "span",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "fontSize": "17px",
-                                      "fontWeight": 400,
-                                      "fontFamily": "Roboto Mono",
-                                      "color": "rgba(0,0,0,70)",
-                                      "lineHeight": "27.2px",
-                                      "cursor": "pointer"
-                                    }
-                                  },
-                                  "children": [],
-                                  "text": "Chrome OS Gallery app"
-                                }
-                              ],
-                              "namespace": "Router",
-                              "props": {
-                                "to": "gallery-app",
-                                "style": {
-                                  "textDecoration": "none"
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ],
-                      "namespace": "PortofolioCard",
-                      "variant": "default"
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "col": 6
-                  }
+                  ]
                 }
               ],
               "namespace": "Layout"
@@ -3440,7 +2871,8 @@
             "style": {
               "width": "90%",
               "maxWidth": "960px",
-              "margin": "0 auto"
+              "margin": "0 auto",
+              "fontFamily": "Roboto"
             }
           }
         }
@@ -6661,7 +6093,7 @@
                         }
                       },
                       "children": [],
-                      "text": "<div class=\"row\" style=\"color: rgba(0, 0, 0, 0.7); font-family: Roboto, sans-serif; font-size: 15px; white-space: normal;\"><div class=\"portfolio-project-container\" style=\"padding: 29.1562px 0px;\"><p style=\"padding: 21.8594px 0px; line-height: 3rem; margin-bottom: 2.5rem;\">Chrome M46 brought the revamped version of the Built-in Chrome OS files app. This new version features a revamped UI and UX with the addition of cloud sync as well as third party services such as DropBox. The UI is a scaled down version of the Material design spec for fit the need of a more condensed desktop UI. Ripples and MD effect have also been modified to deliver a delightful experience on the platform.</p><div><br></div></div></div><div class=\"row\" style=\"color: rgba(0, 0, 0, 0.7); font-family: Roboto, sans-serif; font-size: 15px; white-space: normal;\"><div class=\"onecolumn\"></div></div>"
+                      "text": "Chrome M46 brought the revamped version of the Built-in Chrome OS files app. This new version features a revamped UI and UX with the addition of cloud sync as well as third party services such as DropBox. The UI is a scaled down version of the Material design spec for fit the need of a more condensed desktop UI. Ripples and MD effect have also been modified to deliver a delightful experience on the platform."
                     },
                     {
                       "type": "span",

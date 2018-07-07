@@ -12,7 +12,6 @@ import { Menu } from "modules/Menu";
 import { Link } from "modules/Router";
 import { Hover } from "modules/Animations";
 import { Row, Column } from "modules/Layout";
-import { PortofolioCard, Image, Date, Title } from "modules/PortofolioCard";
 
 class Page160 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -22,7 +21,12 @@ class Page160 extends Component {
       <div>
 
         <Container
-          style={{ width: "90%", maxWidth: "960px", margin: "0 auto" }}
+          style={{
+            width: "90%",
+            maxWidth: "960px",
+            margin: "0 auto",
+            fontFamily: "Roboto"
+          }}
         >
           <Header style={{ marginTop: "15%", marginBottom: "15%" }}>
             <span
@@ -225,324 +229,184 @@ class Page160 extends Component {
           <h5 style={{ marginTop: "15%", marginBottom: "5%" }} />
           <Row>
             <Column col={6}>
-              <PortofolioCard style={{ paddingBottom: "20%" }}>
-                <Image style={{ paddingBottom: "20px" }}>
+              <div style={{ marginBottom: "20%" }}>
+                <Link style={{ display: "inline-block", marginBottom: "20px" }}>
                   <Hover
-                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                    transition={{ target: "all", time: "250" }}
-                    style={{ display: "inline-block" }}
+                    style={{
+                      display: "inline-block",
+                      transitionDuration: "0.25s",
+                      cursor: "pointer"
+                    }}
+                    transition={{ target: "all" }}
+                    boxShadow="0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
                   >
-                    <Link
-                      style={{ display: "block" }}
-                      to="chrome-os-system-menu"
-                    >
-                      <img
-                        src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
-                        style={{ width: "100%", cursor: "pointer" }}
-                      />
-                    </Link>
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
+                      style={{ width: "100%", maxWidth: "100%" }}
+                    />
                   </Hover>
-                </Image>
-                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
+                </Link>
+                <span
+                  style={{
+                    display: "block",
+                    color: "#969696",
+                    fontSize: "11px",
+                    fontWeight: 400,
+                    lineHeight: "17.6px"
+                  }}
+                >
+                  JAN 2017
+                </span>
+                <Link>
                   <span
                     style={{
-                      fontSize: "11px",
-                      fontWeight: 400,
-                      lineHeight: "17.6px"
+                      fontFamily: "Roboto Mono",
+                      color: "#5A5A5A",
+                      fontSize: "17px",
+                      fontWeight: 300,
+                      lineHeight: "27.2p",
+                      cursor: "pointer"
                     }}
                   >
-                    JAN 2017
+                    Chrome OS system menu
                   </span>
-                </Date>
-                <Title>
-                  <Link
-                    to="chrome-os-system-menu"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <span
-                      style={{
-                        fontSize: "17px",
-                        fontWeight: 400,
-                        fontFamily: "Roboto Mono",
-                        color: "rgb(90, 90, 90)",
-                        lineHeight: "27.2px",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Chrome OS System menu
-                    </span>
-                  </Link>
-                </Title>
-              </PortofolioCard>
+                </Link>
+              </div>
             </Column>
             <Column col={6}>
-              <PortofolioCard style={{ paddingBottom: "20%" }}>
-                <Image style={{ paddingBottom: "20px" }}>
+              <div style={{ marginBottom: "20%" }}>
+                <Link style={{ display: "inline-block", marginBottom: "20px" }}>
                   <Hover
-                    boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                    transition={{ target: "all", time: "250" }}
-                    style={{ display: "inline-block" }}
+                    style={{
+                      display: "inline-block",
+                      transitionDuration: "0.25s",
+                      cursor: "pointer"
+                    }}
+                    transition={{ target: "all" }}
+                    boxShadow="0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
                   >
-                    <Link style={{ display: "block" }} to="chrome-windows">
-                      <img
-                        src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
-                        style={{ width: "100%", cursor: "pointer" }}
-                      />
-                    </Link>
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-win.png"
+                      style={{ width: "100%", maxWidth: "100%" }}
+                    />
                   </Hover>
-                </Image>
-                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
+                </Link>
+                <span
+                  style={{
+                    display: "block",
+                    color: "#969696",
+                    fontSize: "11px",
+                    fontWeight: 400,
+                    lineHeight: "17.6px"
+                  }}
+                >
+                  SEP 2016
+                </span>
+                <Link>
                   <span
                     style={{
-                      fontSize: "11px",
-                      fontWeight: 400,
-                      lineHeight: "17.6px"
+                      fontFamily: "Roboto Mono",
+                      color: "#5A5A5A",
+                      fontSize: "17px",
+                      fontWeight: 300,
+                      lineHeight: "27.2p",
+                      cursor: "pointer"
                     }}
                   >
-                    SEP 2016
+                    Chrome for Windows
                   </span>
-                </Date>
-                <Title>
-                  <Link style={{ textDecoration: "none" }} to="chrome-windows">
-                    <span
-                      style={{
-                        fontSize: "17px",
-                        fontWeight: 400,
-                        fontFamily: "Roboto Mono",
-                        color: "rgba(0,0,0,70)",
-                        lineHeight: "27.2px",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Chrome for Windows
-                    </span>
-                  </Link>
-                </Title>
-              </PortofolioCard>
+                </Link>
+              </div>
             </Column>
             <Column col={12}>
-              <PortofolioCard style={{ marginBottom: "10%" }}>
-                <Image style={{ paddingBottom: "20px" }}>
-                  <Link style={{ display: "block" }} to="chrome-macos">
-                    <Hover
-                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                      transition={{ target: "all", time: "250" }}
-                      style={{ display: "inline-block" }}
-                    >
-                      <img
-                        src="http://sebastien-gabriel.com/images/portfolio/chrome-macos.png"
-                        style={{ width: "100%", cursor: "pointer" }}
-                      />
-                    </Hover>
-                  </Link>
-                </Image>
-                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
+              <div style={{ marginBottom: "10%" }}>
+                <Link style={{ display: "inline-block", marginBottom: "20px" }}>
+                  <Hover
+                    style={{
+                      display: "inline-block",
+                      transitionDuration: "0.25s",
+                      cursor: "pointer"
+                    }}
+                    transition={{ target: "all" }}
+                    boxShadow="0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-macos.png"
+                      style={{ width: "100%", maxWidth: "100%" }}
+                    />
+                  </Hover>
+                </Link>
+                <span
+                  style={{
+                    display: "block",
+                    color: "#969696",
+                    fontSize: "11px",
+                    fontWeight: 400,
+                    lineHeight: "17.6px"
+                  }}
+                >
+                  JUL 2016
+                </span>
+                <Link>
                   <span
                     style={{
-                      fontSize: "11px",
-                      fontWeight: 400,
-                      lineHeight: "17.6px"
+                      fontFamily: "Roboto Mono",
+                      color: "#5A5A5A",
+                      fontSize: "17px",
+                      fontWeight: 300,
+                      lineHeight: "27.2p",
+                      cursor: "pointer"
                     }}
                   >
-                    JUL 2016
+                    Chrome for MacOS
                   </span>
-                </Date>
-                <Title style={{ paddingTop: "20px", paddingBottom: "20px" }}>
-                  <Link to="chrome-macos" style={{ textDecoration: "none" }}>
-                    <span
-                      style={{
-                        fontSize: "22.5px",
-                        fontWeight: 400,
-                        fontFamily: "Roboto Mono",
-                        color: "rgba(0, 0, 0, 0.7)",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Chrome for MacOS
-                    </span>
-                  </Link>
-                </Title>
-              </PortofolioCard>
+                </Link>
+              </div>
             </Column>
             <Column col={6}>
-              <PortofolioCard style={{ paddingBottom: "20%" }}>
-                <Image style={{ paddingBottom: "20px" }}>
-                  <Link style={{ display: "block" }} to="chrome-cros">
-                    <Hover
-                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                      transition={{ target: "all", time: "250" }}
-                      style={{ display: "inline-block" }}
-                    >
-                      <img
-                        src="http://sebastien-gabriel.com/images/portfolio/chrome-cros.png"
-                        style={{ width: "100%", cursor: "pointer" }}
-                      />
-                    </Hover>
-                  </Link>
-                </Image>
-                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
+              <div style={{ marginBottom: "20%" }}>
+                <Link style={{ display: "inline-block", marginBottom: "20px" }}>
+                  <Hover
+                    style={{
+                      display: "inline-block",
+                      transitionDuration: "0.25s",
+                      cursor: "pointer"
+                    }}
+                    transition={{ target: "all" }}
+                    boxShadow="0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                  >
+                    <img
+                      src="http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png"
+                      style={{ width: "100%", maxWidth: "100%" }}
+                    />
+                  </Hover>
+                </Link>
+                <span
+                  style={{
+                    display: "block",
+                    color: "#969696",
+                    fontSize: "11px",
+                    fontWeight: 400,
+                    lineHeight: "17.6px"
+                  }}
+                >
+                  JAN 2017
+                </span>
+                <Link>
                   <span
                     style={{
-                      fontSize: "11px",
-                      fontWeight: 400,
-                      lineHeight: "17.6px"
+                      fontFamily: "Roboto Mono",
+                      color: "#5A5A5A",
+                      fontSize: "17px",
+                      fontWeight: 300,
+                      lineHeight: "27.2p",
+                      cursor: "pointer"
                     }}
                   >
-                    APR 2016
+                    Chrome OS system menu
                   </span>
-                </Date>
-                <Title>
-                  <Link to="chrome-cros" style={{ textDecoration: "none" }}>
-                    <span
-                      style={{
-                        fontSize: "17px",
-                        fontWeight: 400,
-                        fontFamily: "Roboto Mono",
-                        color: "rgba(0,0,0,70)",
-                        lineHeight: "27.2px",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Chrome for Chrome OS
-                    </span>
-                  </Link>
-                </Title>
-              </PortofolioCard>
-            </Column>
-            <Column col={6}>
-              <PortofolioCard style={{ paddingBottom: "20%" }}>
-                <Image style={{ paddingBottom: "20px" }}>
-                  <Link style={{ display: "block" }} to="audio-player">
-                    <Hover
-                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                      transition={{ target: "all", time: "250" }}
-                      style={{ display: "inline-block" }}
-                    >
-                      <img
-                        src="http://sebastien-gabriel.com/images/portfolio/audio-player.png"
-                        style={{ width: "100%", cursor: "pointer" }}
-                      />
-                    </Hover>
-                  </Link>
-                </Image>
-                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
-                  <span
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: 400,
-                      lineHeight: "17.6px"
-                    }}
-                  >
-                    NOV 2015
-                  </span>
-                </Date>
-                <Title>
-                  <Link to="audio-player" style={{ textDecoration: "none" }}>
-                    <span
-                      style={{
-                        fontSize: "17px",
-                        fontWeight: 400,
-                        fontFamily: "Roboto Mono",
-                        color: "rgba(0,0,0,70)",
-                        lineHeight: "27.2px",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Chrome OS audio player
-                    </span>
-                  </Link>
-                </Title>
-              </PortofolioCard>
-            </Column>
-            <Column col={6}>
-              <PortofolioCard style={{ paddingBottom: "20%" }}>
-                <Image style={{ paddingBottom: "20px" }}>
-                  <Link style={{ display: "block" }} to="files-app">
-                    <Hover
-                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                      transition={{ target: "all", time: "250" }}
-                      style={{ display: "inline-block" }}
-                    >
-                      <img
-                        src="http://sebastien-gabriel.com/images/portfolio/files-app.png"
-                        style={{ width: "100%", cursor: "pointer" }}
-                      />
-                    </Hover>
-                  </Link>
-                </Image>
-                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
-                  <span
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: 400,
-                      lineHeight: "17.6px"
-                    }}
-                  >
-                    OCT 2015
-                  </span>
-                </Date>
-                <Title>
-                  <Link to="files-app" style={{ textDecoration: "none" }}>
-                    <span
-                      style={{
-                        fontSize: "17px",
-                        fontWeight: 400,
-                        fontFamily: "Roboto Mono",
-                        color: "rgba(0,0,0,70)",
-                        lineHeight: "27.2px",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Chrome OS Files app
-                    </span>
-                  </Link>
-                </Title>
-              </PortofolioCard>
-            </Column>
-            <Column col={6}>
-              <PortofolioCard style={{ paddingBottom: "20%" }}>
-                <Image style={{ paddingBottom: "20px" }}>
-                  <Link style={{ display: "block" }} to="gallery-app">
-                    <Hover
-                      boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
-                      transition={{ target: "all", time: "250" }}
-                      style={{ display: "inline-block" }}
-                    >
-                      <img
-                        src="http://sebastien-gabriel.com/images/portfolio/gallery.png"
-                        style={{ width: "100%", cursor: "pointer" }}
-                      />
-                    </Hover>
-                  </Link>
-                </Image>
-                <Date style={{ color: "#969696", fontFamily: "Roboto" }}>
-                  <span
-                    style={{
-                      fontSize: "11px",
-                      fontWeight: 400,
-                      lineHeight: "17.6px"
-                    }}
-                  >
-                    OCT 2015
-                  </span>
-                </Date>
-                <Title>
-                  <Link to="gallery-app" style={{ textDecoration: "none" }}>
-                    <span
-                      style={{
-                        fontSize: "17px",
-                        fontWeight: 400,
-                        fontFamily: "Roboto Mono",
-                        color: "rgba(0,0,0,70)",
-                        lineHeight: "27.2px",
-                        cursor: "pointer"
-                      }}
-                    >
-                      Chrome OS Gallery app
-                    </span>
-                  </Link>
-                </Title>
-              </PortofolioCard>
+                </Link>
+              </div>
             </Column>
           </Row>
         </Container>
